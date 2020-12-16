@@ -58,10 +58,10 @@
 			children = (
 				02E78D4A258A4F2400029AC2 /* AppDelegate.swift */,
 				02E78D4C258A4F2400029AC2 /* SceneDelegate.swift */,
-				02E78D4E258A4F2400029AC2 /* ViewController.swift */,
-				02E78D50258A4F2400029AC2 /* Main.storyboard */,
 				02E78D53258A4F2600029AC2 /* Assets.xcassets */,
 				02E78D55258A4F2600029AC2 /* LaunchScreen.storyboard */,
+				02E78D50258A4F2400029AC2 /* Main.storyboard */,
+				02E78D4E258A4F2400029AC2 /* ViewController.swift */,
 				02E78D58258A4F2600029AC2 /* Info.plist */,
 			);
 			path = NewsViewsNetwork;
