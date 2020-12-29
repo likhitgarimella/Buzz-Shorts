@@ -20,7 +20,11 @@
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="K8z-pR-d3b">
-                        <barButtonItem key="leftBarButtonItem" image="line.horizontal.3" catalog="system" id="aGy-H3-e4O"/>
+                        <barButtonItem key="leftBarButtonItem" image="line.horizontal.3" catalog="system" id="aGy-H3-e4O">
+                            <connections>
+                                <action selector="didTapMenuButton" destination="BYZ-38-t0r" id="Tog-zm-gIJ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

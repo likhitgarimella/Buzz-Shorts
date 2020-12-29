@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SideMenu
 
 class ViewController: UIViewController {
     
@@ -16,4 +17,10 @@ class ViewController: UIViewController {
         
     }
     
-}   // #20
+    @IBAction func didTapMenuButton() {
+        
+        
+        
+    }
+    
+}   // #27
