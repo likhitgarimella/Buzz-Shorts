@@ -10,7 +10,7 @@ import SideMenu
 
 class ViewController: UIViewController {
     
-    private let sideMenu = SideMenuNavigationController(rootViewController: UIViewController())
+    private let sideMenu = SideMenuNavigationController(rootViewController: MenuController(with: ["Home", "Info", "Settings"]))
     
     func SideMenuProp() {
         
@@ -42,6 +42,7 @@ class MenuController: UITableViewController {
     init(with menuItems: [String]) {
         self.menuItems = menuItems
         super.init(nibName: nil, bundle: nil)
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     }
     
     required init?(coder: NSCoder) {
@@ -64,4 +65,4 @@ class MenuController: UITableViewController {
         
     }
     
-}   // #68
+}   // #69
