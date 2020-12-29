@@ -10,10 +10,20 @@ import SideMenu
 
 class ViewController: UIViewController {
     
+    private let sideMenu = SideMenuNavigationController(rootViewController: UIViewController())
+    
+    func SideMenuProp() {
+        
+        sideMenu.leftSide = true
+        SideMenuManager.default.leftMenuNavigationController = sideMenu
+        SideMenuManager.default.addPanGestureToPresent(toView: view)
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        SideMenuProp()
         
     }
     
@@ -23,4 +33,4 @@ class ViewController: UIViewController {
         
     }
     
-}   // #27
+}   // #37
