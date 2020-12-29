@@ -1,0 +1,6 @@
+framework module Pods_NewsViewsNetwork {
+  umbrella header "Pods-NewsViewsNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}
