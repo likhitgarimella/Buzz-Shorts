@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     
     @IBAction func didTapMenuButton() {
         
-        
+        present(sideMenu, animated: true)
         
     }
     
