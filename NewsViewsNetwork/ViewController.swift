@@ -49,6 +49,14 @@ class MenuController: UITableViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        tableView.backgroundColor = .white
+        view.backgroundColor = .white
+        
+    }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return menuItems.count
     }
@@ -56,6 +64,9 @@ class MenuController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = menuItems[indexPath.row]
+        cell.textLabel?.textColor = .darkGray
+        cell.backgroundColor = .white
+        cell.contentView.backgroundColor = .white
         return cell
     }
     
@@ -65,4 +76,4 @@ class MenuController: UITableViewController {
         
     }
     
-}   // #69
+}   // #80
