@@ -8,13 +8,14 @@
 import UIKit
 import SideMenu
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MenuControllerDelegate {
     
     private let sideMenu = SideMenuNavigationController(rootViewController: MenuController(with: ["Home", "Info", "Settings"]))
     
     func SideMenuProp() {
         
         sideMenu.leftSide = true
+        sideMenu.delegate = self
         SideMenuManager.default.leftMenuNavigationController = sideMenu
         SideMenuManager.default.addPanGestureToPresent(toView: view)
         
@@ -30,6 +31,12 @@ class ViewController: UIViewController {
     @IBAction func didTapMenuButton() {
         
         present(sideMenu, animated: true)
+        
+    }
+    
+    func didSelectMenuItem(named: String) {
+        
+        
         
     }
     
@@ -81,7 +88,8 @@ class MenuController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         /// Relay to delegate about menu item selection
-        
+        let selectedItem = menuItems[indexPath.row]
+        delegate?.didSelectMenuItem(named: selectedItem)
     }
     
-}   // #88
+}   // #96
