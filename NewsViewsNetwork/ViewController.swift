@@ -35,7 +35,15 @@ class ViewController: UIViewController {
     
 }
 
+protocol MenuControllerDelegate {
+    
+    func didSelectMenuItem(named: String)
+    
+}
+
 class MenuController: UITableViewController {
+    
+    public var delegate: MenuControllerDelegate?
     
     private let menuItems: [String]
     
@@ -76,4 +84,4 @@ class MenuController: UITableViewController {
         
     }
     
-}   // #80
+}   // #88
