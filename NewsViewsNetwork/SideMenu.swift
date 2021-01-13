@@ -9,18 +9,31 @@ import Foundation
 import UIKit
 
 protocol MenuControllerDelegate {
-    
-    func didSelectMenuItem(named: String)
-    
+    func didSelectMenuItem(named: SideMenuItem)
+}
+
+enum SideMenuItem: String {
+    case home = "Home"
+    case india = "India"
+    case world = "World"
+    case finance = "Finance"
+    case tech = "Tech"
+    case auto = "Auto"
+    case sports = "Sports"
+    case entertainment = "Entertainment"
+    case health = "Health"
+    case lifestyle = "Lifestyle"
+    case travel = "Travel"
+    case astro = "Astro"
 }
 
 class MenuController: UITableViewController {
     
     public var delegate: MenuControllerDelegate?
     
-    private let menuItems: [String]
+    private let menuItems: [SideMenuItem]
     
-    init(with menuItems: [String]) {
+    init(with menuItems: [SideMenuItem]) {
         self.menuItems = menuItems
         super.init(nibName: nil, bundle: nil)
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
@@ -44,7 +57,7 @@ class MenuController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = menuItems[indexPath.row]
+        cell.textLabel?.text = menuItems[indexPath.row].rawValue
         cell.textLabel?.textColor = .darkGray
         cell.backgroundColor = .white
         cell.contentView.backgroundColor = .white
@@ -58,4 +71,4 @@ class MenuController: UITableViewController {
         delegate?.didSelectMenuItem(named: selectedItem)
     }
     
-}   // #62
+}   // #75
