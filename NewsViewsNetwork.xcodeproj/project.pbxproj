@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02220A9925AED0DD00B46760 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220A9825AED0DD00B46760 /* SideMenu.swift */; };
 		02E78D4B258A4F2400029AC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E78D4A258A4F2400029AC2 /* AppDelegate.swift */; };
 		02E78D4D258A4F2400029AC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E78D4C258A4F2400029AC2 /* SceneDelegate.swift */; };
 		02E78D4F258A4F2400029AC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E78D4E258A4F2400029AC2 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02220A9825AED0DD00B46760 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		02E78D47258A4F2400029AC2 /* NewsViewsNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsViewsNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E78D4A258A4F2400029AC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02E78D4C258A4F2400029AC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				02E78D55258A4F2600029AC2 /* LaunchScreen.storyboard */,
 				02E78D50258A4F2400029AC2 /* Main.storyboard */,
 				02E78D4E258A4F2400029AC2 /* ViewController.swift */,
+				02220A9825AED0DD00B46760 /* SideMenu.swift */,
 				02E78D58258A4F2600029AC2 /* Info.plist */,
 			);
 			path = NewsViewsNetwork;
@@ -80,7 +83,6 @@
 				F3B7A75AE81584AB58ABB7E1 /* Pods-NewsViewsNetwork.debug.xcconfig */,
 				815258BC25E2D729109A1071 /* Pods-NewsViewsNetwork.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,6 +211,7 @@
 				02E78D4F258A4F2400029AC2 /* ViewController.swift in Sources */,
 				02E78D4B258A4F2400029AC2 /* AppDelegate.swift in Sources */,
 				02E78D4D258A4F2400029AC2 /* SceneDelegate.swift in Sources */,
+				02220A9925AED0DD00B46760 /* SideMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
