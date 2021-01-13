@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		02220A9925AED0DD00B46760 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220A9825AED0DD00B46760 /* SideMenu.swift */; };
+		02220A9D25AED3A400B46760 /* IndiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220A9C25AED3A400B46760 /* IndiaViewController.swift */; };
+		02220AA025AED49800B46760 /* WorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220A9F25AED49800B46760 /* WorldViewController.swift */; };
 		02E78D4B258A4F2400029AC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E78D4A258A4F2400029AC2 /* AppDelegate.swift */; };
 		02E78D4D258A4F2400029AC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E78D4C258A4F2400029AC2 /* SceneDelegate.swift */; };
 		02E78D4F258A4F2400029AC2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E78D4E258A4F2400029AC2 /* HomeViewController.swift */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		02220A9825AED0DD00B46760 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		02220A9C25AED3A400B46760 /* IndiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaViewController.swift; sourceTree = "<group>"; };
+		02220A9F25AED49800B46760 /* WorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewController.swift; sourceTree = "<group>"; };
 		02E78D47258A4F2400029AC2 /* NewsViewsNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsViewsNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E78D4A258A4F2400029AC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02E78D4C258A4F2400029AC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				02E78D50258A4F2400029AC2 /* Main.storyboard */,
 				02220A9825AED0DD00B46760 /* SideMenu.swift */,
 				02E78D4E258A4F2400029AC2 /* HomeViewController.swift */,
+				02220A9C25AED3A400B46760 /* IndiaViewController.swift */,
+				02220A9F25AED49800B46760 /* WorldViewController.swift */,
 				02E78D58258A4F2600029AC2 /* Info.plist */,
 			);
 			path = NewsViewsNetwork;
@@ -208,8 +214,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02220A9D25AED3A400B46760 /* IndiaViewController.swift in Sources */,
 				02E78D4F258A4F2400029AC2 /* HomeViewController.swift in Sources */,
 				02E78D4B258A4F2400029AC2 /* AppDelegate.swift in Sources */,
+				02220AA025AED49800B46760 /* WorldViewController.swift in Sources */,
 				02E78D4D258A4F2400029AC2 /* SceneDelegate.swift in Sources */,
 				02220A9925AED0DD00B46760 /* SideMenu.swift in Sources */,
 			);

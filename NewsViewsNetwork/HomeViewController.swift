@@ -44,37 +44,37 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
                 self?.view.backgroundColor = .white
             }
             else if named == "India" {
-                self?.view.backgroundColor = .purple
-            }
-            else if named == "World" {
                 self?.view.backgroundColor = .blue
             }
-            else if named == "Finance" {
+            else if named == "World" {
                 self?.view.backgroundColor = .green
             }
+            else if named == "Finance" {
+                self?.view.backgroundColor = .white
+            }
             else if named == "Tech" {
-                self?.view.backgroundColor = .yellow
+                self?.view.backgroundColor = .blue
             }
             else if named == "Auto" {
-                self?.view.backgroundColor = .red
+                self?.view.backgroundColor = .green
             }
             else if named == "Sports" {
                 self?.view.backgroundColor = .white
             }
             else if named == "Entertainment" {
-                self?.view.backgroundColor = .purple
-            }
-            else if named == "Health" {
                 self?.view.backgroundColor = .blue
             }
-            else if named == "Lifestyle" {
+            else if named == "Health" {
                 self?.view.backgroundColor = .green
             }
+            else if named == "Lifestyle" {
+                self?.view.backgroundColor = .white
+            }
             else if named == "Travel" {
-                self?.view.backgroundColor = .yellow
+                self?.view.backgroundColor = .blue
             }
             else if named == "Astro" {
-                self?.view.backgroundColor = .red
+                self?.view.backgroundColor = .green
             }
             
         })
