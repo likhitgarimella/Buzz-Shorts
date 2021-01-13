@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  NewsViewsNetwork
 //
 //  Created by Likhit Garimella on 16/12/20.
@@ -8,7 +8,7 @@
 import UIKit
 import SideMenu
 
-class ViewController: UIViewController, MenuControllerDelegate {
+class HomeViewController: UIViewController, MenuControllerDelegate {
     
     private var sideMenu: SideMenuNavigationController?
     
