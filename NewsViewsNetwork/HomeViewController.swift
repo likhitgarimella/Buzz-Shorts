@@ -36,7 +36,18 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
     
     private func AddChildControllers() {
         
+        addChild(indiaController)
+        addChild(worldController)
         
+        view.addSubview(indiaController.view)
+        view.addSubview(worldController.view)
+        
+        indiaController.view.frame = view.bounds
+        worldController.view.frame = view.bounds
+        
+        /// View Controller Lifecycle
+        indiaController.didMove(toParent: self)
+        worldController.didMove(toParent: self)
         
     }
     
@@ -91,4 +102,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
         
     }
     
-}   // #95
+}   // #106
