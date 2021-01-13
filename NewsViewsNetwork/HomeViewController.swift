@@ -49,6 +49,9 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
         indiaController.didMove(toParent: self)
         worldController.didMove(toParent: self)
         
+        indiaController.view.isHidden = true
+        worldController.view.isHidden = true
+        
     }
     
     @IBAction func didTapMenuButton() {
@@ -61,15 +64,21 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
         
         sideMenu?.dismiss(animated: true, completion: { [weak self] in
             
+            self?.title = named
+            
             if named == "Home" {
-                self?.view.backgroundColor = .white
+                self?.indiaController.view.isHidden = true
+                self?.worldController.view.isHidden = true
             }
             else if named == "India" {
-                self?.view.backgroundColor = .blue
+                self?.indiaController.view.isHidden = false
+                self?.worldController.view.isHidden = true
             }
             else if named == "World" {
-                self?.view.backgroundColor = .green
+                self?.indiaController.view.isHidden = true
+                self?.worldController.view.isHidden = false
             }
+            /*
             else if named == "Finance" {
                 self?.view.backgroundColor = .white
             }
@@ -97,9 +106,10 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
             else if named == "Astro" {
                 self?.view.backgroundColor = .green
             }
+            */
             
         })
         
     }
     
-}   // #106
+}   // #116
