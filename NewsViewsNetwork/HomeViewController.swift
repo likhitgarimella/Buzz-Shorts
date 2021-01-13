@@ -12,6 +12,9 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
     
     private var sideMenu: SideMenuNavigationController?
     
+    private let indiaController = IndiaViewController()
+    private let worldController = WorldViewController()
+    
     func SideMenuProp() {
         
         let menu = MenuController(with: ["Home", "India", "World", "Finance", "Tech", "Auto", "Sports", "Entertainment", "Health", "Lifestyle", "Travel", "Astro"])
@@ -27,6 +30,13 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
         super.viewDidLoad()
         
         SideMenuProp()
+        AddChildControllers()
+        
+    }
+    
+    private func AddChildControllers() {
+        
+        
         
     }
     
@@ -81,4 +91,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
         
     }
     
-}   // #85
+}   // #95
