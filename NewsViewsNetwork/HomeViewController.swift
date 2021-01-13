@@ -17,7 +17,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
     
     func SideMenuProp() {
         
-        let menu = MenuController(with: ["Home", "India", "World", "Finance", "Tech", "Auto", "Sports", "Entertainment", "Health", "Lifestyle", "Travel", "Astro"])
+        let menu = MenuController(with: SideMenuItem.allCases)
         menu.delegate = self
         sideMenu = SideMenuNavigationController(rootViewController: menu)
         sideMenu?.leftSide = true
@@ -60,24 +60,43 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
         
     }
     
-    func didSelectMenuItem(named: String) {
+    func didSelectMenuItem(named: SideMenuItem) {
         
         sideMenu?.dismiss(animated: true, completion: { [weak self] in
             
-            self?.title = named
+            self?.title = named.rawValue
             
-            if named == "Home" {
+            switch named {
+            
+            case .home:
                 self?.indiaController.view.isHidden = true
                 self?.worldController.view.isHidden = true
-            }
-            else if named == "India" {
+            case .india:
                 self?.indiaController.view.isHidden = false
                 self?.worldController.view.isHidden = true
-            }
-            else if named == "World" {
+            case .world:
                 self?.indiaController.view.isHidden = true
                 self?.worldController.view.isHidden = false
+            case .finance:
+                //
+            case .tech:
+                //
+            case .auto:
+                //
+            case .sports:
+                //
+            case .entertainment:
+                //
+            case .health:
+                //
+            case .lifestyle:
+                //
+            case .travel:
+                //
+            case .astro:
+                //
             }
+            
             /*
             else if named == "Finance" {
                 self?.view.backgroundColor = .white
@@ -112,4 +131,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
         
     }
     
-}   // #116
+}   // #135

@@ -12,7 +12,7 @@ protocol MenuControllerDelegate {
     func didSelectMenuItem(named: SideMenuItem)
 }
 
-enum SideMenuItem: String {
+enum SideMenuItem: String, CaseIterable {
     case home = "Home"
     case india = "India"
     case world = "World"
