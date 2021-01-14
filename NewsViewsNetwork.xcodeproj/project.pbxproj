@@ -10,6 +10,15 @@
 		02220A9925AED0DD00B46760 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220A9825AED0DD00B46760 /* SideMenu.swift */; };
 		02220A9D25AED3A400B46760 /* IndiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220A9C25AED3A400B46760 /* IndiaViewController.swift */; };
 		02220AA025AED49800B46760 /* WorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220A9F25AED49800B46760 /* WorldViewController.swift */; };
+		0295C1A825B0BA01008F966D /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1A725B0BA01008F966D /* FinanceViewController.swift */; };
+		0295C1AB25B0BA54008F966D /* TechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1AA25B0BA54008F966D /* TechViewController.swift */; };
+		0295C1AE25B0BAE0008F966D /* AutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1AD25B0BAE0008F966D /* AutoViewController.swift */; };
+		0295C1B125B0BB18008F966D /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1B025B0BB18008F966D /* SportsViewController.swift */; };
+		0295C1B425B0BB37008F966D /* EntertainmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1B325B0BB37008F966D /* EntertainmentViewController.swift */; };
+		0295C1B725B0BB5C008F966D /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1B625B0BB5C008F966D /* HealthViewController.swift */; };
+		0295C1BA25B0BB81008F966D /* LifestyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1B925B0BB81008F966D /* LifestyleViewController.swift */; };
+		0295C1BD25B0BBC1008F966D /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1BC25B0BBC1008F966D /* TravelViewController.swift */; };
+		0295C1C025B0BBE1008F966D /* AstroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1BF25B0BBE1008F966D /* AstroViewController.swift */; };
 		02E78D4B258A4F2400029AC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E78D4A258A4F2400029AC2 /* AppDelegate.swift */; };
 		02E78D4D258A4F2400029AC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E78D4C258A4F2400029AC2 /* SceneDelegate.swift */; };
 		02E78D4F258A4F2400029AC2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E78D4E258A4F2400029AC2 /* HomeViewController.swift */; };
@@ -23,6 +32,15 @@
 		02220A9825AED0DD00B46760 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		02220A9C25AED3A400B46760 /* IndiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaViewController.swift; sourceTree = "<group>"; };
 		02220A9F25AED49800B46760 /* WorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewController.swift; sourceTree = "<group>"; };
+		0295C1A725B0BA01008F966D /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
+		0295C1AA25B0BA54008F966D /* TechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechViewController.swift; sourceTree = "<group>"; };
+		0295C1AD25B0BAE0008F966D /* AutoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoViewController.swift; sourceTree = "<group>"; };
+		0295C1B025B0BB18008F966D /* SportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
+		0295C1B325B0BB37008F966D /* EntertainmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentViewController.swift; sourceTree = "<group>"; };
+		0295C1B625B0BB5C008F966D /* HealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthViewController.swift; sourceTree = "<group>"; };
+		0295C1B925B0BB81008F966D /* LifestyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifestyleViewController.swift; sourceTree = "<group>"; };
+		0295C1BC25B0BBC1008F966D /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
+		0295C1BF25B0BBE1008F966D /* AstroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroViewController.swift; sourceTree = "<group>"; };
 		02E78D47258A4F2400029AC2 /* NewsViewsNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsViewsNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E78D4A258A4F2400029AC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02E78D4C258A4F2400029AC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +96,15 @@
 				02E78D4E258A4F2400029AC2 /* HomeViewController.swift */,
 				02220A9C25AED3A400B46760 /* IndiaViewController.swift */,
 				02220A9F25AED49800B46760 /* WorldViewController.swift */,
+				0295C1A725B0BA01008F966D /* FinanceViewController.swift */,
+				0295C1AA25B0BA54008F966D /* TechViewController.swift */,
+				0295C1AD25B0BAE0008F966D /* AutoViewController.swift */,
+				0295C1B025B0BB18008F966D /* SportsViewController.swift */,
+				0295C1B325B0BB37008F966D /* EntertainmentViewController.swift */,
+				0295C1B625B0BB5C008F966D /* HealthViewController.swift */,
+				0295C1B925B0BB81008F966D /* LifestyleViewController.swift */,
+				0295C1BC25B0BBC1008F966D /* TravelViewController.swift */,
+				0295C1BF25B0BBE1008F966D /* AstroViewController.swift */,
 				02E78D58258A4F2600029AC2 /* Info.plist */,
 			);
 			path = NewsViewsNetwork;
@@ -214,11 +241,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0295C1C025B0BBE1008F966D /* AstroViewController.swift in Sources */,
 				02220A9D25AED3A400B46760 /* IndiaViewController.swift in Sources */,
+				0295C1BA25B0BB81008F966D /* LifestyleViewController.swift in Sources */,
+				0295C1BD25B0BBC1008F966D /* TravelViewController.swift in Sources */,
+				0295C1AE25B0BAE0008F966D /* AutoViewController.swift in Sources */,
 				02E78D4F258A4F2400029AC2 /* HomeViewController.swift in Sources */,
 				02E78D4B258A4F2400029AC2 /* AppDelegate.swift in Sources */,
 				02220AA025AED49800B46760 /* WorldViewController.swift in Sources */,
+				0295C1B425B0BB37008F966D /* EntertainmentViewController.swift in Sources */,
 				02E78D4D258A4F2400029AC2 /* SceneDelegate.swift in Sources */,
+				0295C1A825B0BA01008F966D /* FinanceViewController.swift in Sources */,
+				0295C1B125B0BB18008F966D /* SportsViewController.swift in Sources */,
+				0295C1AB25B0BA54008F966D /* TechViewController.swift in Sources */,
+				0295C1B725B0BB5C008F966D /* HealthViewController.swift in Sources */,
 				02220A9925AED0DD00B46760 /* SideMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
