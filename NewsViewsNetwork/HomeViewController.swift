@@ -14,6 +14,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
     
     private let indiaController = IndiaViewController()
     private let worldController = WorldViewController()
+    private let financeController = FinanceViewController()
+    private let techController = TechViewController()
+    private let autoController = AutoViewController()
+    private let sportsController = SportsViewController()
+    private let entertainmentController = EntertainmentViewController()
+    private let healthController = HealthViewController()
+    private let lifestyleController = LifestyleViewController()
+    private let travelController = TravelViewController()
+    private let astroController = AstroViewController()
     
     func SideMenuProp() {
         
@@ -97,38 +106,8 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
                 //
             }
             
-            /*
-            else if named == "Finance" {
-                self?.view.backgroundColor = .white
-            }
-            else if named == "Tech" {
-                self?.view.backgroundColor = .blue
-            }
-            else if named == "Auto" {
-                self?.view.backgroundColor = .green
-            }
-            else if named == "Sports" {
-                self?.view.backgroundColor = .white
-            }
-            else if named == "Entertainment" {
-                self?.view.backgroundColor = .blue
-            }
-            else if named == "Health" {
-                self?.view.backgroundColor = .green
-            }
-            else if named == "Lifestyle" {
-                self?.view.backgroundColor = .white
-            }
-            else if named == "Travel" {
-                self?.view.backgroundColor = .blue
-            }
-            else if named == "Astro" {
-                self?.view.backgroundColor = .green
-            }
-            */
-            
         })
         
     }
     
-}   // #135
+}   // #114
