@@ -119,43 +119,159 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
     
     func didSelectMenuItem(named: SideMenuItem) {
         
-        sideMenu?.dismiss(animated: true, completion: { [weak self] in
+        sideMenu?.dismiss(animated: true, completion: nil)
             
-            self?.title = named.rawValue
+            title = named.rawValue
             
             switch named {
             
             case .home:
-                self?.indiaController.view.isHidden = true
-                self?.worldController.view.isHidden = true
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
             case .india:
-                self?.indiaController.view.isHidden = false
-                self?.worldController.view.isHidden = true
+                indiaController.view.isHidden = false
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
             case .world:
-                self?.indiaController.view.isHidden = true
-                self?.worldController.view.isHidden = false
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = false
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
             case .finance:
-                //
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = false
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
             case .tech:
-                //
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = false
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
             case .auto:
-                //
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = false
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
             case .sports:
-                //
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = false
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
             case .entertainment:
-                //
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = false
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
             case .health:
-                //
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = false
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
             case .lifestyle:
-                //
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = false
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
             case .travel:
-                //
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = false
+                astroController.view.isHidden = true
             case .astro:
-                //
-            }
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = false
             
-        })
+        }
         
     }
     
-}   // #162
+}   // #278
