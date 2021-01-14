@@ -38,6 +38,8 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = .white
+        
         SideMenuProp()
         AddChildControllers()
         
@@ -47,19 +49,65 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
         
         addChild(indiaController)
         addChild(worldController)
+        addChild(financeController)
+        addChild(techController)
+        addChild(autoController)
+        addChild(sportsController)
+        addChild(entertainmentController)
+        addChild(healthController)
+        addChild(lifestyleController)
+        addChild(travelController)
+        addChild(astroController)
         
         view.addSubview(indiaController.view)
         view.addSubview(worldController.view)
+        view.addSubview(financeController.view)
+        view.addSubview(techController.view)
+        view.addSubview(autoController.view)
+        view.addSubview(sportsController.view)
+        view.addSubview(entertainmentController.view)
+        view.addSubview(healthController.view)
+        view.addSubview(lifestyleController.view)
+        view.addSubview(travelController.view)
+        view.addSubview(astroController.view)
         
         indiaController.view.frame = view.bounds
         worldController.view.frame = view.bounds
+        financeController.view.frame = view.bounds
+        techController.view.frame = view.bounds
+        autoController.view.frame = view.bounds
+        sportsController.view.frame = view.bounds
+        entertainmentController.view.frame = view.bounds
+        healthController.view.frame = view.bounds
+        lifestyleController.view.frame = view.bounds
+        travelController.view.frame = view.bounds
+        astroController.view.frame = view.bounds
         
         /// View Controller Lifecycle
         indiaController.didMove(toParent: self)
         worldController.didMove(toParent: self)
+        financeController.didMove(toParent: self)
+        techController.didMove(toParent: self)
+        autoController.didMove(toParent: self)
+        sportsController.didMove(toParent: self)
+        entertainmentController.didMove(toParent: self)
+        healthController.didMove(toParent: self)
+        lifestyleController.didMove(toParent: self)
+        travelController.didMove(toParent: self)
+        astroController.didMove(toParent: self)
         
+        /// Keep all hidden initially
         indiaController.view.isHidden = true
         worldController.view.isHidden = true
+        financeController.view.isHidden = true
+        techController.view.isHidden = true
+        autoController.view.isHidden = true
+        sportsController.view.isHidden = true
+        entertainmentController.view.isHidden = true
+        healthController.view.isHidden = true
+        lifestyleController.view.isHidden = true
+        travelController.view.isHidden = true
+        astroController.view.isHidden = true
         
     }
     
@@ -110,4 +158,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
         
     }
     
-}   // #114
+}   // #162
