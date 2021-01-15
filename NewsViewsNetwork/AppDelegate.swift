@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         /// Increase Launch Screen Time
         Thread.sleep(forTimeInterval: 1)
+        
+        FirebaseApp.configure()
         
         return true
         
@@ -47,4 +50,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
-}   // #51
+}   // #54

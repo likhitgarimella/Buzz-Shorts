@@ -10,6 +10,7 @@
 		02220A9925AED0DD00B46760 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220A9825AED0DD00B46760 /* SideMenu.swift */; };
 		02220A9D25AED3A400B46760 /* IndiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220A9C25AED3A400B46760 /* IndiaViewController.swift */; };
 		02220AA025AED49800B46760 /* WorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220A9F25AED49800B46760 /* WorldViewController.swift */; };
+		0280C7EE25B1C8670022B1DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0280C7ED25B1C8670022B1DA /* GoogleService-Info.plist */; };
 		0295C1A825B0BA01008F966D /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1A725B0BA01008F966D /* FinanceViewController.swift */; };
 		0295C1AB25B0BA54008F966D /* TechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1AA25B0BA54008F966D /* TechViewController.swift */; };
 		0295C1AE25B0BAE0008F966D /* AutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1AD25B0BAE0008F966D /* AutoViewController.swift */; };
@@ -32,6 +33,7 @@
 		02220A9825AED0DD00B46760 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		02220A9C25AED3A400B46760 /* IndiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaViewController.swift; sourceTree = "<group>"; };
 		02220A9F25AED49800B46760 /* WorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewController.swift; sourceTree = "<group>"; };
+		0280C7ED25B1C8670022B1DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0295C1A725B0BA01008F966D /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
 		0295C1AA25B0BA54008F966D /* TechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechViewController.swift; sourceTree = "<group>"; };
 		0295C1AD25B0BAE0008F966D /* AutoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				0295C1BC25B0BBC1008F966D /* TravelViewController.swift */,
 				0295C1BF25B0BBE1008F966D /* AstroViewController.swift */,
 				02E78D58258A4F2600029AC2 /* Info.plist */,
+				0280C7ED25B1C8670022B1DA /* GoogleService-Info.plist */,
 			);
 			path = NewsViewsNetwork;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0280C7EE25B1C8670022B1DA /* GoogleService-Info.plist in Resources */,
 				02E78D57258A4F2600029AC2 /* LaunchScreen.storyboard in Resources */,
 				02E78D54258A4F2600029AC2 /* Assets.xcassets in Resources */,
 				02E78D52258A4F2400029AC2 /* Main.storyboard in Resources */,
