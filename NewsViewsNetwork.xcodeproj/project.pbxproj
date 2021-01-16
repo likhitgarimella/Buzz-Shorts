@@ -28,6 +28,8 @@
 		0261D96E25B3436A00B9357C /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0261D95C25B3436A00B9357C /* SF-Pro-Display-RegularItalic.otf */; };
 		0261D96F25B3436A00B9357C /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0261D95D25B3436A00B9357C /* SF-Pro-Display-Bold.otf */; };
 		0261D97025B3436A00B9357C /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0261D95E25B3436A00B9357C /* SF-Pro-Display-BlackItalic.otf */; };
+		0261D98325B37EED00B9357C /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261D98125B37EED00B9357C /* HomeCell.swift */; };
+		0261D98425B37EED00B9357C /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0261D98225B37EED00B9357C /* HomeCell.xib */; };
 		0280C7EE25B1C8670022B1DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0280C7ED25B1C8670022B1DA /* GoogleService-Info.plist */; };
 		0295C1A825B0BA01008F966D /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1A725B0BA01008F966D /* FinanceViewController.swift */; };
 		0295C1AB25B0BA54008F966D /* TechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1AA25B0BA54008F966D /* TechViewController.swift */; };
@@ -69,6 +71,8 @@
 		0261D95C25B3436A00B9357C /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
 		0261D95D25B3436A00B9357C /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
 		0261D95E25B3436A00B9357C /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		0261D98125B37EED00B9357C /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		0261D98225B37EED00B9357C /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 		0280C7ED25B1C8670022B1DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0295C1A725B0BA01008F966D /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
 		0295C1AA25B0BA54008F966D /* TechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				02E78D4E258A4F2400029AC2 /* HomeViewController.swift */,
+				0261D98225B37EED00B9357C /* HomeCell.xib */,
+				0261D98125B37EED00B9357C /* HomeCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -369,6 +375,7 @@
 				02E78D52258A4F2400029AC2 /* Main.storyboard in Resources */,
 				0261D96B25B3436A00B9357C /* SF-Pro-Display-LightItalic.otf in Resources */,
 				0261D96625B3436A00B9357C /* SF-Pro-Display-Heavy.otf in Resources */,
+				0261D98425B37EED00B9357C /* HomeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +430,7 @@
 			files = (
 				0295C1C025B0BBE1008F966D /* AstroViewController.swift in Sources */,
 				02220A9D25AED3A400B46760 /* IndiaViewController.swift in Sources */,
+				0261D98325B37EED00B9357C /* HomeCell.swift in Sources */,
 				0295C1BA25B0BB81008F966D /* LifestyleViewController.swift in Sources */,
 				0295C1BD25B0BBC1008F966D /* TravelViewController.swift in Sources */,
 				0295C1AE25B0BAE0008F966D /* AutoViewController.swift in Sources */,
