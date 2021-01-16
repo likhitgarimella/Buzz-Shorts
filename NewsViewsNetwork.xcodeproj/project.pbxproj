@@ -129,11 +129,119 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		0261D97425B377C800B9357C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				02E78D4E258A4F2400029AC2 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0261D97525B377D900B9357C /* India */ = {
+			isa = PBXGroup;
+			children = (
+				02220A9C25AED3A400B46760 /* IndiaViewController.swift */,
+			);
+			path = India;
+			sourceTree = "<group>";
+		};
+		0261D97625B378A500B9357C /* World */ = {
+			isa = PBXGroup;
+			children = (
+				02220A9F25AED49800B46760 /* WorldViewController.swift */,
+			);
+			path = World;
+			sourceTree = "<group>";
+		};
+		0261D97725B378B700B9357C /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				0295C1A725B0BA01008F966D /* FinanceViewController.swift */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		0261D97925B3791700B9357C /* Tech */ = {
+			isa = PBXGroup;
+			children = (
+				0295C1AA25B0BA54008F966D /* TechViewController.swift */,
+			);
+			path = Tech;
+			sourceTree = "<group>";
+		};
+		0261D97A25B3792400B9357C /* Auto */ = {
+			isa = PBXGroup;
+			children = (
+				0295C1AD25B0BAE0008F966D /* AutoViewController.swift */,
+			);
+			path = Auto;
+			sourceTree = "<group>";
+		};
+		0261D97B25B3792E00B9357C /* Sports */ = {
+			isa = PBXGroup;
+			children = (
+				0295C1B025B0BB18008F966D /* SportsViewController.swift */,
+			);
+			path = Sports;
+			sourceTree = "<group>";
+		};
+		0261D97C25B3793800B9357C /* Entertainment */ = {
+			isa = PBXGroup;
+			children = (
+				0295C1B325B0BB37008F966D /* EntertainmentViewController.swift */,
+			);
+			path = Entertainment;
+			sourceTree = "<group>";
+		};
+		0261D97D25B37A4200B9357C /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				0295C1B625B0BB5C008F966D /* HealthViewController.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		0261D97E25B37A4D00B9357C /* Lifestyle */ = {
+			isa = PBXGroup;
+			children = (
+				0295C1B925B0BB81008F966D /* LifestyleViewController.swift */,
+			);
+			path = Lifestyle;
+			sourceTree = "<group>";
+		};
+		0261D97F25B37B7700B9357C /* Travel */ = {
+			isa = PBXGroup;
+			children = (
+				0295C1BC25B0BBC1008F966D /* TravelViewController.swift */,
+			);
+			path = Travel;
+			sourceTree = "<group>";
+		};
+		0261D98025B37B8400B9357C /* Astro */ = {
+			isa = PBXGroup;
+			children = (
+				0295C1BF25B0BBE1008F966D /* AstroViewController.swift */,
+			);
+			path = Astro;
+			sourceTree = "<group>";
+		};
 		02E78D3E258A4F2400029AC2 = {
 			isa = PBXGroup;
 			children = (
 				0261D94C25B341F300B9357C /* Fonts */,
 				02E78D49258A4F2400029AC2 /* NewsViewsNetwork */,
+				0261D97425B377C800B9357C /* Home */,
+				0261D97525B377D900B9357C /* India */,
+				0261D97625B378A500B9357C /* World */,
+				0261D97725B378B700B9357C /* Finance */,
+				0261D97925B3791700B9357C /* Tech */,
+				0261D97A25B3792400B9357C /* Auto */,
+				0261D97B25B3792E00B9357C /* Sports */,
+				0261D97C25B3793800B9357C /* Entertainment */,
+				0261D97D25B37A4200B9357C /* Health */,
+				0261D97E25B37A4D00B9357C /* Lifestyle */,
+				0261D97F25B37B7700B9357C /* Travel */,
+				0261D98025B37B8400B9357C /* Astro */,
 				02E78D48258A4F2400029AC2 /* Products */,
 				49681B486AC0FE847030768B /* Pods */,
 				87277B864D4A94F2162A2820 /* Frameworks */,
@@ -157,18 +265,6 @@
 				02E78D55258A4F2600029AC2 /* LaunchScreen.storyboard */,
 				02E78D50258A4F2400029AC2 /* Main.storyboard */,
 				02220A9825AED0DD00B46760 /* SideMenu.swift */,
-				02E78D4E258A4F2400029AC2 /* HomeViewController.swift */,
-				02220A9C25AED3A400B46760 /* IndiaViewController.swift */,
-				02220A9F25AED49800B46760 /* WorldViewController.swift */,
-				0295C1A725B0BA01008F966D /* FinanceViewController.swift */,
-				0295C1AA25B0BA54008F966D /* TechViewController.swift */,
-				0295C1AD25B0BAE0008F966D /* AutoViewController.swift */,
-				0295C1B025B0BB18008F966D /* SportsViewController.swift */,
-				0295C1B325B0BB37008F966D /* EntertainmentViewController.swift */,
-				0295C1B625B0BB5C008F966D /* HealthViewController.swift */,
-				0295C1B925B0BB81008F966D /* LifestyleViewController.swift */,
-				0295C1BC25B0BBC1008F966D /* TravelViewController.swift */,
-				0295C1BF25B0BBE1008F966D /* AstroViewController.swift */,
 				02E78D58258A4F2600029AC2 /* Info.plist */,
 				0280C7ED25B1C8670022B1DA /* GoogleService-Info.plist */,
 			);
