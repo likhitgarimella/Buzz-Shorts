@@ -34,6 +34,8 @@
 		0261D98925B3816000B9357C /* IndiaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0261D98725B3816000B9357C /* IndiaCell.xib */; };
 		0261D98D25B382D700B9357C /* WorldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261D98B25B382D700B9357C /* WorldCell.swift */; };
 		0261D98E25B382D700B9357C /* WorldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0261D98C25B382D700B9357C /* WorldCell.xib */; };
+		0261D99325B3832000B9357C /* FinanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261D99125B3832000B9357C /* FinanceCell.swift */; };
+		0261D99425B3832000B9357C /* FinanceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0261D99225B3832000B9357C /* FinanceCell.xib */; };
 		0280C7EE25B1C8670022B1DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0280C7ED25B1C8670022B1DA /* GoogleService-Info.plist */; };
 		0295C1A825B0BA01008F966D /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1A725B0BA01008F966D /* FinanceViewController.swift */; };
 		0295C1AB25B0BA54008F966D /* TechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1AA25B0BA54008F966D /* TechViewController.swift */; };
@@ -81,6 +83,8 @@
 		0261D98725B3816000B9357C /* IndiaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IndiaCell.xib; sourceTree = "<group>"; };
 		0261D98B25B382D700B9357C /* WorldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCell.swift; sourceTree = "<group>"; };
 		0261D98C25B382D700B9357C /* WorldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorldCell.xib; sourceTree = "<group>"; };
+		0261D99125B3832000B9357C /* FinanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceCell.swift; sourceTree = "<group>"; };
+		0261D99225B3832000B9357C /* FinanceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinanceCell.xib; sourceTree = "<group>"; };
 		0280C7ED25B1C8670022B1DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0295C1A725B0BA01008F966D /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
 		0295C1AA25B0BA54008F966D /* TechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechViewController.swift; sourceTree = "<group>"; };
@@ -175,6 +179,8 @@
 			isa = PBXGroup;
 			children = (
 				0295C1A725B0BA01008F966D /* FinanceViewController.swift */,
+				0261D99225B3832000B9357C /* FinanceCell.xib */,
+				0261D99125B3832000B9357C /* FinanceCell.swift */,
 			);
 			path = Finance;
 			sourceTree = "<group>";
@@ -381,6 +387,7 @@
 				0261D96F25B3436A00B9357C /* SF-Pro-Display-Bold.otf in Resources */,
 				0261D96025B3436A00B9357C /* SF-Pro-Display-UltralightItalic.otf in Resources */,
 				0261D96125B3436A00B9357C /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				0261D99425B3832000B9357C /* FinanceCell.xib in Resources */,
 				02E78D54258A4F2600029AC2 /* Assets.xcassets in Resources */,
 				0261D96525B3436A00B9357C /* SF-Pro-Display-Ultralight.otf in Resources */,
 				0261D96D25B3436A00B9357C /* SF-Pro-Display-BoldItalic.otf in Resources */,
@@ -444,6 +451,7 @@
 			files = (
 				0295C1C025B0BBE1008F966D /* AstroViewController.swift in Sources */,
 				0261D98825B3816000B9357C /* IndiaCell.swift in Sources */,
+				0261D99325B3832000B9357C /* FinanceCell.swift in Sources */,
 				02220A9D25AED3A400B46760 /* IndiaViewController.swift in Sources */,
 				0261D98325B37EED00B9357C /* HomeCell.swift in Sources */,
 				0295C1BA25B0BB81008F966D /* LifestyleViewController.swift in Sources */,
