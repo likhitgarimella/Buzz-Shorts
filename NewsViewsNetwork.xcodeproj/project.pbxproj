@@ -18,6 +18,8 @@
 		025B83AE25B435B8005B4D6D /* SportsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B83AC25B435B8005B4D6D /* SportsCell.xib */; };
 		025B83B325B43685005B4D6D /* EntertainmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B83B125B43685005B4D6D /* EntertainmentCell.swift */; };
 		025B83B425B43685005B4D6D /* EntertainmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B83B225B43685005B4D6D /* EntertainmentCell.xib */; };
+		025B83B825B437DD005B4D6D /* HealthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B83B625B437DD005B4D6D /* HealthCell.swift */; };
+		025B83B925B437DD005B4D6D /* HealthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B83B725B437DD005B4D6D /* HealthCell.xib */; };
 		0261D95F25B3436A00B9357C /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0261D94D25B3436800B9357C /* SF-Pro-Display-Black.otf */; };
 		0261D96025B3436A00B9357C /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0261D94E25B3436800B9357C /* SF-Pro-Display-UltralightItalic.otf */; };
 		0261D96125B3436A00B9357C /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0261D94F25B3436800B9357C /* SF-Pro-Display-MediumItalic.otf */; };
@@ -75,6 +77,8 @@
 		025B83AC25B435B8005B4D6D /* SportsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SportsCell.xib; sourceTree = "<group>"; };
 		025B83B125B43685005B4D6D /* EntertainmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentCell.swift; sourceTree = "<group>"; };
 		025B83B225B43685005B4D6D /* EntertainmentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntertainmentCell.xib; sourceTree = "<group>"; };
+		025B83B625B437DD005B4D6D /* HealthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCell.swift; sourceTree = "<group>"; };
+		025B83B725B437DD005B4D6D /* HealthCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HealthCell.xib; sourceTree = "<group>"; };
 		0261D94D25B3436800B9357C /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
 		0261D94E25B3436800B9357C /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
 		0261D94F25B3436800B9357C /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
@@ -245,6 +249,8 @@
 			isa = PBXGroup;
 			children = (
 				0295C1B625B0BB5C008F966D /* HealthViewController.swift */,
+				025B83B725B437DD005B4D6D /* HealthCell.xib */,
+				025B83B625B437DD005B4D6D /* HealthCell.swift */,
 			);
 			path = Health;
 			sourceTree = "<group>";
@@ -410,6 +416,7 @@
 				025B83A425B43489005B4D6D /* TechCell.xib in Resources */,
 				0261D96825B3436A00B9357C /* SF-Pro-Display-Medium.otf in Resources */,
 				0261D96325B3436A00B9357C /* SF-Pro-Display-Light.otf in Resources */,
+				025B83B925B437DD005B4D6D /* HealthCell.xib in Resources */,
 				0261D96F25B3436A00B9357C /* SF-Pro-Display-Bold.otf in Resources */,
 				0261D96025B3436A00B9357C /* SF-Pro-Display-UltralightItalic.otf in Resources */,
 				0261D96125B3436A00B9357C /* SF-Pro-Display-MediumItalic.otf in Resources */,
@@ -486,6 +493,7 @@
 				0295C1BA25B0BB81008F966D /* LifestyleViewController.swift in Sources */,
 				0295C1BD25B0BBC1008F966D /* TravelViewController.swift in Sources */,
 				0295C1AE25B0BAE0008F966D /* AutoViewController.swift in Sources */,
+				025B83B825B437DD005B4D6D /* HealthCell.swift in Sources */,
 				02E78D4F258A4F2400029AC2 /* HomeViewController.swift in Sources */,
 				02E78D4B258A4F2400029AC2 /* AppDelegate.swift in Sources */,
 				02220AA025AED49800B46760 /* WorldViewController.swift in Sources */,
