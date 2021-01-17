@@ -11,7 +11,7 @@
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="HomeViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -53,7 +53,7 @@
         <!--India View Controller-->
         <scene sceneID="5nh-dF-HOl">
             <objects>
-                <viewController id="Edt-Vp-u0I" customClass="IndiaViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Edt-Vp-u0I" customClass="IndiaViewController" customModule="NewsViewsNetwork" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A05-i1-nUG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,7 +68,7 @@
         <!--View Controller-->
         <scene sceneID="tRp-eo-L0R">
             <objects>
-                <viewController id="G8c-Pi-EIh" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="G8c-Pi-EIh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H1B-8k-Ac3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,7 +83,7 @@
         <!--View Controller-->
         <scene sceneID="uyO-fh-VY7">
             <objects>
-                <viewController id="hjS-Kb-XHq" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="hjS-Kb-XHq" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qys-rC-S3Y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,7 +98,7 @@
         <!--View Controller-->
         <scene sceneID="u8F-3G-udt">
             <objects>
-                <viewController id="pUT-ti-SLH" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="pUT-ti-SLH" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s0x-V0-YS0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,7 +113,7 @@
         <!--View Controller-->
         <scene sceneID="qSM-GW-YZ0">
             <objects>
-                <viewController id="SSX-7B-Er2" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="SSX-7B-Er2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KKD-IW-Lze">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -128,7 +128,7 @@
         <!--View Controller-->
         <scene sceneID="2SL-Sw-uba">
             <objects>
-                <viewController id="voY-sk-2vv" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="voY-sk-2vv" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hal-Ko-AEo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -143,7 +143,7 @@
         <!--View Controller-->
         <scene sceneID="bMY-Za-Vnv">
             <objects>
-                <viewController id="h5S-nP-7GG" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="h5S-nP-7GG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qos-jF-XI5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -158,7 +158,7 @@
         <!--View Controller-->
         <scene sceneID="yiI-93-gZd">
             <objects>
-                <viewController id="zts-In-EIU" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="zts-In-EIU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="agU-Vc-dKf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -173,7 +173,7 @@
         <!--View Controller-->
         <scene sceneID="LTb-lK-YsR">
             <objects>
-                <viewController id="gtg-I6-821" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="gtg-I6-821" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lGi-ye-FMd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -188,7 +188,7 @@
         <!--View Controller-->
         <scene sceneID="ucK-YI-tAj">
             <objects>
-                <viewController id="Y1Q-bM-fsG" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Y1Q-bM-fsG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w8m-Ou-6bu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -203,7 +203,7 @@
         <!--View Controller-->
         <scene sceneID="zP0-cX-CfA">
             <objects>
-                <viewController id="wfz-nO-bSc" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="wfz-nO-bSc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CUQ-3U-Gkz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -218,7 +218,7 @@
         <!--Navigation Controller-->
         <scene sceneID="sWv-gC-av6">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iY4-IQ-GVO" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="iY4-IQ-GVO" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hzH-P6-rwb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
