@@ -41,7 +41,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstAttribute="width" constant="414" id="6iH-hQ-8J2"/>
                             <constraint firstItem="iKc-0x-Ldj" firstAttribute="leading" secondItem="F6g-ND-AHd" secondAttribute="leading" constant="20" id="7aH-TK-RFy"/>
+                            <constraint firstAttribute="bottom" secondItem="iKc-0x-Ldj" secondAttribute="bottom" constant="360" id="EFP-FG-2kf"/>
                             <constraint firstItem="iKc-0x-Ldj" firstAttribute="top" secondItem="F6g-ND-AHd" secondAttribute="top" constant="20" id="L1L-hr-guk"/>
                             <constraint firstItem="0ZM-VA-1Ay" firstAttribute="centerY" secondItem="iKc-0x-Ldj" secondAttribute="centerY" id="a1D-Xu-vqo"/>
                             <constraint firstAttribute="trailing" secondItem="0ZM-VA-1Ay" secondAttribute="trailing" constant="20" id="rJj-qY-OYZ"/>
@@ -57,6 +59,10 @@
                 <constraint firstAttribute="bottom" secondItem="F6g-ND-AHd" secondAttribute="bottom" id="ffz-z0-DZH"/>
                 <constraint firstItem="F6g-ND-AHd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zkl-Yr-Thi"/>
             </constraints>
+            <connections>
+                <outlet property="cardView" destination="F6g-ND-AHd" id="Stt-Xj-DlI"/>
+                <outlet property="widthConstraint" destination="6iH-hQ-8J2" id="Odb-Uj-6OG"/>
+            </connections>
             <point key="canvasLocation" x="-70" y="129"/>
         </collectionViewCell>
     </objects>

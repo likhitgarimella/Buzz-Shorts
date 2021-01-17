@@ -55,11 +55,18 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        <#code#>
+        
+        return 8
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        <#code#>
+        
+        let homeCell = homeCollectionView.dequeueReusableCell(withReuseIdentifier: "HomeCell", for: indexPath) as! HomeCell
+        // linking home VC & home cell
+        homeCell.homeFeedVC = self
+        return homeCell
+        
     }
     
     private func AddChildControllers() {
@@ -291,4 +298,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
-}   // #295
+}   // #302
