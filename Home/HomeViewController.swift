@@ -8,7 +8,10 @@
 import UIKit
 import SideMenu
 
-class HomeViewController: UIViewController, MenuControllerDelegate {
+class HomeViewController: UIViewController, MenuControllerDelegate, UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    // Outlets
+    @IBOutlet var homeCollectionView: UICollectionView!
     
     private var sideMenu: SideMenuNavigationController?
     
@@ -40,9 +43,23 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
         
         view.backgroundColor = .white
         
+        // Register CollectionViewCell 'HomeCell' here
+        homeCollectionView.register(UINib.init(nibName: "HomeCell", bundle: nil), forCellWithReuseIdentifier: "HomeCell")
+        if let flowLayout = homeCollectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+            flowLayout.estimatedItemSize = CGSize(width: 1, height: 1)
+        }
+        
         SideMenuProp()
         AddChildControllers()
         
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        <#code#>
     }
     
     private func AddChildControllers() {
@@ -274,4 +291,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate {
         
     }
     
-}   // #278
+}   // #295

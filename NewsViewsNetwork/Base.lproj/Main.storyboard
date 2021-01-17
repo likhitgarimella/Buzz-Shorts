@@ -49,6 +49,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <size key="freeformSize" width="414" height="736"/>
+                    <connections>
+                        <outlet property="homeCollectionView" destination="Zn0-gG-8lU" id="2AF-OS-3j2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
