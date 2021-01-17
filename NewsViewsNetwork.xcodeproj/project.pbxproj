@@ -16,6 +16,8 @@
 		025B83A925B43503005B4D6D /* AutoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B83A725B43503005B4D6D /* AutoCell.xib */; };
 		025B83AD25B435B8005B4D6D /* SportsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B83AB25B435B8005B4D6D /* SportsCell.swift */; };
 		025B83AE25B435B8005B4D6D /* SportsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B83AC25B435B8005B4D6D /* SportsCell.xib */; };
+		025B83B325B43685005B4D6D /* EntertainmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B83B125B43685005B4D6D /* EntertainmentCell.swift */; };
+		025B83B425B43685005B4D6D /* EntertainmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B83B225B43685005B4D6D /* EntertainmentCell.xib */; };
 		0261D95F25B3436A00B9357C /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0261D94D25B3436800B9357C /* SF-Pro-Display-Black.otf */; };
 		0261D96025B3436A00B9357C /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0261D94E25B3436800B9357C /* SF-Pro-Display-UltralightItalic.otf */; };
 		0261D96125B3436A00B9357C /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0261D94F25B3436800B9357C /* SF-Pro-Display-MediumItalic.otf */; };
@@ -71,6 +73,8 @@
 		025B83A725B43503005B4D6D /* AutoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoCell.xib; sourceTree = "<group>"; };
 		025B83AB25B435B8005B4D6D /* SportsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsCell.swift; sourceTree = "<group>"; };
 		025B83AC25B435B8005B4D6D /* SportsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SportsCell.xib; sourceTree = "<group>"; };
+		025B83B125B43685005B4D6D /* EntertainmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentCell.swift; sourceTree = "<group>"; };
+		025B83B225B43685005B4D6D /* EntertainmentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntertainmentCell.xib; sourceTree = "<group>"; };
 		0261D94D25B3436800B9357C /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
 		0261D94E25B3436800B9357C /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
 		0261D94F25B3436800B9357C /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
@@ -231,6 +235,8 @@
 			isa = PBXGroup;
 			children = (
 				0295C1B325B0BB37008F966D /* EntertainmentViewController.swift */,
+				025B83B225B43685005B4D6D /* EntertainmentCell.xib */,
+				025B83B125B43685005B4D6D /* EntertainmentCell.swift */,
 			);
 			path = Entertainment;
 			sourceTree = "<group>";
@@ -415,6 +421,7 @@
 				025B83AE25B435B8005B4D6D /* SportsCell.xib in Resources */,
 				0261D98925B3816000B9357C /* IndiaCell.xib in Resources */,
 				02E78D52258A4F2400029AC2 /* Main.storyboard in Resources */,
+				025B83B425B43685005B4D6D /* EntertainmentCell.xib in Resources */,
 				0261D96B25B3436A00B9357C /* SF-Pro-Display-LightItalic.otf in Resources */,
 				0261D96625B3436A00B9357C /* SF-Pro-Display-Heavy.otf in Resources */,
 				0261D98425B37EED00B9357C /* HomeCell.xib in Resources */,
@@ -486,6 +493,7 @@
 				0295C1B425B0BB37008F966D /* EntertainmentViewController.swift in Sources */,
 				025B83A825B43503005B4D6D /* AutoCell.swift in Sources */,
 				02E78D4D258A4F2400029AC2 /* SceneDelegate.swift in Sources */,
+				025B83B325B43685005B4D6D /* EntertainmentCell.swift in Sources */,
 				0295C1A825B0BA01008F966D /* FinanceViewController.swift in Sources */,
 				0295C1B125B0BB18008F966D /* SportsViewController.swift in Sources */,
 				0295C1AB25B0BA54008F966D /* TechViewController.swift in Sources */,
