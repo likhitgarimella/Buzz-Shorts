@@ -9,6 +9,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Bold.otf">
+            <string>SFProDisplay-Bold</string>
+        </array>
         <array key="SF-Pro-Display-Regular.otf">
             <string>SFProDisplay-Regular</string>
         </array>
@@ -27,26 +30,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BUSINESS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKc-0x-Ldj">
-                                <rect key="frame" x="20" y="20" width="73" height="20"/>
+                                <rect key="frame" x="12" y="20" width="73" height="20"/>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="16"/>
                                 <color key="textColor" systemColor="linkColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 min read" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZM-VA-1Ay">
-                                <rect key="frame" x="332" y="21.5" width="62" height="17"/>
+                                <rect key="frame" x="340" y="21.5" width="62" height="17"/>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="14"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wax-D7-pKg">
+                                <rect key="frame" x="12" y="56" width="390" height="64.5"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="18"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" image="Bitmap" translatesAutoresizingMaskIntoConstraints="NO" id="ZLk-uJ-eKg">
+                                <rect key="frame" x="12" y="132.5" width="390" height="255.5"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ZLk-uJ-eKg" secondAttribute="bottom" constant="12" id="1b0-xK-afA"/>
                             <constraint firstAttribute="width" constant="414" id="6iH-hQ-8J2"/>
-                            <constraint firstItem="iKc-0x-Ldj" firstAttribute="leading" secondItem="F6g-ND-AHd" secondAttribute="leading" constant="20" id="7aH-TK-RFy"/>
-                            <constraint firstAttribute="bottom" secondItem="iKc-0x-Ldj" secondAttribute="bottom" constant="360" id="EFP-FG-2kf"/>
+                            <constraint firstItem="iKc-0x-Ldj" firstAttribute="leading" secondItem="F6g-ND-AHd" secondAttribute="leading" constant="12" id="7aH-TK-RFy"/>
+                            <constraint firstItem="ZLk-uJ-eKg" firstAttribute="leading" secondItem="F6g-ND-AHd" secondAttribute="leading" constant="12" id="F6f-Wp-57c"/>
+                            <constraint firstAttribute="trailing" secondItem="ZLk-uJ-eKg" secondAttribute="trailing" constant="12" id="HOd-0e-t8H"/>
                             <constraint firstItem="iKc-0x-Ldj" firstAttribute="top" secondItem="F6g-ND-AHd" secondAttribute="top" constant="20" id="L1L-hr-guk"/>
                             <constraint firstItem="0ZM-VA-1Ay" firstAttribute="centerY" secondItem="iKc-0x-Ldj" secondAttribute="centerY" id="a1D-Xu-vqo"/>
-                            <constraint firstAttribute="trailing" secondItem="0ZM-VA-1Ay" secondAttribute="trailing" constant="20" id="rJj-qY-OYZ"/>
+                            <constraint firstItem="Wax-D7-pKg" firstAttribute="top" secondItem="iKc-0x-Ldj" secondAttribute="bottom" constant="16" id="dA5-P2-4qa"/>
+                            <constraint firstAttribute="trailing" secondItem="Wax-D7-pKg" secondAttribute="trailing" constant="12" id="qyT-i2-Q5a"/>
+                            <constraint firstAttribute="trailing" secondItem="0ZM-VA-1Ay" secondAttribute="trailing" constant="12" id="rJj-qY-OYZ"/>
+                            <constraint firstItem="ZLk-uJ-eKg" firstAttribute="top" secondItem="Wax-D7-pKg" secondAttribute="bottom" constant="12" id="xec-sE-Hfg"/>
+                            <constraint firstItem="Wax-D7-pKg" firstAttribute="leading" secondItem="F6g-ND-AHd" secondAttribute="leading" constant="12" id="z9h-pu-BVi"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -67,6 +85,7 @@
         </collectionViewCell>
     </objects>
     <resources>
+        <image name="Bitmap" width="353" height="197"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
