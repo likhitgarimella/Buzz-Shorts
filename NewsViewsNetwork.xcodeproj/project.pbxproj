@@ -26,6 +26,7 @@
 		025B83C325B43A5F005B4D6D /* TravelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B83C125B43A5F005B4D6D /* TravelCell.xib */; };
 		025B83C725B43B95005B4D6D /* AstroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B83C525B43B95005B4D6D /* AstroCell.swift */; };
 		025B83C825B43B95005B4D6D /* AstroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B83C625B43B95005B4D6D /* AstroCell.xib */; };
+		025B83CC25B466F8005B4D6D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B83CB25B466F8005B4D6D /* Extensions.swift */; };
 		0261D95F25B3436A00B9357C /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0261D94D25B3436800B9357C /* SF-Pro-Display-Black.otf */; };
 		0261D96025B3436A00B9357C /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0261D94E25B3436800B9357C /* SF-Pro-Display-UltralightItalic.otf */; };
 		0261D96125B3436A00B9357C /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0261D94F25B3436800B9357C /* SF-Pro-Display-MediumItalic.otf */; };
@@ -91,6 +92,7 @@
 		025B83C125B43A5F005B4D6D /* TravelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TravelCell.xib; sourceTree = "<group>"; };
 		025B83C525B43B95005B4D6D /* AstroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroCell.swift; sourceTree = "<group>"; };
 		025B83C625B43B95005B4D6D /* AstroCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AstroCell.xib; sourceTree = "<group>"; };
+		025B83CB25B466F8005B4D6D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0261D94D25B3436800B9357C /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
 		0261D94E25B3436800B9357C /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
 		0261D94F25B3436800B9357C /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
@@ -337,6 +339,7 @@
 				02E78D55258A4F2600029AC2 /* LaunchScreen.storyboard */,
 				02E78D50258A4F2400029AC2 /* Main.storyboard */,
 				02220A9825AED0DD00B46760 /* SideMenu.swift */,
+				025B83CB25B466F8005B4D6D /* Extensions.swift */,
 				02E78D58258A4F2600029AC2 /* Info.plist */,
 				0280C7ED25B1C8670022B1DA /* GoogleService-Info.plist */,
 			);
@@ -532,6 +535,7 @@
 				025B83A325B43489005B4D6D /* TechCell.swift in Sources */,
 				0295C1B725B0BB5C008F966D /* HealthViewController.swift in Sources */,
 				02220A9925AED0DD00B46760 /* SideMenu.swift in Sources */,
+				025B83CC25B466F8005B4D6D /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

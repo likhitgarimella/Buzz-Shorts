@@ -38,6 +38,8 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
+    // MARK: -
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -68,6 +70,8 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         return homeCell
         
     }
+    
+    // MARK: -
     
     private func AddChildControllers() {
         
@@ -298,4 +302,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
-}   // #302
+}   // #306
