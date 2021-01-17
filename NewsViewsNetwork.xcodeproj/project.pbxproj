@@ -24,6 +24,8 @@
 		025B83BE25B4388A005B4D6D /* LifestyleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B83BC25B4388A005B4D6D /* LifestyleCell.xib */; };
 		025B83C225B43A5F005B4D6D /* TravelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B83C025B43A5F005B4D6D /* TravelCell.swift */; };
 		025B83C325B43A5F005B4D6D /* TravelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B83C125B43A5F005B4D6D /* TravelCell.xib */; };
+		025B83C725B43B95005B4D6D /* AstroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B83C525B43B95005B4D6D /* AstroCell.swift */; };
+		025B83C825B43B95005B4D6D /* AstroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B83C625B43B95005B4D6D /* AstroCell.xib */; };
 		0261D95F25B3436A00B9357C /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0261D94D25B3436800B9357C /* SF-Pro-Display-Black.otf */; };
 		0261D96025B3436A00B9357C /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0261D94E25B3436800B9357C /* SF-Pro-Display-UltralightItalic.otf */; };
 		0261D96125B3436A00B9357C /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0261D94F25B3436800B9357C /* SF-Pro-Display-MediumItalic.otf */; };
@@ -87,6 +89,8 @@
 		025B83BC25B4388A005B4D6D /* LifestyleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LifestyleCell.xib; sourceTree = "<group>"; };
 		025B83C025B43A5F005B4D6D /* TravelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCell.swift; sourceTree = "<group>"; };
 		025B83C125B43A5F005B4D6D /* TravelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TravelCell.xib; sourceTree = "<group>"; };
+		025B83C525B43B95005B4D6D /* AstroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroCell.swift; sourceTree = "<group>"; };
+		025B83C625B43B95005B4D6D /* AstroCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AstroCell.xib; sourceTree = "<group>"; };
 		0261D94D25B3436800B9357C /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
 		0261D94E25B3436800B9357C /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
 		0261D94F25B3436800B9357C /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
@@ -287,6 +291,8 @@
 			isa = PBXGroup;
 			children = (
 				0295C1BF25B0BBE1008F966D /* AstroViewController.swift */,
+				025B83C625B43B95005B4D6D /* AstroCell.xib */,
+				025B83C525B43B95005B4D6D /* AstroCell.swift */,
 			);
 			path = Astro;
 			sourceTree = "<group>";
@@ -430,6 +436,7 @@
 				0261D96325B3436A00B9357C /* SF-Pro-Display-Light.otf in Resources */,
 				025B83B925B437DD005B4D6D /* HealthCell.xib in Resources */,
 				0261D96F25B3436A00B9357C /* SF-Pro-Display-Bold.otf in Resources */,
+				025B83C825B43B95005B4D6D /* AstroCell.xib in Resources */,
 				0261D96025B3436A00B9357C /* SF-Pro-Display-UltralightItalic.otf in Resources */,
 				0261D96125B3436A00B9357C /* SF-Pro-Display-MediumItalic.otf in Resources */,
 				025B83C325B43A5F005B4D6D /* TravelCell.xib in Resources */,
@@ -502,6 +509,7 @@
 				0295C1C025B0BBE1008F966D /* AstroViewController.swift in Sources */,
 				0261D98825B3816000B9357C /* IndiaCell.swift in Sources */,
 				0261D99325B3832000B9357C /* FinanceCell.swift in Sources */,
+				025B83C725B43B95005B4D6D /* AstroCell.swift in Sources */,
 				02220A9D25AED3A400B46760 /* IndiaViewController.swift in Sources */,
 				0261D98325B37EED00B9357C /* HomeCell.swift in Sources */,
 				0295C1BA25B0BB81008F966D /* LifestyleViewController.swift in Sources */,
