@@ -7,11 +7,14 @@
 
 import UIKit
 import SideMenu
+// import Firebase
 
-class HomeViewController: UIViewController, MenuControllerDelegate, UICollectionViewDelegate, UICollectionViewDataSource {
+class HomeViewController: UIViewController, MenuControllerDelegate, UICollectionViewDelegate, UICollectionViewDataSource, UISearchBarDelegate {
     
     // Outlets
     @IBOutlet var homeCollectionView: UICollectionView!
+    
+    @IBOutlet var activityIndicatorView: UIActivityIndicatorView!
     
     private var sideMenu: SideMenuNavigationController?
     

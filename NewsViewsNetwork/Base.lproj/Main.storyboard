@@ -31,6 +31,11 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="go5-Mf-FI7"/>
                                 </connections>
                             </collectionView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" id="Pv9-Sy-sc0">
+                                <rect key="frame" x="0.0" y="44" width="414" height="692"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -50,6 +55,7 @@
                     </navigationItem>
                     <size key="freeformSize" width="414" height="736"/>
                     <connections>
+                        <outlet property="activityIndicatorView" destination="Pv9-Sy-sc0" id="jik-QQ-aPR"/>
                         <outlet property="homeCollectionView" destination="Zn0-gG-8lU" id="2AF-OS-3j2"/>
                     </connections>
                 </viewController>
