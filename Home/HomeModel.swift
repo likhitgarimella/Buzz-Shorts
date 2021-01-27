@@ -9,6 +9,13 @@ import Foundation
 
 class HomeModel {
     
+    /// Remodel Post class, bcuz it currently doesn't have a post id property
+    var id: String?
     
+    var photoUrl: String?
     
-}   // #15
+    var leftTag: String?
+    var heading: String?
+    var readTime: String?
+    
+}   // #22
