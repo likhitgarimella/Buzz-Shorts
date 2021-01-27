@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		020B619325C0EFC500F5185E /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B619225C0EFC500F5185E /* HomeModel.swift */; };
 		020B619625C0EFD200F5185E /* HomePostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B619525C0EFD200F5185E /* HomePostApi.swift */; };
+		020B61AB25C10CED00F5185E /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B61AA25C10CED00F5185E /* Api.swift */; };
 		02220A9925AED0DD00B46760 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220A9825AED0DD00B46760 /* SideMenu.swift */; };
 		02220A9D25AED3A400B46760 /* IndiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220A9C25AED3A400B46760 /* IndiaViewController.swift */; };
 		02220AA025AED49800B46760 /* WorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220A9F25AED49800B46760 /* WorldViewController.swift */; };
@@ -77,6 +78,7 @@
 /* Begin PBXFileReference section */
 		020B619225C0EFC500F5185E /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		020B619525C0EFD200F5185E /* HomePostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePostApi.swift; sourceTree = "<group>"; };
+		020B61AA25C10CED00F5185E /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		02220A9825AED0DD00B46760 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		02220A9C25AED3A400B46760 /* IndiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaViewController.swift; sourceTree = "<group>"; };
 		02220A9F25AED49800B46760 /* WorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewController.swift; sourceTree = "<group>"; };
@@ -345,6 +347,7 @@
 				02E78D55258A4F2600029AC2 /* LaunchScreen.storyboard */,
 				02E78D50258A4F2400029AC2 /* Main.storyboard */,
 				02220A9825AED0DD00B46760 /* SideMenu.swift */,
+				020B61AA25C10CED00F5185E /* Api.swift */,
 				025B83CB25B466F8005B4D6D /* Extensions.swift */,
 				02E78D58258A4F2600029AC2 /* Info.plist */,
 				0280C7ED25B1C8670022B1DA /* GoogleService-Info.plist */,
@@ -524,6 +527,7 @@
 				0261D98325B37EED00B9357C /* HomeCell.swift in Sources */,
 				0295C1BA25B0BB81008F966D /* LifestyleViewController.swift in Sources */,
 				0295C1BD25B0BBC1008F966D /* TravelViewController.swift in Sources */,
+				020B61AB25C10CED00F5185E /* Api.swift in Sources */,
 				0295C1AE25B0BAE0008F966D /* AutoViewController.swift in Sources */,
 				025B83B825B437DD005B4D6D /* HealthCell.swift in Sources */,
 				02E78D4F258A4F2400029AC2 /* HomeViewController.swift in Sources */,
