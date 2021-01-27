@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class HomeModel {
+    
+    
+    
+}   // #15
