@@ -9,6 +9,7 @@ import Foundation
 
 struct Api {
     
+    /// Firebase node - Home-Posts - Details
+    static var HomePost = HomePostApi()
     
-    
-}   // #15
+}   // #16

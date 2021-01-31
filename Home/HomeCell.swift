@@ -6,12 +6,20 @@
 //
 
 import UIKit
+// import Firebase
+
+/// If a View needs data, it should ask controllers...
 
 class HomeCell: UICollectionViewCell {
     
     // Outlets
     @IBOutlet var cardView: UIView!
     @IBOutlet var widthConstraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var homeNewsPic: UIImageView!
+    @IBOutlet weak var leftTagString: UILabel!
+    @IBOutlet weak var headingString: UILabel!
+    @IBOutlet weak var readTimeString: UILabel!
     
     // linking feed VC & feed cell
     var homeFeedVC: HomeViewController?
@@ -26,4 +34,4 @@ class HomeCell: UICollectionViewCell {
         
     }
     
-}   // #30
+}   // #38

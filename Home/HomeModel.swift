@@ -18,4 +18,22 @@ class HomeModel {
     var heading: String?
     var readTime: String?
     
-}   // #22
+}
+
+extension HomeModel {
+    
+    // Photo
+    static func transformPostPhoto(dict: [String: Any], key: String) -> HomeModel {
+        
+        let post = HomeModel()
+        /// Remodel Post class, bcuz it currently doesn't have a post id property
+        post.id = key
+        post.photoUrl = dict["1) Photo Url"] as? String
+        post.leftTag = dict["2) Left Tag"] as? String
+        post.heading = dict["3) Heading"] as? String
+        post.readTime = dict["4) Read Time"] as? String
+        return post
+        
+    }
+    
+}   // #40

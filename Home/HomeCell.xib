@@ -79,6 +79,10 @@
             </constraints>
             <connections>
                 <outlet property="cardView" destination="F6g-ND-AHd" id="Stt-Xj-DlI"/>
+                <outlet property="headingString" destination="Wax-D7-pKg" id="CAp-IV-LWI"/>
+                <outlet property="homeNewsPic" destination="ZLk-uJ-eKg" id="VK6-cg-gch"/>
+                <outlet property="leftTagString" destination="iKc-0x-Ldj" id="KLc-mV-iTt"/>
+                <outlet property="readTimeString" destination="0ZM-VA-1Ay" id="Lcx-0B-CHI"/>
                 <outlet property="widthConstraint" destination="6iH-hQ-8J2" id="Odb-Uj-6OG"/>
             </connections>
             <point key="canvasLocation" x="-70" y="129"/>
