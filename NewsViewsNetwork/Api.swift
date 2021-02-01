@@ -12,4 +12,7 @@ struct Api {
     /// Firebase node - Home-Posts - Details
     static var HomePost = HomePostApi()
     
-}   // #16
+    /// Firebase node - India-Posts - Details
+    static var IndiaPost = IndiaPostApi()
+    
+}   // #19
