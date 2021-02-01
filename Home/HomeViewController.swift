@@ -103,7 +103,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         let homeCell = homeCollectionView.dequeueReusableCell(withReuseIdentifier: "HomeCell", for: indexPath) as! HomeCell
         let post = homePosts[indexPath.row]
         homeCell.homePost = post
-        // linking home VC & home cell
+        // linking feed VC & feed cell
         homeCell.homeFeedVC = self
         return homeCell
         

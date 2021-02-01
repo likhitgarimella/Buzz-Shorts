@@ -23,9 +23,9 @@ class IndiaCell: UICollectionViewCell {
     @IBOutlet weak var readTimeString: UILabel!
     
     // linking feed VC & feed cell
-    var homeFeedVC: HomeViewController?
+    var indiaFeedVC: IndiaViewController?
     
-    var homePost: HomeModel? {
+    var indiaPost: IndiaModel? {
         didSet {
             updateView()
         }
@@ -33,14 +33,14 @@ class IndiaCell: UICollectionViewCell {
     
     func updateView() {
         
-        if let photoUrlString = homePost?.photoUrl {
+        if let photoUrlString = indiaPost?.photoUrl {
             let photoUrl = URL(string: photoUrlString)
             indiaNewsPic.sd_setImage(with: photoUrl)
         }
         
-        leftTagString.text = homePost?.leftTag
-        headingString.text = homePost?.heading
-        readTimeString.text = homePost?.readTime
+        leftTagString.text = indiaPost?.leftTag
+        headingString.text = indiaPost?.heading
+        readTimeString.text = indiaPost?.readTime
         
     }
     

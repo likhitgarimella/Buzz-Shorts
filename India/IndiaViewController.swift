@@ -21,7 +21,7 @@ class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollect
     // copy of reference
     var realIndiaPosts = [IndiaModel]()
     
-    // load home posts
+    // load india posts
     func loadPosts() {
         
         /// start when loadPosts func starts
@@ -42,8 +42,40 @@ class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollect
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .blue
+        hideKeyboardWhenTappedAround()
+        
+        view.backgroundColor = .white
+        
+        activityIndicatorView.center = self.view.center
+        
+        indiaCollectionView.delegate = self
+        indiaCollectionView.dataSource = self
+        
+        // Register CollectionViewCell 'IndiaCell' here
+        indiaCollectionView.register(UINib.init(nibName: "IndiaCell", bundle: nil), forCellWithReuseIdentifier: "IndiaCell")
+        if let flowLayout = indiaCollectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+            flowLayout.estimatedItemSize = CGSize(width: 1, height: 1)
+        }
+        
+        loadPosts()
         
     }
     
-}   // #50
+    // numberOfItemsInSection
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return indiaPosts.count
+    }
+    
+    // cellForItemAt
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let indiaCell = indiaCollectionView.dequeueReusableCell(withReuseIdentifier: "IndiaCell", for: indexPath) as! IndiaCell
+        let post = indiaPosts[indexPath.row]
+        indiaCell.indiaPost = post
+        // linking feed VC & feed cell
+        indiaCell.indiaFeedVC = self
+        return indiaCell
+        
+    }
+    
+}   // #82
