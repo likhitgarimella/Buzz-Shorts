@@ -41,14 +41,43 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
+    // reference to store HomeModel class info
+    var homePosts = [HomeModel]()
+    
+    // copy of reference
+    var realHomePosts = [HomeModel]()
+    
+    // load home posts
+    func loadPosts() {
+        
+        /// start when loadPosts func starts
+        activityIndicatorView.startAnimating()
+        
+        Api.HomePost.observePosts { (post) in
+            self.homePosts.append(post)
+            print(self.homePosts)
+            /// stop before view reloads data
+            self.activityIndicatorView.stopAnimating()
+            self.activityIndicatorView.hidesWhenStopped = true
+            self.realHomePosts = self.homePosts
+            self.homeCollectionView.reloadData()
+        }
+        
+    }
+    
     // MARK: -
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        activityIndicatorView.isHidden = true
+        hideKeyboardWhenTappedAround()
         
         view.backgroundColor = .white
+        
+        activityIndicatorView.center = self.view.center
+        
+        homeCollectionView.delegate = self
+        homeCollectionView.dataSource = self
         
         // Register CollectionViewCell 'HomeCell' here
         homeCollectionView.register(UINib.init(nibName: "HomeCell", bundle: nil), forCellWithReuseIdentifier: "HomeCell")
@@ -56,20 +85,24 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
             flowLayout.estimatedItemSize = CGSize(width: 1, height: 1)
         }
         
+        loadPosts()
+        
         SideMenuProp()
         AddChildControllers()
         
     }
     
+    // numberOfItemsInSection
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        
-        return 8
-        
+        return homePosts.count
     }
     
+    // cellForItemAt
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let homeCell = homeCollectionView.dequeueReusableCell(withReuseIdentifier: "HomeCell", for: indexPath) as! HomeCell
+        let post = homePosts[indexPath.row]
+        homeCell.homePost = post
         // linking home VC & home cell
         homeCell.homeFeedVC = self
         return homeCell
@@ -307,4 +340,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
-}   // #311
+}   // #344
