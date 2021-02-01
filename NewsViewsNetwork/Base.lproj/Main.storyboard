@@ -101,6 +101,10 @@
                             <constraint firstItem="SzF-yZ-nfh" firstAttribute="top" secondItem="mJ4-ah-TxC" secondAttribute="top" id="yYK-Pp-4eF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="activityIndicatorView" destination="8GL-8g-Nba" id="xJQ-4P-MvF"/>
+                        <outlet property="indiaCollectionView" destination="SzF-yZ-nfh" id="BFh-iC-bRV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fPe-Al-2cU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
