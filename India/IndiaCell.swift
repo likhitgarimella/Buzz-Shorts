@@ -17,7 +17,7 @@ class IndiaCell: UICollectionViewCell {
     @IBOutlet var cardView: UIView!
     @IBOutlet var widthConstraint: NSLayoutConstraint!
     
-    @IBOutlet weak var homeNewsPic: UIImageView!
+    @IBOutlet weak var indiaNewsPic: UIImageView!
     @IBOutlet weak var leftTagString: UILabel!
     @IBOutlet weak var headingString: UILabel!
     @IBOutlet weak var readTimeString: UILabel!
@@ -35,7 +35,7 @@ class IndiaCell: UICollectionViewCell {
         
         if let photoUrlString = homePost?.photoUrl {
             let photoUrl = URL(string: photoUrlString)
-            homeNewsPic.sd_setImage(with: photoUrl)
+            indiaNewsPic.sd_setImage(with: photoUrl)
         }
         
         leftTagString.text = homePost?.leftTag
