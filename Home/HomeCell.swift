@@ -7,6 +7,7 @@
 
 import UIKit
 // import Firebase
+import SDWebImage
 
 /// If a View needs data, it should ask controllers...
 
@@ -24,8 +25,37 @@ class HomeCell: UICollectionViewCell {
     // linking feed VC & feed cell
     var homeFeedVC: HomeViewController?
     
+    var homePost: HomeModel? {
+        didSet {
+            updateView()
+        }
+    }
+    
+    func updateView() {
+        
+        if let photoUrlString = homePost?.photoUrl {
+            let photoUrl = URL(string: photoUrlString)
+            homeNewsPic.sd_setImage(with: photoUrl)
+        }
+        
+        leftTagString.text = homePost?.leftTag
+        headingString.text = homePost?.heading
+        readTimeString.text = homePost?.readTime
+        
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        // initial text
+        // leftTagString.text = ""
+        // headingString.text = ""
+        // readTimeString.text = ""
+        
+        // number of lines
+        leftTagString.numberOfLines = 0
+        headingString.numberOfLines = 0
+        readTimeString.numberOfLines = 0
         
         // constraint
         self.contentView.translatesAutoresizingMaskIntoConstraints = false
@@ -34,4 +64,4 @@ class HomeCell: UICollectionViewCell {
         
     }
     
-}   // #38
+}   // #68

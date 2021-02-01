@@ -46,6 +46,8 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        activityIndicatorView.isHidden = true
+        
         view.backgroundColor = .white
         
         // Register CollectionViewCell 'HomeCell' here
@@ -305,4 +307,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
-}   // #306
+}   // #311
