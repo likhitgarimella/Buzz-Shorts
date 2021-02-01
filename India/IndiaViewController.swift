@@ -13,7 +13,7 @@ class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollect
     // Outlets
     @IBOutlet var indiaCollectionView: UICollectionView!
     
-    @IBOutlet var activityIndicatorView: UIActivityIndicatorView!
+    @IBOutlet var activityIndicatorView2: UIActivityIndicatorView!
     
     // reference to store IndiaModel class info
     var indiaPosts = [IndiaModel]()
@@ -25,14 +25,14 @@ class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollect
     func loadPosts() {
         
         /// start when loadPosts func starts
-        activityIndicatorView.startAnimating()
+        activityIndicatorView2.startAnimating()
         
         Api.IndiaPost.observePosts { (post) in
             self.indiaPosts.append(post)
             print(self.indiaPosts)
             /// stop before view reloads data
-            self.activityIndicatorView.stopAnimating()
-            self.activityIndicatorView.hidesWhenStopped = true
+            self.activityIndicatorView2.stopAnimating()
+            self.activityIndicatorView2.hidesWhenStopped = true
             self.realIndiaPosts = self.indiaPosts
             self.indiaCollectionView.reloadData()
         }
@@ -46,7 +46,7 @@ class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollect
         
         view.backgroundColor = .white
         
-        activityIndicatorView.center = self.view.center
+        activityIndicatorView2.center = self.view.center
         
         indiaCollectionView.delegate = self
         indiaCollectionView.dataSource = self

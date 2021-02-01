@@ -48,9 +48,9 @@ class IndiaCell: UICollectionViewCell {
         super.awakeFromNib()
         
         // initial text
-        leftTagString.text = ""
-        headingString.text = ""
-        readTimeString.text = ""
+        // leftTagString.text = ""
+        // headingString.text = ""
+        // readTimeString.text = ""
         
         // number of lines
         leftTagString.numberOfLines = 0

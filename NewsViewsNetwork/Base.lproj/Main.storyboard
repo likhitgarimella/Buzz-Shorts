@@ -102,7 +102,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="activityIndicatorView" destination="8GL-8g-Nba" id="xJQ-4P-MvF"/>
+                        <outlet property="activityIndicatorView2" destination="8GL-8g-Nba" id="vpa-9d-NmK"/>
                         <outlet property="indiaCollectionView" destination="SzF-yZ-nfh" id="BFh-iC-bRV"/>
                     </connections>
                 </viewController>
