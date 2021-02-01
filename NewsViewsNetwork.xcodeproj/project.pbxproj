@@ -80,6 +80,8 @@
 		02A2F79D25C8C50900EEC3B2 /* SportsPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A2F79C25C8C50900EEC3B2 /* SportsPostApi.swift */; };
 		02A2F7A025C8C71C00EEC3B2 /* EntertainmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A2F79F25C8C71C00EEC3B2 /* EntertainmentModel.swift */; };
 		02A2F7A325C8C73500EEC3B2 /* EntertainmentPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A2F7A225C8C73500EEC3B2 /* EntertainmentPostApi.swift */; };
+		02A2F7A625C8C77200EEC3B2 /* HealthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A2F7A525C8C77200EEC3B2 /* HealthModel.swift */; };
+		02A2F7A925C8C78B00EEC3B2 /* HealthPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A2F7A825C8C78B00EEC3B2 /* HealthPostApi.swift */; };
 		02E78D4B258A4F2400029AC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E78D4A258A4F2400029AC2 /* AppDelegate.swift */; };
 		02E78D4D258A4F2400029AC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E78D4C258A4F2400029AC2 /* SceneDelegate.swift */; };
 		02E78D4F258A4F2400029AC2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E78D4E258A4F2400029AC2 /* HomeViewController.swift */; };
@@ -163,6 +165,8 @@
 		02A2F79C25C8C50900EEC3B2 /* SportsPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsPostApi.swift; sourceTree = "<group>"; };
 		02A2F79F25C8C71C00EEC3B2 /* EntertainmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentModel.swift; sourceTree = "<group>"; };
 		02A2F7A225C8C73500EEC3B2 /* EntertainmentPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentPostApi.swift; sourceTree = "<group>"; };
+		02A2F7A525C8C77200EEC3B2 /* HealthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthModel.swift; sourceTree = "<group>"; };
+		02A2F7A825C8C78B00EEC3B2 /* HealthPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthPostApi.swift; sourceTree = "<group>"; };
 		02E78D47258A4F2400029AC2 /* NewsViewsNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsViewsNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E78D4A258A4F2400029AC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02E78D4C258A4F2400029AC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -313,6 +317,8 @@
 			isa = PBXGroup;
 			children = (
 				0295C1B625B0BB5C008F966D /* HealthViewController.swift */,
+				02A2F7A525C8C77200EEC3B2 /* HealthModel.swift */,
+				02A2F7A825C8C78B00EEC3B2 /* HealthPostApi.swift */,
 				025B83B725B437DD005B4D6D /* HealthCell.xib */,
 				025B83B625B437DD005B4D6D /* HealthCell.swift */,
 			);
@@ -576,6 +582,7 @@
 				0295C1BA25B0BB81008F966D /* LifestyleViewController.swift in Sources */,
 				0295C1BD25B0BBC1008F966D /* TravelViewController.swift in Sources */,
 				022C45B725C72C1C005D7E58 /* IndiaPostApi.swift in Sources */,
+				02A2F7A925C8C78B00EEC3B2 /* HealthPostApi.swift in Sources */,
 				02A2F78B25C8C03200EEC3B2 /* FinancePostApi.swift in Sources */,
 				020B61AB25C10CED00F5185E /* Api.swift in Sources */,
 				0295C1AE25B0BAE0008F966D /* AutoViewController.swift in Sources */,
@@ -598,6 +605,7 @@
 				0295C1B125B0BB18008F966D /* SportsViewController.swift in Sources */,
 				0295C1AB25B0BA54008F966D /* TechViewController.swift in Sources */,
 				02A2F78525C8BF9500EEC3B2 /* WorldPostApi.swift in Sources */,
+				02A2F7A625C8C77200EEC3B2 /* HealthModel.swift in Sources */,
 				025B83A325B43489005B4D6D /* TechCell.swift in Sources */,
 				0295C1B725B0BB5C008F966D /* HealthViewController.swift in Sources */,
 				02A2F78E25C8C2E500EEC3B2 /* TechModel.swift in Sources */,
