@@ -11,7 +11,7 @@ import UIKit
 class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UISearchBarDelegate {
     
     var indiaCollectionView: UICollectionView!
-    var activityIndicatorView2 = UIActivityIndicatorView(style: .whiteLarge)
+    var activityIndicatorView2 = UIActivityIndicatorView(style: .gray)
     
     // reference to store IndiaModel class info
     var indiaPosts = [IndiaModel]()
