@@ -27,6 +27,9 @@
 		0247198D25CDF18200805B70 /* HotOvenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247198C25CDF18200805B70 /* HotOvenViewController.swift */; };
 		0247199025CDF20F00805B70 /* GamingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247198F25CDF20F00805B70 /* GamingViewController.swift */; };
 		0247199325CDF23400805B70 /* JobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247199225CDF23400805B70 /* JobsViewController.swift */; };
+		0247199625CDF47B00805B70 /* PhotoGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247199525CDF47B00805B70 /* PhotoGalleryViewController.swift */; };
+		0247199925CDF50200805B70 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247199825CDF50200805B70 /* VideosViewController.swift */; };
+		0247199C25CDF52800805B70 /* MiscellanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247199B25CDF52800805B70 /* MiscellanyViewController.swift */; };
 		025B83A325B43489005B4D6D /* TechCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B83A125B43489005B4D6D /* TechCell.swift */; };
 		025B83A425B43489005B4D6D /* TechCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B83A225B43489005B4D6D /* TechCell.xib */; };
 		025B83A825B43503005B4D6D /* AutoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B83A625B43503005B4D6D /* AutoCell.swift */; };
@@ -130,6 +133,9 @@
 		0247198C25CDF18200805B70 /* HotOvenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotOvenViewController.swift; sourceTree = "<group>"; };
 		0247198F25CDF20F00805B70 /* GamingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamingViewController.swift; sourceTree = "<group>"; };
 		0247199225CDF23400805B70 /* JobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsViewController.swift; sourceTree = "<group>"; };
+		0247199525CDF47B00805B70 /* PhotoGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryViewController.swift; sourceTree = "<group>"; };
+		0247199825CDF50200805B70 /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		0247199B25CDF52800805B70 /* MiscellanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscellanyViewController.swift; sourceTree = "<group>"; };
 		025B83A125B43489005B4D6D /* TechCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCell.swift; sourceTree = "<group>"; };
 		025B83A225B43489005B4D6D /* TechCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TechCell.xib; sourceTree = "<group>"; };
 		025B83A625B43503005B4D6D /* AutoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCell.swift; sourceTree = "<group>"; };
@@ -327,6 +333,7 @@
 		0247196D25CDAE5800805B70 /* Photo Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				0247199525CDF47B00805B70 /* PhotoGalleryViewController.swift */,
 			);
 			path = "Photo Gallery";
 			sourceTree = "<group>";
@@ -334,6 +341,7 @@
 		0247196E25CDAE6A00805B70 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
+				0247199825CDF50200805B70 /* VideosViewController.swift */,
 			);
 			path = Videos;
 			sourceTree = "<group>";
@@ -341,6 +349,7 @@
 		0247196F25CDC09A00805B70 /* Miscellany */ = {
 			isa = PBXGroup;
 			children = (
+				0247199B25CDF52800805B70 /* MiscellanyViewController.swift */,
 			);
 			path = Miscellany;
 			sourceTree = "<group>";
@@ -740,6 +749,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				025B83AD25B435B8005B4D6D /* SportsCell.swift in Sources */,
+				0247199C25CDF52800805B70 /* MiscellanyViewController.swift in Sources */,
 				02A2F7AC25C8C81B00EEC3B2 /* LifestyleModel.swift in Sources */,
 				022C45B425C72C08005D7E58 /* IndiaModel.swift in Sources */,
 				0247198725CDEA4E00805B70 /* DIYViewController.swift in Sources */,
@@ -749,10 +759,12 @@
 				0247199025CDF20F00805B70 /* GamingViewController.swift in Sources */,
 				020B619325C0EFC500F5185E /* HomeModel.swift in Sources */,
 				0261D98825B3816000B9357C /* IndiaCell.swift in Sources */,
+				0247199625CDF47B00805B70 /* PhotoGalleryViewController.swift in Sources */,
 				0247197525CDE47C00805B70 /* EducationViewController.swift in Sources */,
 				02A2F7A025C8C71C00EEC3B2 /* EntertainmentModel.swift in Sources */,
 				0261D99325B3832000B9357C /* FinanceCell.swift in Sources */,
 				02A2F7BB25C8C91200EEC3B2 /* AstroPostApi.swift in Sources */,
+				0247199925CDF50200805B70 /* VideosViewController.swift in Sources */,
 				02A2F79125C8C30200EEC3B2 /* TechPostApi.swift in Sources */,
 				025B83C725B43B95005B4D6D /* AstroCell.swift in Sources */,
 				0247197B25CDE6DD00805B70 /* EnvironmentViewController.swift in Sources */,
