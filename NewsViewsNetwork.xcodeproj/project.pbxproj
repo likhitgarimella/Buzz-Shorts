@@ -204,6 +204,111 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0247196025CD455500805B70 /* Property */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
+		0247196225CD45EF00805B70 /* Education */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Education;
+			sourceTree = "<group>";
+		};
+		0247196325CD52E000805B70 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		0247196425CD52E500805B70 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		0247196525CDA1D400805B70 /* Offbeat News */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Offbeat News";
+			sourceTree = "<group>";
+		};
+		0247196625CDA22B00805B70 /* Top Ten */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Top Ten";
+			sourceTree = "<group>";
+		};
+		0247196725CDA23B00805B70 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		0247196825CDA24C00805B70 /* DIY */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DIY;
+			sourceTree = "<group>";
+		};
+		0247196925CDA4A300805B70 /* Moodfresh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Moodfresh;
+			sourceTree = "<group>";
+		};
+		0247196A25CDA4B400805B70 /* Hot from the Oven */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Hot from the Oven";
+			sourceTree = "<group>";
+		};
+		0247196B25CDAE3800805B70 /* Gaming */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Gaming;
+			sourceTree = "<group>";
+		};
+		0247196C25CDAE4700805B70 /* Jobs & Job Alerts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Jobs & Job Alerts";
+			sourceTree = "<group>";
+		};
+		0247196D25CDAE5800805B70 /* Photo Gallery */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Photo Gallery";
+			sourceTree = "<group>";
+		};
+		0247196E25CDAE6A00805B70 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		0247196F25CDC09A00805B70 /* Miscellany */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Miscellany;
+			sourceTree = "<group>";
+		};
 		0261D94C25B341F300B9357C /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -390,6 +495,21 @@
 				0261D97E25B37A4D00B9357C /* Lifestyle */,
 				0261D97F25B37B7700B9357C /* Travel */,
 				0261D98025B37B8400B9357C /* Astro */,
+				0247196025CD455500805B70 /* Property */,
+				0247196225CD45EF00805B70 /* Education */,
+				0247196325CD52E000805B70 /* Food */,
+				0247196425CD52E500805B70 /* Environment */,
+				0247196525CDA1D400805B70 /* Offbeat News */,
+				0247196625CDA22B00805B70 /* Top Ten */,
+				0247196725CDA23B00805B70 /* Stories */,
+				0247196825CDA24C00805B70 /* DIY */,
+				0247196925CDA4A300805B70 /* Moodfresh */,
+				0247196A25CDA4B400805B70 /* Hot from the Oven */,
+				0247196B25CDAE3800805B70 /* Gaming */,
+				0247196C25CDAE4700805B70 /* Jobs & Job Alerts */,
+				0247196D25CDAE5800805B70 /* Photo Gallery */,
+				0247196E25CDAE6A00805B70 /* Videos */,
+				0247196F25CDC09A00805B70 /* Miscellany */,
 				02E78D48258A4F2400029AC2 /* Products */,
 				49681B486AC0FE847030768B /* Pods */,
 				87277B864D4A94F2162A2820 /* Frameworks */,

@@ -82,8 +82,8 @@
                                 </collectionViewFlowLayout>
                                 <cells/>
                                 <connections>
-                                    <outlet property="dataSource" destination="Edt-Vp-u0I" id="gA9-Vm-sNS"/>
-                                    <outlet property="delegate" destination="Edt-Vp-u0I" id="kdt-61-eOV"/>
+                                    <outlet property="dataSource" destination="Edt-Vp-u0I" id="OoU-OJ-CcR"/>
+                                    <outlet property="delegate" destination="Edt-Vp-u0I" id="nVH-Cg-Q96"/>
                                 </connections>
                             </collectionView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" id="8GL-8g-Nba">
@@ -101,6 +101,7 @@
                             <constraint firstItem="SzF-yZ-nfh" firstAttribute="top" secondItem="mJ4-ah-TxC" secondAttribute="top" id="yYK-Pp-4eF"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="kcy-ct-jPO"/>
                     <connections>
                         <outlet property="activityIndicatorView2" destination="8GL-8g-Nba" id="vpa-9d-NmK"/>
                         <outlet property="indiaCollectionView" destination="SzF-yZ-nfh" id="BFh-iC-bRV"/>
