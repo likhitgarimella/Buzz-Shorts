@@ -21,6 +21,9 @@
 		0247197B25CDE6DD00805B70 /* EnvironmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197A25CDE6DD00805B70 /* EnvironmentViewController.swift */; };
 		0247197E25CDE70600805B70 /* OffbeatNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197D25CDE70600805B70 /* OffbeatNewsViewController.swift */; };
 		0247198125CDE72900805B70 /* TopTenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247198025CDE72900805B70 /* TopTenViewController.swift */; };
+		0247198425CDEA3100805B70 /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247198325CDEA3100805B70 /* StoriesViewController.swift */; };
+		0247198725CDEA4E00805B70 /* DIYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247198625CDEA4E00805B70 /* DIYViewController.swift */; };
+		0247198A25CDEA7400805B70 /* MoodfreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247198925CDEA7400805B70 /* MoodfreshViewController.swift */; };
 		025B83A325B43489005B4D6D /* TechCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B83A125B43489005B4D6D /* TechCell.swift */; };
 		025B83A425B43489005B4D6D /* TechCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B83A225B43489005B4D6D /* TechCell.xib */; };
 		025B83A825B43503005B4D6D /* AutoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B83A625B43503005B4D6D /* AutoCell.swift */; };
@@ -118,6 +121,9 @@
 		0247197A25CDE6DD00805B70 /* EnvironmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentViewController.swift; sourceTree = "<group>"; };
 		0247197D25CDE70600805B70 /* OffbeatNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffbeatNewsViewController.swift; sourceTree = "<group>"; };
 		0247198025CDE72900805B70 /* TopTenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTenViewController.swift; sourceTree = "<group>"; };
+		0247198325CDEA3100805B70 /* StoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
+		0247198625CDEA4E00805B70 /* DIYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIYViewController.swift; sourceTree = "<group>"; };
+		0247198925CDEA7400805B70 /* MoodfreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodfreshViewController.swift; sourceTree = "<group>"; };
 		025B83A125B43489005B4D6D /* TechCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCell.swift; sourceTree = "<group>"; };
 		025B83A225B43489005B4D6D /* TechCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TechCell.xib; sourceTree = "<group>"; };
 		025B83A625B43503005B4D6D /* AutoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCell.swift; sourceTree = "<group>"; };
@@ -267,6 +273,7 @@
 		0247196725CDA23B00805B70 /* Stories */ = {
 			isa = PBXGroup;
 			children = (
+				0247198325CDEA3100805B70 /* StoriesViewController.swift */,
 			);
 			path = Stories;
 			sourceTree = "<group>";
@@ -274,6 +281,7 @@
 		0247196825CDA24C00805B70 /* DIY */ = {
 			isa = PBXGroup;
 			children = (
+				0247198625CDEA4E00805B70 /* DIYViewController.swift */,
 			);
 			path = DIY;
 			sourceTree = "<group>";
@@ -281,6 +289,7 @@
 		0247196925CDA4A300805B70 /* Moodfresh */ = {
 			isa = PBXGroup;
 			children = (
+				0247198925CDEA7400805B70 /* MoodfreshViewController.swift */,
 			);
 			path = Moodfresh;
 			sourceTree = "<group>";
@@ -724,6 +733,7 @@
 				025B83AD25B435B8005B4D6D /* SportsCell.swift in Sources */,
 				02A2F7AC25C8C81B00EEC3B2 /* LifestyleModel.swift in Sources */,
 				022C45B425C72C08005D7E58 /* IndiaModel.swift in Sources */,
+				0247198725CDEA4E00805B70 /* DIYViewController.swift in Sources */,
 				02A2F78225C8BF7300EEC3B2 /* WorldModel.swift in Sources */,
 				0295C1C025B0BBE1008F966D /* AstroViewController.swift in Sources */,
 				02A2F7AF25C8C83200EEC3B2 /* LifestylePostApi.swift in Sources */,
@@ -740,6 +750,7 @@
 				02A2F7A325C8C73500EEC3B2 /* EntertainmentPostApi.swift in Sources */,
 				0261D98325B37EED00B9357C /* HomeCell.swift in Sources */,
 				02A2F78825C8C01700EEC3B2 /* FinanceModel.swift in Sources */,
+				0247198A25CDEA7400805B70 /* MoodfreshViewController.swift in Sources */,
 				0295C1BA25B0BB81008F966D /* LifestyleViewController.swift in Sources */,
 				02A2F7B225C8C88B00EEC3B2 /* TravelModel.swift in Sources */,
 				0247198125CDE72900805B70 /* TopTenViewController.swift in Sources */,
@@ -751,6 +762,7 @@
 				0295C1AE25B0BAE0008F966D /* AutoViewController.swift in Sources */,
 				02A2F79A25C8C4F300EEC3B2 /* SportsModel.swift in Sources */,
 				025B83B825B437DD005B4D6D /* HealthCell.swift in Sources */,
+				0247198425CDEA3100805B70 /* StoriesViewController.swift in Sources */,
 				02E78D4F258A4F2400029AC2 /* HomeViewController.swift in Sources */,
 				02A2F79425C8C33800EEC3B2 /* AutoModel.swift in Sources */,
 				02E78D4B258A4F2400029AC2 /* AppDelegate.swift in Sources */,
