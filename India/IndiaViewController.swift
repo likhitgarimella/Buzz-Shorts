@@ -11,15 +11,41 @@ import UIKit
 class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UISearchBarDelegate {
     
     // Outlets
-    @IBOutlet var indiaCollectionView: UICollectionView!
+    // @IBOutlet var indiaCollectionView: UICollectionView!
+    // @IBOutlet var activityIndicatorView2: UIActivityIndicatorView!
     
-    @IBOutlet var activityIndicatorView2: UIActivityIndicatorView!
+    var indiaCollectionView: UICollectionView!
+    var activityIndicatorView2 = UIActivityIndicatorView(style: .whiteLarge)
     
     // reference to store IndiaModel class info
     var indiaPosts = [IndiaModel]()
     
     // copy of reference
     var realIndiaPosts = [IndiaModel]()
+    
+    func CollectionView() {
+        
+        // Create an instance of UICollectionViewFlowLayout since you cant initialize UICollectionView without a layout
+        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        layout.itemSize = CGSize(width: view.frame.width, height: view.frame.height)
+        
+        indiaCollectionView = UICollectionView(frame: self.view.frame, collectionViewLayout: layout)
+        indiaCollectionView.showsVerticalScrollIndicator = false
+        indiaCollectionView.backgroundColor = UIColor.white
+        
+        indiaCollectionView.dataSource = self
+        indiaCollectionView.delegate = self
+        
+        // Register CollectionViewCell 'IndiaCell' here
+        indiaCollectionView.register(UINib.init(nibName: "IndiaCell", bundle: nil), forCellWithReuseIdentifier: "IndiaCell")
+        if let flowLayout = indiaCollectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+            flowLayout.estimatedItemSize = CGSize(width: 1, height: 1)
+        }
+        
+        self.view.addSubview(indiaCollectionView)
+        
+    }
     
     // load india posts
     func loadPosts() {
@@ -46,16 +72,10 @@ class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollect
         
         view.backgroundColor = .white
         
+        self.view.addSubview(activityIndicatorView2)
         activityIndicatorView2.center = self.view.center
         
-        indiaCollectionView.delegate = self
-        indiaCollectionView.dataSource = self
-        
-        // Register CollectionViewCell 'IndiaCell' here
-        indiaCollectionView.register(UINib.init(nibName: "IndiaCell", bundle: nil), forCellWithReuseIdentifier: "IndiaCell")
-        if let flowLayout = indiaCollectionView.collectionViewLayout as? UICollectionViewFlowLayout {
-            flowLayout.estimatedItemSize = CGSize(width: 1, height: 1)
-        }
+        CollectionView()
         
         loadPosts()
         
@@ -78,4 +98,4 @@ class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollect
         
     }
     
-}   // #82
+}   // #102

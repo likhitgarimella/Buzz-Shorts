@@ -81,10 +81,6 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells/>
-                                <connections>
-                                    <outlet property="dataSource" destination="Edt-Vp-u0I" id="OoU-OJ-CcR"/>
-                                    <outlet property="delegate" destination="Edt-Vp-u0I" id="nVH-Cg-Q96"/>
-                                </connections>
                             </collectionView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" id="8GL-8g-Nba">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
@@ -102,10 +98,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kcy-ct-jPO"/>
-                    <connections>
-                        <outlet property="activityIndicatorView2" destination="8GL-8g-Nba" id="vpa-9d-NmK"/>
-                        <outlet property="indiaCollectionView" destination="SzF-yZ-nfh" id="BFh-iC-bRV"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fPe-Al-2cU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
