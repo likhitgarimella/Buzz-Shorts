@@ -10,10 +10,6 @@ import UIKit
 
 class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UISearchBarDelegate {
     
-    // Outlets
-    // @IBOutlet var indiaCollectionView: UICollectionView!
-    // @IBOutlet var activityIndicatorView2: UIActivityIndicatorView!
-    
     var indiaCollectionView: UICollectionView!
     var activityIndicatorView2 = UIActivityIndicatorView(style: .whiteLarge)
     
@@ -98,4 +94,4 @@ class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollect
         
     }
     
-}   // #102
+}   // #98
