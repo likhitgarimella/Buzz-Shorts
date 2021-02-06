@@ -29,6 +29,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
     private let lifestyleController = LifestyleViewController()
     private let travelController = TravelViewController()
     private let astroController = AstroViewController()
+    
     private let propertyController = PropertyViewController()
     private let educationController = EducationViewController()
     private let foodController = FoodViewController()
@@ -140,6 +141,24 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         addChild(travelController)
         addChild(astroController)
         
+        addChild(propertyController)
+        addChild(educationController)
+        addChild(foodController)
+        addChild(environmentController)
+        addChild(offbeatController)
+        addChild(toptenController)
+        addChild(storiesController)
+        addChild(diyController)
+        addChild(moodfreshController)
+        addChild(hotController)
+        addChild(gamingController)
+        addChild(jobsController)
+        addChild(photoController)
+        addChild(videosController)
+        addChild(miscellanyController)
+        
+        ///
+        
         view.addSubview(indiaController.view)
         view.addSubview(worldController.view)
         view.addSubview(financeController.view)
@@ -152,6 +171,24 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         view.addSubview(travelController.view)
         view.addSubview(astroController.view)
         
+        view.addSubview(propertyController.view)
+        view.addSubview(educationController.view)
+        view.addSubview(foodController.view)
+        view.addSubview(environmentController.view)
+        view.addSubview(offbeatController.view)
+        view.addSubview(toptenController.view)
+        view.addSubview(storiesController.view)
+        view.addSubview(diyController.view)
+        view.addSubview(moodfreshController.view)
+        view.addSubview(hotController.view)
+        view.addSubview(gamingController.view)
+        view.addSubview(jobsController.view)
+        view.addSubview(photoController.view)
+        view.addSubview(videosController.view)
+        view.addSubview(miscellanyController.view)
+        
+        ///
+        
         indiaController.view.frame = view.bounds
         worldController.view.frame = view.bounds
         financeController.view.frame = view.bounds
@@ -163,6 +200,24 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         lifestyleController.view.frame = view.bounds
         travelController.view.frame = view.bounds
         astroController.view.frame = view.bounds
+        
+        propertyController.view.frame = view.bounds
+        educationController.view.frame = view.bounds
+        foodController.view.frame = view.bounds
+        environmentController.view.frame = view.bounds
+        offbeatController.view.frame = view.bounds
+        toptenController.view.frame = view.bounds
+        storiesController.view.frame = view.bounds
+        diyController.view.frame = view.bounds
+        moodfreshController.view.frame = view.bounds
+        hotController.view.frame = view.bounds
+        gamingController.view.frame = view.bounds
+        jobsController.view.frame = view.bounds
+        photoController.view.frame = view.bounds
+        videosController.view.frame = view.bounds
+        miscellanyController.view.frame = view.bounds
+        
+        ///
         
         /// View Controller Lifecycle
         indiaController.didMove(toParent: self)
@@ -177,6 +232,24 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         travelController.didMove(toParent: self)
         astroController.didMove(toParent: self)
         
+        propertyController.didMove(toParent: self)
+        educationController.didMove(toParent: self)
+        foodController.didMove(toParent: self)
+        environmentController.didMove(toParent: self)
+        offbeatController.didMove(toParent: self)
+        toptenController.didMove(toParent: self)
+        storiesController.didMove(toParent: self)
+        diyController.didMove(toParent: self)
+        moodfreshController.didMove(toParent: self)
+        hotController.didMove(toParent: self)
+        gamingController.didMove(toParent: self)
+        jobsController.didMove(toParent: self)
+        photoController.didMove(toParent: self)
+        videosController.didMove(toParent: self)
+        miscellanyController.didMove(toParent: self)
+        
+        ///
+        
         /// Keep all hidden initially
         indiaController.view.isHidden = true
         worldController.view.isHidden = true
@@ -189,6 +262,22 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         lifestyleController.view.isHidden = true
         travelController.view.isHidden = true
         astroController.view.isHidden = true
+        
+        propertyController.view.isHidden = true
+        educationController.view.isHidden = true
+        foodController.view.isHidden = true
+        environmentController.view.isHidden = true
+        offbeatController.view.isHidden = true
+        toptenController.view.isHidden = true
+        storiesController.view.isHidden = true
+        diyController.view.isHidden = true
+        moodfreshController.view.isHidden = true
+        hotController.view.isHidden = true
+        gamingController.view.isHidden = true
+        jobsController.view.isHidden = true
+        photoController.view.isHidden = true
+        videosController.view.isHidden = true
+        miscellanyController.view.isHidden = true
         
     }
     
@@ -355,4 +444,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
-}   // #359
+}   // #448
