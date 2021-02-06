@@ -29,6 +29,21 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
     private let lifestyleController = LifestyleViewController()
     private let travelController = TravelViewController()
     private let astroController = AstroViewController()
+    private let propertyController = PropertyViewController()
+    private let educationController = EducationViewController()
+    private let foodController = FoodViewController()
+    private let environmentController = EnvironmentViewController()
+    private let offbeatController = OffbeatNewsViewController()
+    private let toptenController = TopTenViewController()
+    private let storiesController = StoriesViewController()
+    private let diyController = DIYViewController()
+    private let moodfreshController = MoodfreshViewController()
+    private let hotController = HotOvenViewController()
+    private let gamingController = GamingViewController()
+    private let jobsController = JobsViewController()
+    private let photoController = PhotoGalleryViewController()
+    private let videosController = VideosViewController()
+    private let miscellanyController = MiscellanyViewController()
     
     func SideMenuProp() {
         
@@ -340,4 +355,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
-}   // #344
+}   // #359
