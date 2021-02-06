@@ -129,6 +129,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
     
     private func AddChildControllers() {
         
+        /// Add child controllers
         addChild(indiaController)
         addChild(worldController)
         addChild(financeController)
@@ -159,6 +160,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
         ///
         
+        /// Add controllers to main view
         view.addSubview(indiaController.view)
         view.addSubview(worldController.view)
         view.addSubview(financeController.view)
@@ -189,6 +191,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
         ///
         
+        /// Controllers frame & bounds
         indiaController.view.frame = view.bounds
         worldController.view.frame = view.bounds
         financeController.view.frame = view.bounds
@@ -323,59 +326,710 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .india:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .world:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .finance:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .tech:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .auto:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .sports:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .entertainment:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .health:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .lifestyle:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .travel:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .astro:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .property:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .education:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .food:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .environment:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .offbeat:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .topten:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .stories:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .diy:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .moodfresh:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .hot:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .gaming:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .jobs:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .photo:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .videos:
-                
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
             case .miscellany:
+                indiaController.view.isHidden = true
+                worldController.view.isHidden = true
+                financeController.view.isHidden = true
+                techController.view.isHidden = true
+                autoController.view.isHidden = true
+                sportsController.view.isHidden = true
+                entertainmentController.view.isHidden = true
+                healthController.view.isHidden = true
+                lifestyleController.view.isHidden = true
+                travelController.view.isHidden = true
+                astroController.view.isHidden = true
+                propertyController.view.isHidden = true
+                educationController.view.isHidden = true
+                foodController.view.isHidden = true
+                environmentController.view.isHidden = true
+                offbeatController.view.isHidden = true
+                toptenController.view.isHidden = true
+                storiesController.view.isHidden = true
+                diyController.view.isHidden = true
+                moodfreshController.view.isHidden = true
+                hotController.view.isHidden = true
+                gamingController.view.isHidden = true
+                jobsController.view.isHidden = true
+                photoController.view.isHidden = true
+                videosController.view.isHidden = true
+                miscellanyController.view.isHidden = true
                 
         }
         
     }
     
-}   // #382
+}   // #1036
