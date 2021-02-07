@@ -51,6 +51,10 @@
 		0231528425D05D2F008C377C /* FoodPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231528325D05D2F008C377C /* FoodPostApi.swift */; };
 		0231528825D05D54008C377C /* EnvironmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231528725D05D54008C377C /* EnvironmentModel.swift */; };
 		0231528B25D05D6C008C377C /* EnvironmentPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231528A25D05D6C008C377C /* EnvironmentPostApi.swift */; };
+		0231528E25D05EDB008C377C /* OffbeatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231528D25D05EDB008C377C /* OffbeatModel.swift */; };
+		0231529125D05EF0008C377C /* OffbeatPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231529025D05EF0008C377C /* OffbeatPostApi.swift */; };
+		0231529425D05F09008C377C /* TopTenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231529325D05F09008C377C /* TopTenModel.swift */; };
+		0231529725D05F1D008C377C /* TopTenPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231529625D05F1D008C377C /* TopTenPostApi.swift */; };
 		0247197225CDE43300805B70 /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197125CDE43300805B70 /* PropertyViewController.swift */; };
 		0247197525CDE47C00805B70 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197425CDE47C00805B70 /* EducationViewController.swift */; };
 		0247197825CDE4CC00805B70 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197725CDE4CC00805B70 /* FoodViewController.swift */; };
@@ -193,6 +197,10 @@
 		0231528325D05D2F008C377C /* FoodPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPostApi.swift; sourceTree = "<group>"; };
 		0231528725D05D54008C377C /* EnvironmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentModel.swift; sourceTree = "<group>"; };
 		0231528A25D05D6C008C377C /* EnvironmentPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentPostApi.swift; sourceTree = "<group>"; };
+		0231528D25D05EDB008C377C /* OffbeatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffbeatModel.swift; sourceTree = "<group>"; };
+		0231529025D05EF0008C377C /* OffbeatPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffbeatPostApi.swift; sourceTree = "<group>"; };
+		0231529325D05F09008C377C /* TopTenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTenModel.swift; sourceTree = "<group>"; };
+		0231529625D05F1D008C377C /* TopTenPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTenPostApi.swift; sourceTree = "<group>"; };
 		0247197125CDE43300805B70 /* PropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
 		0247197425CDE47C00805B70 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
 		0247197725CDE4CC00805B70 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
@@ -358,6 +366,8 @@
 			isa = PBXGroup;
 			children = (
 				0247197D25CDE70600805B70 /* OffbeatNewsViewController.swift */,
+				0231528D25D05EDB008C377C /* OffbeatModel.swift */,
+				0231529025D05EF0008C377C /* OffbeatPostApi.swift */,
 				0231523B25D0295A008C377C /* OffbeatNewsCell.xib */,
 				0231523A25D0295A008C377C /* OffbeatNewsCell.swift */,
 			);
@@ -368,6 +378,8 @@
 			isa = PBXGroup;
 			children = (
 				0247198025CDE72900805B70 /* TopTenViewController.swift */,
+				0231529325D05F09008C377C /* TopTenModel.swift */,
+				0231529625D05F1D008C377C /* TopTenPostApi.swift */,
 				0231524125D0297F008C377C /* TopTenCell.xib */,
 				0231524025D0297F008C377C /* TopTenCell.swift */,
 			);
@@ -880,7 +892,9 @@
 				0247198725CDEA4E00805B70 /* DIYViewController.swift in Sources */,
 				0231526425D0300F008C377C /* JobsCell.swift in Sources */,
 				02A2F78225C8BF7300EEC3B2 /* WorldModel.swift in Sources */,
+				0231528E25D05EDB008C377C /* OffbeatModel.swift in Sources */,
 				0295C1C025B0BBE1008F966D /* AstroViewController.swift in Sources */,
+				0231529725D05F1D008C377C /* TopTenPostApi.swift in Sources */,
 				02A2F7AF25C8C83200EEC3B2 /* LifestylePostApi.swift in Sources */,
 				0231522C25D0252D008C377C /* EducationCell.swift in Sources */,
 				0247199025CDF20F00805B70 /* GamingViewController.swift in Sources */,
@@ -897,6 +911,7 @@
 				0247199925CDF50200805B70 /* VideosViewController.swift in Sources */,
 				0231528825D05D54008C377C /* EnvironmentModel.swift in Sources */,
 				0231528B25D05D6C008C377C /* EnvironmentPostApi.swift in Sources */,
+				0231529425D05F09008C377C /* TopTenModel.swift in Sources */,
 				02A2F79125C8C30200EEC3B2 /* TechPostApi.swift in Sources */,
 				025B83C725B43B95005B4D6D /* AstroCell.swift in Sources */,
 				0247197B25CDE6DD00805B70 /* EnvironmentViewController.swift in Sources */,
@@ -959,6 +974,7 @@
 				02A2F78E25C8C2E500EEC3B2 /* TechModel.swift in Sources */,
 				02220A9925AED0DD00B46760 /* SideMenu.swift in Sources */,
 				025B83CC25B466F8005B4D6D /* Extensions.swift in Sources */,
+				0231529125D05EF0008C377C /* OffbeatPostApi.swift in Sources */,
 				02A2F79725C8C35000EEC3B2 /* AutoPostApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
