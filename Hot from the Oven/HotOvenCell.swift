@@ -8,10 +8,12 @@
 import UIKit
 
 class HotOvenCell: UICollectionViewCell {
-
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        
+        
     }
-
-}
+    
+}   // #20
