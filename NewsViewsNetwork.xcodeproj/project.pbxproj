@@ -63,6 +63,10 @@
 		023152AA25D061BB008C377C /* MoodfreshPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152A925D061BB008C377C /* MoodfreshPostApi.swift */; };
 		023152AD25D061E0008C377C /* HotOvenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152AC25D061E0008C377C /* HotOvenModel.swift */; };
 		023152B025D061F6008C377C /* HotOvenPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152AF25D061F6008C377C /* HotOvenPostApi.swift */; };
+		023152B325D063B3008C377C /* GamingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152B225D063B3008C377C /* GamingModel.swift */; };
+		023152B625D063D4008C377C /* GamingPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152B525D063D4008C377C /* GamingPostApi.swift */; };
+		023152B925D063F0008C377C /* JobsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152B825D063F0008C377C /* JobsModel.swift */; };
+		023152BC25D06403008C377C /* JobsPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152BB25D06403008C377C /* JobsPostApi.swift */; };
 		0247197225CDE43300805B70 /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197125CDE43300805B70 /* PropertyViewController.swift */; };
 		0247197525CDE47C00805B70 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197425CDE47C00805B70 /* EducationViewController.swift */; };
 		0247197825CDE4CC00805B70 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197725CDE4CC00805B70 /* FoodViewController.swift */; };
@@ -217,6 +221,10 @@
 		023152A925D061BB008C377C /* MoodfreshPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodfreshPostApi.swift; sourceTree = "<group>"; };
 		023152AC25D061E0008C377C /* HotOvenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotOvenModel.swift; sourceTree = "<group>"; };
 		023152AF25D061F6008C377C /* HotOvenPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotOvenPostApi.swift; sourceTree = "<group>"; };
+		023152B225D063B3008C377C /* GamingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamingModel.swift; sourceTree = "<group>"; };
+		023152B525D063D4008C377C /* GamingPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamingPostApi.swift; sourceTree = "<group>"; };
+		023152B825D063F0008C377C /* JobsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsModel.swift; sourceTree = "<group>"; };
+		023152BB25D06403008C377C /* JobsPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsPostApi.swift; sourceTree = "<group>"; };
 		0247197125CDE43300805B70 /* PropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
 		0247197425CDE47C00805B70 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
 		0247197725CDE4CC00805B70 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
@@ -454,6 +462,8 @@
 			isa = PBXGroup;
 			children = (
 				0247198F25CDF20F00805B70 /* GamingViewController.swift */,
+				023152B225D063B3008C377C /* GamingModel.swift */,
+				023152B525D063D4008C377C /* GamingPostApi.swift */,
 				0231525E25D02FE8008C377C /* GamingCell.xib */,
 				0231525D25D02FE8008C377C /* GamingCell.swift */,
 			);
@@ -464,6 +474,8 @@
 			isa = PBXGroup;
 			children = (
 				0247199225CDF23400805B70 /* JobsViewController.swift */,
+				023152B825D063F0008C377C /* JobsModel.swift */,
+				023152BB25D06403008C377C /* JobsPostApi.swift */,
 				0231526325D0300F008C377C /* JobsCell.xib */,
 				0231526225D0300F008C377C /* JobsCell.swift */,
 			);
@@ -937,7 +949,9 @@
 				02A2F7BB25C8C91200EEC3B2 /* AstroPostApi.swift in Sources */,
 				0247199925CDF50200805B70 /* VideosViewController.swift in Sources */,
 				0231528825D05D54008C377C /* EnvironmentModel.swift in Sources */,
+				023152B325D063B3008C377C /* GamingModel.swift in Sources */,
 				0231528B25D05D6C008C377C /* EnvironmentPostApi.swift in Sources */,
+				023152B625D063D4008C377C /* GamingPostApi.swift in Sources */,
 				0231529425D05F09008C377C /* TopTenModel.swift in Sources */,
 				02A2F79125C8C30200EEC3B2 /* TechPostApi.swift in Sources */,
 				025B83C725B43B95005B4D6D /* AstroCell.swift in Sources */,
@@ -962,6 +976,7 @@
 				0231527A25D054F4008C377C /* EducationModel.swift in Sources */,
 				0295C1AE25B0BAE0008F966D /* AutoViewController.swift in Sources */,
 				02A2F79A25C8C4F300EEC3B2 /* SportsModel.swift in Sources */,
+				023152BC25D06403008C377C /* JobsPostApi.swift in Sources */,
 				025B83B825B437DD005B4D6D /* HealthCell.swift in Sources */,
 				0247199325CDF23400805B70 /* JobsViewController.swift in Sources */,
 				0247198425CDEA3100805B70 /* StoriesViewController.swift in Sources */,
@@ -975,6 +990,7 @@
 				0261D98D25B382D700B9357C /* WorldCell.swift in Sources */,
 				02A2F79D25C8C50900EEC3B2 /* SportsPostApi.swift in Sources */,
 				0247198D25CDF18200805B70 /* HotOvenViewController.swift in Sources */,
+				023152B925D063F0008C377C /* JobsModel.swift in Sources */,
 				0295C1B425B0BB37008F966D /* EntertainmentViewController.swift in Sources */,
 				025B83A825B43503005B4D6D /* AutoCell.swift in Sources */,
 				0231527425D04661008C377C /* PropertyModel.swift in Sources */,
