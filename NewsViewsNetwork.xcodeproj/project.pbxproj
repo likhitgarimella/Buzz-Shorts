@@ -39,6 +39,10 @@
 		0231526025D02FE8008C377C /* GamingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0231525E25D02FE8008C377C /* GamingCell.xib */; };
 		0231526425D0300F008C377C /* JobsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231526225D0300F008C377C /* JobsCell.swift */; };
 		0231526525D0300F008C377C /* JobsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0231526325D0300F008C377C /* JobsCell.xib */; };
+		0231526925D03108008C377C /* PhotoGalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231526725D03108008C377C /* PhotoGalleryCell.swift */; };
+		0231526A25D03108008C377C /* PhotoGalleryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0231526825D03108008C377C /* PhotoGalleryCell.xib */; };
+		0231526F25D0314E008C377C /* MiscellanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231526D25D0314E008C377C /* MiscellanyCell.swift */; };
+		0231527025D0314E008C377C /* MiscellanyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0231526E25D0314E008C377C /* MiscellanyCell.xib */; };
 		0247197225CDE43300805B70 /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197125CDE43300805B70 /* PropertyViewController.swift */; };
 		0247197525CDE47C00805B70 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197425CDE47C00805B70 /* EducationViewController.swift */; };
 		0247197825CDE4CC00805B70 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197725CDE4CC00805B70 /* FoodViewController.swift */; };
@@ -169,6 +173,10 @@
 		0231525E25D02FE8008C377C /* GamingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GamingCell.xib; sourceTree = "<group>"; };
 		0231526225D0300F008C377C /* JobsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsCell.swift; sourceTree = "<group>"; };
 		0231526325D0300F008C377C /* JobsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobsCell.xib; sourceTree = "<group>"; };
+		0231526725D03108008C377C /* PhotoGalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryCell.swift; sourceTree = "<group>"; };
+		0231526825D03108008C377C /* PhotoGalleryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoGalleryCell.xib; sourceTree = "<group>"; };
+		0231526D25D0314E008C377C /* MiscellanyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscellanyCell.swift; sourceTree = "<group>"; };
+		0231526E25D0314E008C377C /* MiscellanyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MiscellanyCell.xib; sourceTree = "<group>"; };
 		0247197125CDE43300805B70 /* PropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
 		0247197425CDE47C00805B70 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
 		0247197725CDE4CC00805B70 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
@@ -406,6 +414,8 @@
 			isa = PBXGroup;
 			children = (
 				0247199525CDF47B00805B70 /* PhotoGalleryViewController.swift */,
+				0231526825D03108008C377C /* PhotoGalleryCell.xib */,
+				0231526725D03108008C377C /* PhotoGalleryCell.swift */,
 			);
 			path = "Photo Gallery";
 			sourceTree = "<group>";
@@ -422,6 +432,8 @@
 			isa = PBXGroup;
 			children = (
 				0247199B25CDF52800805B70 /* MiscellanyViewController.swift */,
+				0231526E25D0314E008C377C /* MiscellanyCell.xib */,
+				0231526D25D0314E008C377C /* MiscellanyCell.swift */,
 			);
 			path = Miscellany;
 			sourceTree = "<group>";
@@ -743,6 +755,7 @@
 				0261D96725B3436A00B9357C /* SF-Pro-Display-HeavyItalic.otf in Resources */,
 				0261D96425B3436A00B9357C /* SF-Pro-Display-Semibold.otf in Resources */,
 				0231522825D024B7008C377C /* PropertyCell.xib in Resources */,
+				0231526A25D03108008C377C /* PhotoGalleryCell.xib in Resources */,
 				0231526025D02FE8008C377C /* GamingCell.xib in Resources */,
 				0261D96A25B3436A00B9357C /* SF-Pro-Display-ThinItalic.otf in Resources */,
 				0261D96225B3436A00B9357C /* SF-Pro-Display-Regular.otf in Resources */,
@@ -753,6 +766,7 @@
 				025B83A925B43503005B4D6D /* AutoCell.xib in Resources */,
 				0261D96E25B3436A00B9357C /* SF-Pro-Display-RegularItalic.otf in Resources */,
 				025B83A425B43489005B4D6D /* TechCell.xib in Resources */,
+				0231527025D0314E008C377C /* MiscellanyCell.xib in Resources */,
 				0261D96825B3436A00B9357C /* SF-Pro-Display-Medium.otf in Resources */,
 				0261D96325B3436A00B9357C /* SF-Pro-Display-Light.otf in Resources */,
 				025B83B925B437DD005B4D6D /* HealthCell.xib in Resources */,
@@ -852,6 +866,7 @@
 				0247197525CDE47C00805B70 /* EducationViewController.swift in Sources */,
 				02A2F7A025C8C71C00EEC3B2 /* EntertainmentModel.swift in Sources */,
 				0261D99325B3832000B9357C /* FinanceCell.swift in Sources */,
+				0231526F25D0314E008C377C /* MiscellanyCell.swift in Sources */,
 				02A2F7BB25C8C91200EEC3B2 /* AstroPostApi.swift in Sources */,
 				0247199925CDF50200805B70 /* VideosViewController.swift in Sources */,
 				02A2F79125C8C30200EEC3B2 /* TechPostApi.swift in Sources */,
@@ -862,6 +877,7 @@
 				0261D98325B37EED00B9357C /* HomeCell.swift in Sources */,
 				02A2F78825C8C01700EEC3B2 /* FinanceModel.swift in Sources */,
 				0247198A25CDEA7400805B70 /* MoodfreshViewController.swift in Sources */,
+				0231526925D03108008C377C /* PhotoGalleryCell.swift in Sources */,
 				0231524225D0297F008C377C /* TopTenCell.swift in Sources */,
 				0295C1BA25B0BB81008F966D /* LifestyleViewController.swift in Sources */,
 				02A2F7B225C8C88B00EEC3B2 /* TravelModel.swift in Sources */,
