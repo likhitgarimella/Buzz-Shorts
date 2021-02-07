@@ -15,6 +15,12 @@
 		02220AA025AED49800B46760 /* WorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02220A9F25AED49800B46760 /* WorldViewController.swift */; };
 		022C45B425C72C08005D7E58 /* IndiaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022C45B325C72C08005D7E58 /* IndiaModel.swift */; };
 		022C45B725C72C1C005D7E58 /* IndiaPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022C45B625C72C1C005D7E58 /* IndiaPostApi.swift */; };
+		0231522725D024B7008C377C /* PropertyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231522525D024B7008C377C /* PropertyCell.swift */; };
+		0231522825D024B7008C377C /* PropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0231522625D024B7008C377C /* PropertyCell.xib */; };
+		0231522C25D0252D008C377C /* EducationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231522A25D0252D008C377C /* EducationCell.swift */; };
+		0231522D25D0252D008C377C /* EducationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0231522B25D0252D008C377C /* EducationCell.xib */; };
+		0231523125D0254F008C377C /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231522F25D0254F008C377C /* FoodCell.swift */; };
+		0231523225D0254F008C377C /* FoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0231523025D0254F008C377C /* FoodCell.xib */; };
 		0247197225CDE43300805B70 /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197125CDE43300805B70 /* PropertyViewController.swift */; };
 		0247197525CDE47C00805B70 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197425CDE47C00805B70 /* EducationViewController.swift */; };
 		0247197825CDE4CC00805B70 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197725CDE4CC00805B70 /* FoodViewController.swift */; };
@@ -121,6 +127,12 @@
 		02220A9F25AED49800B46760 /* WorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewController.swift; sourceTree = "<group>"; };
 		022C45B325C72C08005D7E58 /* IndiaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaModel.swift; sourceTree = "<group>"; };
 		022C45B625C72C1C005D7E58 /* IndiaPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaPostApi.swift; sourceTree = "<group>"; };
+		0231522525D024B7008C377C /* PropertyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCell.swift; sourceTree = "<group>"; };
+		0231522625D024B7008C377C /* PropertyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyCell.xib; sourceTree = "<group>"; };
+		0231522A25D0252D008C377C /* EducationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationCell.swift; sourceTree = "<group>"; };
+		0231522B25D0252D008C377C /* EducationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationCell.xib; sourceTree = "<group>"; };
+		0231522F25D0254F008C377C /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		0231523025D0254F008C377C /* FoodCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodCell.xib; sourceTree = "<group>"; };
 		0247197125CDE43300805B70 /* PropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
 		0247197425CDE47C00805B70 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
 		0247197725CDE4CC00805B70 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
@@ -238,6 +250,8 @@
 			isa = PBXGroup;
 			children = (
 				0247197125CDE43300805B70 /* PropertyViewController.swift */,
+				0231522625D024B7008C377C /* PropertyCell.xib */,
+				0231522525D024B7008C377C /* PropertyCell.swift */,
 			);
 			path = Property;
 			sourceTree = "<group>";
@@ -246,6 +260,8 @@
 			isa = PBXGroup;
 			children = (
 				0247197425CDE47C00805B70 /* EducationViewController.swift */,
+				0231522B25D0252D008C377C /* EducationCell.xib */,
+				0231522A25D0252D008C377C /* EducationCell.swift */,
 			);
 			path = Education;
 			sourceTree = "<group>";
@@ -254,6 +270,8 @@
 			isa = PBXGroup;
 			children = (
 				0247197725CDE4CC00805B70 /* FoodViewController.swift */,
+				0231523025D0254F008C377C /* FoodCell.xib */,
+				0231522F25D0254F008C377C /* FoodCell.swift */,
 			);
 			path = Food;
 			sourceTree = "<group>";
@@ -663,14 +681,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0280C7EE25B1C8670022B1DA /* GoogleService-Info.plist in Resources */,
+				0231523225D0254F008C377C /* FoodCell.xib in Resources */,
 				0261D97025B3436A00B9357C /* SF-Pro-Display-BlackItalic.otf in Resources */,
 				02E78D57258A4F2600029AC2 /* LaunchScreen.storyboard in Resources */,
 				0261D98E25B382D700B9357C /* WorldCell.xib in Resources */,
 				0261D96725B3436A00B9357C /* SF-Pro-Display-HeavyItalic.otf in Resources */,
 				0261D96425B3436A00B9357C /* SF-Pro-Display-Semibold.otf in Resources */,
+				0231522825D024B7008C377C /* PropertyCell.xib in Resources */,
 				0261D96A25B3436A00B9357C /* SF-Pro-Display-ThinItalic.otf in Resources */,
 				0261D96225B3436A00B9357C /* SF-Pro-Display-Regular.otf in Resources */,
 				0261D96925B3436A00B9357C /* SF-Pro-Display-Thin.otf in Resources */,
+				0231522D25D0252D008C377C /* EducationCell.xib in Resources */,
 				0261D95F25B3436A00B9357C /* SF-Pro-Display-Black.otf in Resources */,
 				025B83A925B43503005B4D6D /* AutoCell.xib in Resources */,
 				0261D96E25B3436A00B9357C /* SF-Pro-Display-RegularItalic.otf in Resources */,
@@ -756,6 +777,7 @@
 				02A2F78225C8BF7300EEC3B2 /* WorldModel.swift in Sources */,
 				0295C1C025B0BBE1008F966D /* AstroViewController.swift in Sources */,
 				02A2F7AF25C8C83200EEC3B2 /* LifestylePostApi.swift in Sources */,
+				0231522C25D0252D008C377C /* EducationCell.swift in Sources */,
 				0247199025CDF20F00805B70 /* GamingViewController.swift in Sources */,
 				020B619325C0EFC500F5185E /* HomeModel.swift in Sources */,
 				0261D98825B3816000B9357C /* IndiaCell.swift in Sources */,
@@ -786,6 +808,7 @@
 				025B83B825B437DD005B4D6D /* HealthCell.swift in Sources */,
 				0247199325CDF23400805B70 /* JobsViewController.swift in Sources */,
 				0247198425CDEA3100805B70 /* StoriesViewController.swift in Sources */,
+				0231522725D024B7008C377C /* PropertyCell.swift in Sources */,
 				02E78D4F258A4F2400029AC2 /* HomeViewController.swift in Sources */,
 				02A2F79425C8C33800EEC3B2 /* AutoModel.swift in Sources */,
 				02E78D4B258A4F2400029AC2 /* AppDelegate.swift in Sources */,
@@ -809,6 +832,7 @@
 				02A2F78525C8BF9500EEC3B2 /* WorldPostApi.swift in Sources */,
 				0247197E25CDE70600805B70 /* OffbeatNewsViewController.swift in Sources */,
 				02A2F7A625C8C77200EEC3B2 /* HealthModel.swift in Sources */,
+				0231523125D0254F008C377C /* FoodCell.swift in Sources */,
 				025B83A325B43489005B4D6D /* TechCell.swift in Sources */,
 				0247197825CDE4CC00805B70 /* FoodViewController.swift in Sources */,
 				0295C1B725B0BB5C008F966D /* HealthViewController.swift in Sources */,
