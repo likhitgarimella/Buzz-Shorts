@@ -43,6 +43,10 @@
 		0231526A25D03108008C377C /* PhotoGalleryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0231526825D03108008C377C /* PhotoGalleryCell.xib */; };
 		0231526F25D0314E008C377C /* MiscellanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231526D25D0314E008C377C /* MiscellanyCell.swift */; };
 		0231527025D0314E008C377C /* MiscellanyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0231526E25D0314E008C377C /* MiscellanyCell.xib */; };
+		0231527425D04661008C377C /* PropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231527325D04661008C377C /* PropertyModel.swift */; };
+		0231527725D04693008C377C /* PropertyPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231527625D04693008C377C /* PropertyPostApi.swift */; };
+		0231527A25D054F4008C377C /* EducationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231527925D054F4008C377C /* EducationModel.swift */; };
+		0231527D25D0550E008C377C /* EducationPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231527C25D0550E008C377C /* EducationPostApi.swift */; };
 		0247197225CDE43300805B70 /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197125CDE43300805B70 /* PropertyViewController.swift */; };
 		0247197525CDE47C00805B70 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197425CDE47C00805B70 /* EducationViewController.swift */; };
 		0247197825CDE4CC00805B70 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197725CDE4CC00805B70 /* FoodViewController.swift */; };
@@ -177,6 +181,10 @@
 		0231526825D03108008C377C /* PhotoGalleryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoGalleryCell.xib; sourceTree = "<group>"; };
 		0231526D25D0314E008C377C /* MiscellanyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscellanyCell.swift; sourceTree = "<group>"; };
 		0231526E25D0314E008C377C /* MiscellanyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MiscellanyCell.xib; sourceTree = "<group>"; };
+		0231527325D04661008C377C /* PropertyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyModel.swift; sourceTree = "<group>"; };
+		0231527625D04693008C377C /* PropertyPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyPostApi.swift; sourceTree = "<group>"; };
+		0231527925D054F4008C377C /* EducationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationModel.swift; sourceTree = "<group>"; };
+		0231527C25D0550E008C377C /* EducationPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationPostApi.swift; sourceTree = "<group>"; };
 		0247197125CDE43300805B70 /* PropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
 		0247197425CDE47C00805B70 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
 		0247197725CDE4CC00805B70 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
@@ -294,6 +302,8 @@
 			isa = PBXGroup;
 			children = (
 				0247197125CDE43300805B70 /* PropertyViewController.swift */,
+				0231527325D04661008C377C /* PropertyModel.swift */,
+				0231527625D04693008C377C /* PropertyPostApi.swift */,
 				0231522625D024B7008C377C /* PropertyCell.xib */,
 				0231522525D024B7008C377C /* PropertyCell.swift */,
 			);
@@ -304,6 +314,8 @@
 			isa = PBXGroup;
 			children = (
 				0247197425CDE47C00805B70 /* EducationViewController.swift */,
+				0231527925D054F4008C377C /* EducationModel.swift */,
+				0231527C25D0550E008C377C /* EducationPostApi.swift */,
 				0231522B25D0252D008C377C /* EducationCell.xib */,
 				0231522A25D0252D008C377C /* EducationCell.swift */,
 			);
@@ -863,6 +875,7 @@
 				0261D98825B3816000B9357C /* IndiaCell.swift in Sources */,
 				0247199625CDF47B00805B70 /* PhotoGalleryViewController.swift in Sources */,
 				0231523625D0291C008C377C /* EnvironmentCell.swift in Sources */,
+				0231527725D04693008C377C /* PropertyPostApi.swift in Sources */,
 				0247197525CDE47C00805B70 /* EducationViewController.swift in Sources */,
 				02A2F7A025C8C71C00EEC3B2 /* EntertainmentModel.swift in Sources */,
 				0261D99325B3832000B9357C /* FinanceCell.swift in Sources */,
@@ -888,6 +901,7 @@
 				02A2F7A925C8C78B00EEC3B2 /* HealthPostApi.swift in Sources */,
 				02A2F78B25C8C03200EEC3B2 /* FinancePostApi.swift in Sources */,
 				020B61AB25C10CED00F5185E /* Api.swift in Sources */,
+				0231527A25D054F4008C377C /* EducationModel.swift in Sources */,
 				0295C1AE25B0BAE0008F966D /* AutoViewController.swift in Sources */,
 				02A2F79A25C8C4F300EEC3B2 /* SportsModel.swift in Sources */,
 				025B83B825B437DD005B4D6D /* HealthCell.swift in Sources */,
@@ -904,8 +918,10 @@
 				0247198D25CDF18200805B70 /* HotOvenViewController.swift in Sources */,
 				0295C1B425B0BB37008F966D /* EntertainmentViewController.swift in Sources */,
 				025B83A825B43503005B4D6D /* AutoCell.swift in Sources */,
+				0231527425D04661008C377C /* PropertyModel.swift in Sources */,
 				02E78D4D258A4F2400029AC2 /* SceneDelegate.swift in Sources */,
 				025B83C225B43A5F005B4D6D /* TravelCell.swift in Sources */,
+				0231527D25D0550E008C377C /* EducationPostApi.swift in Sources */,
 				025B83B325B43685005B4D6D /* EntertainmentCell.swift in Sources */,
 				02A2F7B825C8C8E300EEC3B2 /* AstroModel.swift in Sources */,
 				02A2F7B525C8C8B900EEC3B2 /* TravelPostApi.swift in Sources */,
