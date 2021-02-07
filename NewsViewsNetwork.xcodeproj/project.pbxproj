@@ -69,6 +69,8 @@
 		023152BC25D06403008C377C /* JobsPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152BB25D06403008C377C /* JobsPostApi.swift */; };
 		023152BF25D06470008C377C /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152BE25D06470008C377C /* PhotoModel.swift */; };
 		023152C225D06485008C377C /* PhotoPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152C125D06485008C377C /* PhotoPostApi.swift */; };
+		023152C525D064CD008C377C /* MiscellanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152C425D064CD008C377C /* MiscellanyModel.swift */; };
+		023152C825D064E1008C377C /* MiscellanyPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152C725D064E1008C377C /* MiscellanyPostApi.swift */; };
 		0247197225CDE43300805B70 /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197125CDE43300805B70 /* PropertyViewController.swift */; };
 		0247197525CDE47C00805B70 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197425CDE47C00805B70 /* EducationViewController.swift */; };
 		0247197825CDE4CC00805B70 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197725CDE4CC00805B70 /* FoodViewController.swift */; };
@@ -229,6 +231,8 @@
 		023152BB25D06403008C377C /* JobsPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsPostApi.swift; sourceTree = "<group>"; };
 		023152BE25D06470008C377C /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		023152C125D06485008C377C /* PhotoPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPostApi.swift; sourceTree = "<group>"; };
+		023152C425D064CD008C377C /* MiscellanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscellanyModel.swift; sourceTree = "<group>"; };
+		023152C725D064E1008C377C /* MiscellanyPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscellanyPostApi.swift; sourceTree = "<group>"; };
 		0247197125CDE43300805B70 /* PropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
 		0247197425CDE47C00805B70 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
 		0247197725CDE4CC00805B70 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
@@ -510,6 +514,8 @@
 			isa = PBXGroup;
 			children = (
 				0247199B25CDF52800805B70 /* MiscellanyViewController.swift */,
+				023152C425D064CD008C377C /* MiscellanyModel.swift */,
+				023152C725D064E1008C377C /* MiscellanyPostApi.swift */,
 				0231526E25D0314E008C377C /* MiscellanyCell.xib */,
 				0231526D25D0314E008C377C /* MiscellanyCell.swift */,
 			);
@@ -999,6 +1005,7 @@
 				02A2F79D25C8C50900EEC3B2 /* SportsPostApi.swift in Sources */,
 				0247198D25CDF18200805B70 /* HotOvenViewController.swift in Sources */,
 				023152B925D063F0008C377C /* JobsModel.swift in Sources */,
+				023152C825D064E1008C377C /* MiscellanyPostApi.swift in Sources */,
 				0295C1B425B0BB37008F966D /* EntertainmentViewController.swift in Sources */,
 				025B83A825B43503005B4D6D /* AutoCell.swift in Sources */,
 				0231527425D04661008C377C /* PropertyModel.swift in Sources */,
@@ -1011,6 +1018,7 @@
 				0231524825D02E0B008C377C /* StoriesCell.swift in Sources */,
 				020B619625C0EFD200F5185E /* HomePostApi.swift in Sources */,
 				025B83BD25B4388A005B4D6D /* LifestyleCell.swift in Sources */,
+				023152C525D064CD008C377C /* MiscellanyModel.swift in Sources */,
 				023152AA25D061BB008C377C /* MoodfreshPostApi.swift in Sources */,
 				0295C1A825B0BA01008F966D /* FinanceViewController.swift in Sources */,
 				0247197225CDE43300805B70 /* PropertyViewController.swift in Sources */,
