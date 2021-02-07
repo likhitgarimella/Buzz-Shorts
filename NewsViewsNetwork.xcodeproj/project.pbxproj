@@ -27,6 +27,12 @@
 		0231523D25D0295A008C377C /* OffbeatNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0231523B25D0295A008C377C /* OffbeatNewsCell.xib */; };
 		0231524225D0297F008C377C /* TopTenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231524025D0297F008C377C /* TopTenCell.swift */; };
 		0231524325D0297F008C377C /* TopTenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0231524125D0297F008C377C /* TopTenCell.xib */; };
+		0231524825D02E0B008C377C /* StoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231524625D02E0B008C377C /* StoriesCell.swift */; };
+		0231524925D02E0B008C377C /* StoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0231524725D02E0B008C377C /* StoriesCell.xib */; };
+		0231524D25D02E3B008C377C /* DIYCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231524B25D02E3B008C377C /* DIYCell.swift */; };
+		0231524E25D02E3B008C377C /* DIYCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0231524C25D02E3B008C377C /* DIYCell.xib */; };
+		0231525325D02E90008C377C /* MoodfreshCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231525125D02E90008C377C /* MoodfreshCell.swift */; };
+		0231525425D02E90008C377C /* MoodfreshCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0231525225D02E90008C377C /* MoodfreshCell.xib */; };
 		0247197225CDE43300805B70 /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197125CDE43300805B70 /* PropertyViewController.swift */; };
 		0247197525CDE47C00805B70 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197425CDE47C00805B70 /* EducationViewController.swift */; };
 		0247197825CDE4CC00805B70 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197725CDE4CC00805B70 /* FoodViewController.swift */; };
@@ -145,6 +151,12 @@
 		0231523B25D0295A008C377C /* OffbeatNewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OffbeatNewsCell.xib; sourceTree = "<group>"; };
 		0231524025D0297F008C377C /* TopTenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTenCell.swift; sourceTree = "<group>"; };
 		0231524125D0297F008C377C /* TopTenCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopTenCell.xib; sourceTree = "<group>"; };
+		0231524625D02E0B008C377C /* StoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesCell.swift; sourceTree = "<group>"; };
+		0231524725D02E0B008C377C /* StoriesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoriesCell.xib; sourceTree = "<group>"; };
+		0231524B25D02E3B008C377C /* DIYCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIYCell.swift; sourceTree = "<group>"; };
+		0231524C25D02E3B008C377C /* DIYCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DIYCell.xib; sourceTree = "<group>"; };
+		0231525125D02E90008C377C /* MoodfreshCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodfreshCell.swift; sourceTree = "<group>"; };
+		0231525225D02E90008C377C /* MoodfreshCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoodfreshCell.xib; sourceTree = "<group>"; };
 		0247197125CDE43300805B70 /* PropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
 		0247197425CDE47C00805B70 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
 		0247197725CDE4CC00805B70 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
@@ -322,6 +334,8 @@
 			isa = PBXGroup;
 			children = (
 				0247198325CDEA3100805B70 /* StoriesViewController.swift */,
+				0231524725D02E0B008C377C /* StoriesCell.xib */,
+				0231524625D02E0B008C377C /* StoriesCell.swift */,
 			);
 			path = Stories;
 			sourceTree = "<group>";
@@ -330,6 +344,8 @@
 			isa = PBXGroup;
 			children = (
 				0247198625CDEA4E00805B70 /* DIYViewController.swift */,
+				0231524C25D02E3B008C377C /* DIYCell.xib */,
+				0231524B25D02E3B008C377C /* DIYCell.swift */,
 			);
 			path = DIY;
 			sourceTree = "<group>";
@@ -338,6 +354,8 @@
 			isa = PBXGroup;
 			children = (
 				0247198925CDEA7400805B70 /* MoodfreshViewController.swift */,
+				0231525225D02E90008C377C /* MoodfreshCell.xib */,
+				0231525125D02E90008C377C /* MoodfreshCell.swift */,
 			);
 			path = Moodfresh;
 			sourceTree = "<group>";
@@ -698,6 +716,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0231524925D02E0B008C377C /* StoriesCell.xib in Resources */,
 				0280C7EE25B1C8670022B1DA /* GoogleService-Info.plist in Resources */,
 				0231523225D0254F008C377C /* FoodCell.xib in Resources */,
 				0261D97025B3436A00B9357C /* SF-Pro-Display-BlackItalic.otf in Resources */,
@@ -719,10 +738,12 @@
 				0261D96325B3436A00B9357C /* SF-Pro-Display-Light.otf in Resources */,
 				025B83B925B437DD005B4D6D /* HealthCell.xib in Resources */,
 				0261D96F25B3436A00B9357C /* SF-Pro-Display-Bold.otf in Resources */,
+				0231525425D02E90008C377C /* MoodfreshCell.xib in Resources */,
 				025B83C825B43B95005B4D6D /* AstroCell.xib in Resources */,
 				0261D96025B3436A00B9357C /* SF-Pro-Display-UltralightItalic.otf in Resources */,
 				0261D96125B3436A00B9357C /* SF-Pro-Display-MediumItalic.otf in Resources */,
 				025B83C325B43A5F005B4D6D /* TravelCell.xib in Resources */,
+				0231524E25D02E3B008C377C /* DIYCell.xib in Resources */,
 				0231524325D0297F008C377C /* TopTenCell.xib in Resources */,
 				025B83BE25B4388A005B4D6D /* LifestyleCell.xib in Resources */,
 				0261D99425B3832000B9357C /* FinanceCell.xib in Resources */,
@@ -792,6 +813,8 @@
 			files = (
 				025B83AD25B435B8005B4D6D /* SportsCell.swift in Sources */,
 				0247199C25CDF52800805B70 /* MiscellanyViewController.swift in Sources */,
+				0231525325D02E90008C377C /* MoodfreshCell.swift in Sources */,
+				0231524D25D02E3B008C377C /* DIYCell.swift in Sources */,
 				02A2F7AC25C8C81B00EEC3B2 /* LifestyleModel.swift in Sources */,
 				022C45B425C72C08005D7E58 /* IndiaModel.swift in Sources */,
 				0247198725CDEA4E00805B70 /* DIYViewController.swift in Sources */,
@@ -847,6 +870,7 @@
 				025B83B325B43685005B4D6D /* EntertainmentCell.swift in Sources */,
 				02A2F7B825C8C8E300EEC3B2 /* AstroModel.swift in Sources */,
 				02A2F7B525C8C8B900EEC3B2 /* TravelPostApi.swift in Sources */,
+				0231524825D02E0B008C377C /* StoriesCell.swift in Sources */,
 				020B619625C0EFD200F5185E /* HomePostApi.swift in Sources */,
 				025B83BD25B4388A005B4D6D /* LifestyleCell.swift in Sources */,
 				0295C1A825B0BA01008F966D /* FinanceViewController.swift in Sources */,
