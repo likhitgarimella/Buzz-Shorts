@@ -67,6 +67,8 @@
 		023152B625D063D4008C377C /* GamingPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152B525D063D4008C377C /* GamingPostApi.swift */; };
 		023152B925D063F0008C377C /* JobsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152B825D063F0008C377C /* JobsModel.swift */; };
 		023152BC25D06403008C377C /* JobsPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152BB25D06403008C377C /* JobsPostApi.swift */; };
+		023152BF25D06470008C377C /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152BE25D06470008C377C /* PhotoModel.swift */; };
+		023152C225D06485008C377C /* PhotoPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023152C125D06485008C377C /* PhotoPostApi.swift */; };
 		0247197225CDE43300805B70 /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197125CDE43300805B70 /* PropertyViewController.swift */; };
 		0247197525CDE47C00805B70 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197425CDE47C00805B70 /* EducationViewController.swift */; };
 		0247197825CDE4CC00805B70 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247197725CDE4CC00805B70 /* FoodViewController.swift */; };
@@ -225,6 +227,8 @@
 		023152B525D063D4008C377C /* GamingPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamingPostApi.swift; sourceTree = "<group>"; };
 		023152B825D063F0008C377C /* JobsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsModel.swift; sourceTree = "<group>"; };
 		023152BB25D06403008C377C /* JobsPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsPostApi.swift; sourceTree = "<group>"; };
+		023152BE25D06470008C377C /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		023152C125D06485008C377C /* PhotoPostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPostApi.swift; sourceTree = "<group>"; };
 		0247197125CDE43300805B70 /* PropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
 		0247197425CDE47C00805B70 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
 		0247197725CDE4CC00805B70 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
@@ -486,6 +490,8 @@
 			isa = PBXGroup;
 			children = (
 				0247199525CDF47B00805B70 /* PhotoGalleryViewController.swift */,
+				023152BE25D06470008C377C /* PhotoModel.swift */,
+				023152C125D06485008C377C /* PhotoPostApi.swift */,
 				0231526825D03108008C377C /* PhotoGalleryCell.xib */,
 				0231526725D03108008C377C /* PhotoGalleryCell.swift */,
 			);
@@ -925,6 +931,7 @@
 				0231528425D05D2F008C377C /* FoodPostApi.swift in Sources */,
 				02A2F7AC25C8C81B00EEC3B2 /* LifestyleModel.swift in Sources */,
 				022C45B425C72C08005D7E58 /* IndiaModel.swift in Sources */,
+				023152C225D06485008C377C /* PhotoPostApi.swift in Sources */,
 				023152A125D06109008C377C /* DIYModel.swift in Sources */,
 				0247198725CDEA4E00805B70 /* DIYViewController.swift in Sources */,
 				0231526425D0300F008C377C /* JobsCell.swift in Sources */,
@@ -934,6 +941,7 @@
 				0231529725D05F1D008C377C /* TopTenPostApi.swift in Sources */,
 				02A2F7AF25C8C83200EEC3B2 /* LifestylePostApi.swift in Sources */,
 				0231522C25D0252D008C377C /* EducationCell.swift in Sources */,
+				023152BF25D06470008C377C /* PhotoModel.swift in Sources */,
 				0247199025CDF20F00805B70 /* GamingViewController.swift in Sources */,
 				020B619325C0EFC500F5185E /* HomeModel.swift in Sources */,
 				0261D98825B3816000B9357C /* IndiaCell.swift in Sources */,
