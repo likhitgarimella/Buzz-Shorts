@@ -326,7 +326,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .india:
-                indiaController.view.isHidden = true
+                indiaController.view.isHidden = false
                 worldController.view.isHidden = true
                 financeController.view.isHidden = true
                 techController.view.isHidden = true
@@ -354,7 +354,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 miscellanyController.view.isHidden = true
             case .world:
                 indiaController.view.isHidden = true
-                worldController.view.isHidden = true
+                worldController.view.isHidden = false
                 financeController.view.isHidden = true
                 techController.view.isHidden = true
                 autoController.view.isHidden = true
@@ -382,7 +382,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
             case .finance:
                 indiaController.view.isHidden = true
                 worldController.view.isHidden = true
-                financeController.view.isHidden = true
+                financeController.view.isHidden = false
                 techController.view.isHidden = true
                 autoController.view.isHidden = true
                 sportsController.view.isHidden = true
@@ -410,7 +410,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 indiaController.view.isHidden = true
                 worldController.view.isHidden = true
                 financeController.view.isHidden = true
-                techController.view.isHidden = true
+                techController.view.isHidden = false
                 autoController.view.isHidden = true
                 sportsController.view.isHidden = true
                 entertainmentController.view.isHidden = true
@@ -438,7 +438,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 worldController.view.isHidden = true
                 financeController.view.isHidden = true
                 techController.view.isHidden = true
-                autoController.view.isHidden = true
+                autoController.view.isHidden = false
                 sportsController.view.isHidden = true
                 entertainmentController.view.isHidden = true
                 healthController.view.isHidden = true
@@ -466,7 +466,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 financeController.view.isHidden = true
                 techController.view.isHidden = true
                 autoController.view.isHidden = true
-                sportsController.view.isHidden = true
+                sportsController.view.isHidden = false
                 entertainmentController.view.isHidden = true
                 healthController.view.isHidden = true
                 lifestyleController.view.isHidden = true
@@ -494,7 +494,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 techController.view.isHidden = true
                 autoController.view.isHidden = true
                 sportsController.view.isHidden = true
-                entertainmentController.view.isHidden = true
+                entertainmentController.view.isHidden = false
                 healthController.view.isHidden = true
                 lifestyleController.view.isHidden = true
                 travelController.view.isHidden = true
@@ -522,7 +522,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 autoController.view.isHidden = true
                 sportsController.view.isHidden = true
                 entertainmentController.view.isHidden = true
-                healthController.view.isHidden = true
+                healthController.view.isHidden = false
                 lifestyleController.view.isHidden = true
                 travelController.view.isHidden = true
                 astroController.view.isHidden = true
@@ -550,7 +550,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 sportsController.view.isHidden = true
                 entertainmentController.view.isHidden = true
                 healthController.view.isHidden = true
-                lifestyleController.view.isHidden = true
+                lifestyleController.view.isHidden = false
                 travelController.view.isHidden = true
                 astroController.view.isHidden = true
                 propertyController.view.isHidden = true
@@ -578,7 +578,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 entertainmentController.view.isHidden = true
                 healthController.view.isHidden = true
                 lifestyleController.view.isHidden = true
-                travelController.view.isHidden = true
+                travelController.view.isHidden = false
                 astroController.view.isHidden = true
                 propertyController.view.isHidden = true
                 educationController.view.isHidden = true
@@ -606,7 +606,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 healthController.view.isHidden = true
                 lifestyleController.view.isHidden = true
                 travelController.view.isHidden = true
-                astroController.view.isHidden = true
+                astroController.view.isHidden = false
                 propertyController.view.isHidden = true
                 educationController.view.isHidden = true
                 foodController.view.isHidden = true
@@ -634,7 +634,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 lifestyleController.view.isHidden = true
                 travelController.view.isHidden = true
                 astroController.view.isHidden = true
-                propertyController.view.isHidden = true
+                propertyController.view.isHidden = false
                 educationController.view.isHidden = true
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
@@ -662,7 +662,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 travelController.view.isHidden = true
                 astroController.view.isHidden = true
                 propertyController.view.isHidden = true
-                educationController.view.isHidden = true
+                educationController.view.isHidden = false
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
@@ -690,7 +690,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 astroController.view.isHidden = true
                 propertyController.view.isHidden = true
                 educationController.view.isHidden = true
-                foodController.view.isHidden = true
+                foodController.view.isHidden = false
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
                 toptenController.view.isHidden = true
@@ -718,7 +718,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 propertyController.view.isHidden = true
                 educationController.view.isHidden = true
                 foodController.view.isHidden = true
-                environmentController.view.isHidden = true
+                environmentController.view.isHidden = false
                 offbeatController.view.isHidden = true
                 toptenController.view.isHidden = true
                 storiesController.view.isHidden = true
@@ -746,7 +746,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 educationController.view.isHidden = true
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
-                offbeatController.view.isHidden = true
+                offbeatController.view.isHidden = false
                 toptenController.view.isHidden = true
                 storiesController.view.isHidden = true
                 diyController.view.isHidden = true
@@ -774,7 +774,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
+                toptenController.view.isHidden = false
                 storiesController.view.isHidden = true
                 diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
@@ -802,7 +802,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
                 toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
+                storiesController.view.isHidden = false
                 diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
                 hotController.view.isHidden = true
@@ -830,7 +830,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 offbeatController.view.isHidden = true
                 toptenController.view.isHidden = true
                 storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                diyController.view.isHidden = false
                 moodfreshController.view.isHidden = true
                 hotController.view.isHidden = true
                 gamingController.view.isHidden = true
@@ -858,7 +858,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 toptenController.view.isHidden = true
                 storiesController.view.isHidden = true
                 diyController.view.isHidden = true
-                moodfreshController.view.isHidden = true
+                moodfreshController.view.isHidden = false
                 hotController.view.isHidden = true
                 gamingController.view.isHidden = true
                 jobsController.view.isHidden = true
@@ -886,7 +886,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 storiesController.view.isHidden = true
                 diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                hotController.view.isHidden = false
                 gamingController.view.isHidden = true
                 jobsController.view.isHidden = true
                 photoController.view.isHidden = true
@@ -914,7 +914,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
                 hotController.view.isHidden = true
-                gamingController.view.isHidden = true
+                gamingController.view.isHidden = false
                 jobsController.view.isHidden = true
                 photoController.view.isHidden = true
                 videosController.view.isHidden = true
@@ -942,7 +942,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 moodfreshController.view.isHidden = true
                 hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
+                jobsController.view.isHidden = false
                 photoController.view.isHidden = true
                 videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
@@ -970,7 +970,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 hotController.view.isHidden = true
                 gamingController.view.isHidden = true
                 jobsController.view.isHidden = true
-                photoController.view.isHidden = true
+                photoController.view.isHidden = false
                 videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .videos:
@@ -998,7 +998,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 gamingController.view.isHidden = true
                 jobsController.view.isHidden = true
                 photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                videosController.view.isHidden = false
                 miscellanyController.view.isHidden = true
             case .miscellany:
                 indiaController.view.isHidden = true
@@ -1026,7 +1026,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 jobsController.view.isHidden = true
                 photoController.view.isHidden = true
                 videosController.view.isHidden = true
-                miscellanyController.view.isHidden = true
+                miscellanyController.view.isHidden = false
                 
         }
         

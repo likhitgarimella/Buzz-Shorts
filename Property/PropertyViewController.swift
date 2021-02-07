@@ -12,7 +12,7 @@ class PropertyViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        view.backgroundColor = UIColor.blue
         
     }
     
