@@ -13,6 +13,8 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var lbl: UILabel!
     @IBOutlet weak var img: UIImageView!
     
+    var name = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,4 +22,4 @@ class DetailViewController: UIViewController {
         
     }
     
-}   // #24
+}   // #26
