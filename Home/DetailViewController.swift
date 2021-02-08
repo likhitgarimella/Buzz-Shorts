@@ -18,8 +18,10 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        // print(name)
+        // lbl.text = name
+        // img.image = UIImage(named: name)
         
     }
     
-}   // #26
+}   // #28

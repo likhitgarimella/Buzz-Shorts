@@ -46,7 +46,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
     private let videosController = VideosViewController()
     private let miscellanyController = MiscellanyViewController()
     
-    var imgArr = ["Home", "India", "World", "Finance", "Tech", "Auto", "Sports", "Entertainment", "Health", "Lifestyle", "Travel", "Astro", "Property", "Education", "Food", "Environment", "Offbeat News", "Top Ten", "Stories", "DIY", "Moodfresh", "Hot from the Oven", "Gaming", "Jobs & Job Alerts", "Photo Gallery", "Videos", "Miscellany"]
+    // var imgArr = ["Home", "India", "World", "Finance", "Tech", "Auto", "Sports", "Entertainment", "Health", "Lifestyle", "Travel", "Astro", "Property", "Education", "Food", "Environment", "Offbeat News", "Top Ten", "Stories", "DIY", "Moodfresh", "Hot from the Oven", "Gaming", "Jobs & Job Alerts", "Photo Gallery", "Videos", "Miscellany"]
     
     func SideMenuProp() {
         
@@ -130,7 +130,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
     // didSelectItemAt
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
-        vc?.name = imgArr[indexPath.row]
+        // vc?.name = imgArr[indexPath.row]
         self.navigationController?.pushViewController(vc!, animated: true)
     }
     
