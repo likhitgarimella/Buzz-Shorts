@@ -130,7 +130,12 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
     // didSelectItemAt
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
-        // vc?.name = imgArr[indexPath.row]
+        /// ref for home model 'post'
+        let post = homePosts[indexPath.row]
+        /// storing home model's leftTag strings in an array 'arr'
+        let arr = post.leftTag
+        /// embedding those array strings in global variable 'name'
+        vc?.name = arr!
         self.navigationController?.pushViewController(vc!, animated: true)
     }
     
@@ -1041,4 +1046,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
-}   // #1045
+}   // #1050

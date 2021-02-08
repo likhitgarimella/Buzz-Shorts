@@ -19,7 +19,7 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         
         // print(name)
-        // lbl.text = name
+        lbl.text = name.capitalized
         // img.image = UIImage(named: name)
         
     }
