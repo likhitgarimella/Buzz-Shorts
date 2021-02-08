@@ -129,6 +129,7 @@
 		0261D98E25B382D700B9357C /* WorldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0261D98C25B382D700B9357C /* WorldCell.xib */; };
 		0261D99325B3832000B9357C /* FinanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261D99125B3832000B9357C /* FinanceCell.swift */; };
 		0261D99425B3832000B9357C /* FinanceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0261D99225B3832000B9357C /* FinanceCell.xib */; };
+		0275B2C225D0C8A300C08388 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0275B2C125D0C8A300C08388 /* DetailViewController.swift */; };
 		0280C7EE25B1C8670022B1DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0280C7ED25B1C8670022B1DA /* GoogleService-Info.plist */; };
 		0295C1A825B0BA01008F966D /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1A725B0BA01008F966D /* FinanceViewController.swift */; };
 		0295C1AB25B0BA54008F966D /* TechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295C1AA25B0BA54008F966D /* TechViewController.swift */; };
@@ -291,6 +292,7 @@
 		0261D98C25B382D700B9357C /* WorldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorldCell.xib; sourceTree = "<group>"; };
 		0261D99125B3832000B9357C /* FinanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceCell.swift; sourceTree = "<group>"; };
 		0261D99225B3832000B9357C /* FinanceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinanceCell.xib; sourceTree = "<group>"; };
+		0275B2C125D0C8A300C08388 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		0280C7ED25B1C8670022B1DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0295C1A725B0BA01008F966D /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
 		0295C1AA25B0BA54008F966D /* TechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechViewController.swift; sourceTree = "<group>"; };
@@ -551,6 +553,7 @@
 			isa = PBXGroup;
 			children = (
 				02E78D4E258A4F2400029AC2 /* HomeViewController.swift */,
+				0275B2C125D0C8A300C08388 /* DetailViewController.swift */,
 				020B619225C0EFC500F5185E /* HomeModel.swift */,
 				020B619525C0EFD200F5185E /* HomePostApi.swift */,
 				0261D98225B37EED00B9357C /* HomeCell.xib */,
@@ -948,6 +951,7 @@
 				02A2F7AF25C8C83200EEC3B2 /* LifestylePostApi.swift in Sources */,
 				0231522C25D0252D008C377C /* EducationCell.swift in Sources */,
 				023152BF25D06470008C377C /* PhotoModel.swift in Sources */,
+				0275B2C225D0C8A300C08388 /* DetailViewController.swift in Sources */,
 				0247199025CDF20F00805B70 /* GamingViewController.swift in Sources */,
 				020B619325C0EFC500F5185E /* HomeModel.swift in Sources */,
 				0261D98825B3816000B9357C /* IndiaCell.swift in Sources */,
