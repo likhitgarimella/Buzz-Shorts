@@ -9,6 +9,10 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
+    // Outlets
+    @IBOutlet weak var lbl: UILabel!
+    @IBOutlet weak var img: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -16,4 +20,4 @@ class DetailViewController: UIViewController {
         
     }
     
-}   // #20
+}   // #24

@@ -110,6 +110,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Eml-f7-L5N"/>
+                    <connections>
+                        <outlet property="img" destination="KBt-Xc-VL3" id="LwY-8F-tMQ"/>
+                        <outlet property="lbl" destination="wvR-nC-CyF" id="L1Y-06-7rD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mUl-SP-eyu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
