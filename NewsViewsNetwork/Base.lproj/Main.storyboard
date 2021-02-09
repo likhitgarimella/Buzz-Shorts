@@ -188,7 +188,7 @@
                     <connections>
                         <outlet property="body" destination="LbM-J6-TUT" id="ENP-Hd-oBu"/>
                         <outlet property="heading" destination="pia-6o-n46" id="32U-31-22e"/>
-                        <outlet property="img" destination="KBt-Xc-VL3" id="LwY-8F-tMQ"/>
+                        <outlet property="image" destination="KBt-Xc-VL3" id="6oC-IU-N7f"/>
                         <outlet property="nameLbl1" destination="wvR-nC-CyF" id="jD1-wV-5BU"/>
                         <outlet property="nameLbl2" destination="Peh-al-Tey" id="3NO-Ea-Rfq"/>
                         <outlet property="time" destination="zJR-Bs-wOx" id="haM-kb-XYK"/>

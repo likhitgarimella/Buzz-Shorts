@@ -15,13 +15,18 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var time: UILabel!
     @IBOutlet weak var heading: UILabel!
     @IBOutlet weak var body: UILabel!
-    @IBOutlet weak var img: UIImageView!
+    @IBOutlet weak var image: UIImageView!
     
     var name = ""
+    var read = ""
+    var head = ""
+    var img = UIImage()
     
     func Properties() {
         
         heading.numberOfLines = 0
+        heading.contentMode = .topLeft
+        heading.sizeToFit()
         body.numberOfLines = 0
         body.contentMode = .topLeft
         body.sizeToFit()
@@ -32,6 +37,9 @@ class DetailViewController: UIViewController {
         
         nameLbl1.text = name.capitalized
         nameLbl2.text = name
+        time.text = read
+        heading.text = head
+        image.image = img
         
     }
     
@@ -46,4 +54,4 @@ class DetailViewController: UIViewController {
         
     }
     
-}   // #50
+}   // #58
