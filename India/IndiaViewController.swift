@@ -27,7 +27,7 @@ class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollect
         layout.itemSize = CGSize(width: view.frame.width, height: view.frame.height)
         
         indiaCollectionView = UICollectionView(frame: self.view.frame, collectionViewLayout: layout)
-        indiaCollectionView.showsVerticalScrollIndicator = false
+        indiaCollectionView.showsVerticalScrollIndicator = true
         indiaCollectionView.backgroundColor = UIColor.white
         
         indiaCollectionView.dataSource = self
