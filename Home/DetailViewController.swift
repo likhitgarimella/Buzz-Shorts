@@ -20,7 +20,7 @@ class DetailViewController: UIViewController {
     var name = ""
     var read = ""
     var head = ""
-    var img = UIImage()
+    var url = ""
     
     func Properties() {
         
@@ -39,7 +39,9 @@ class DetailViewController: UIViewController {
         nameLbl2.text = name
         time.text = read
         heading.text = head
-        image.image = img
+        
+        let photoUrl = URL(string: url)
+        image.sd_setImage(with: photoUrl)
         
     }
     
@@ -54,4 +56,4 @@ class DetailViewController: UIViewController {
         
     }
     
-}   // #58
+}   // #60
