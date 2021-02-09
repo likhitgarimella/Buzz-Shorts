@@ -132,10 +132,14 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
         /// ref for home model 'post'
         let post = homePosts[indexPath.row]
-        /// storing home model's leftTag strings in an array 'arr'
-        let arr = post.leftTag
-        /// embedding those array strings in global variable 'name'
-        vc?.name = arr!
+        /// storing home model's strings in an arrays
+        let arr1 = post.leftTag
+        let arr2 = post.readTime
+        let arr3 = post.heading
+        /// embedding those array strings in global variables
+        vc?.name = arr1!
+        vc?.read = arr2!
+        vc?.head = arr3!
         self.navigationController?.pushViewController(vc!, animated: true)
     }
     
@@ -1046,4 +1050,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
-}   // #1050
+}   // #1054
