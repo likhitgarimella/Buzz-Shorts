@@ -46,8 +46,6 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
     private let videosController = VideosViewController()
     private let miscellanyController = MiscellanyViewController()
     
-    // var imgArr = ["Home", "India", "World", "Finance", "Tech", "Auto", "Sports", "Entertainment", "Health", "Lifestyle", "Travel", "Astro", "Property", "Education", "Food", "Environment", "Offbeat News", "Top Ten", "Stories", "DIY", "Moodfresh", "Hot from the Oven", "Gaming", "Jobs & Job Alerts", "Photo Gallery", "Videos", "Miscellany"]
-    
     func SideMenuProp() {
         
         let menu = MenuController(with: SideMenuItem.allCases)
@@ -117,14 +115,12 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
     
     // cellForItemAt
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
         let homeCell = homeCollectionView.dequeueReusableCell(withReuseIdentifier: "HomeCell", for: indexPath) as! HomeCell
         let post = homePosts[indexPath.row]
         homeCell.homePost = post
         // linking feed VC & feed cell
         homeCell.homeFeedVC = self
         return homeCell
-        
     }
     
     // didSelectItemAt
@@ -1052,4 +1048,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
-}   // #1056
+}   // #1052

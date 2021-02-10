@@ -84,14 +84,12 @@ class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollect
     
     // cellForItemAt
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
         let indiaCell = indiaCollectionView.dequeueReusableCell(withReuseIdentifier: "IndiaCell", for: indexPath) as! IndiaCell
         let post = indiaPosts[indexPath.row]
         indiaCell.indiaPost = post
         // linking feed VC & feed cell
         indiaCell.indiaFeedVC = self
         return indiaCell
-        
     }
     
-}   // #98
+}   // #96
