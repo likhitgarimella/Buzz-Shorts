@@ -90,6 +90,14 @@
                 <constraint firstItem="0Ng-1h-MYY" firstAttribute="leading" secondItem="Mye-OB-jWM" secondAttribute="leading" id="edv-Rd-hG9"/>
                 <constraint firstItem="0Ng-1h-MYY" firstAttribute="top" secondItem="Mye-OB-jWM" secondAttribute="top" id="gcr-2O-BL6"/>
             </constraints>
+            <connections>
+                <outlet property="cardView" destination="0Ng-1h-MYY" id="HaA-uX-rhJ"/>
+                <outlet property="financeNewsPic" destination="cHe-VF-GL9" id="2wO-oK-OHe"/>
+                <outlet property="headingString" destination="ufX-YW-FCq" id="LRO-59-bwr"/>
+                <outlet property="leftTagString" destination="txy-A0-LkI" id="H3g-XK-4XP"/>
+                <outlet property="readTimeString" destination="DGf-X6-qa6" id="VZE-XD-XCF"/>
+                <outlet property="widthConstraint" destination="FNs-Jc-Rvn" id="OsG-cp-1bh"/>
+            </connections>
             <point key="canvasLocation" x="-70" y="129"/>
         </collectionViewCell>
     </objects>
