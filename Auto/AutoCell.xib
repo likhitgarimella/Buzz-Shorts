@@ -90,6 +90,14 @@
                 <constraint firstItem="rPL-ub-tEu" firstAttribute="leading" secondItem="aKC-Om-NdY" secondAttribute="leading" id="MbL-wc-b5I"/>
                 <constraint firstAttribute="bottom" secondItem="rPL-ub-tEu" secondAttribute="bottom" id="dHm-I0-uls"/>
             </constraints>
+            <connections>
+                <outlet property="autoNewsPic" destination="8YY-pF-8lE" id="Cnx-Yp-iY2"/>
+                <outlet property="cardView" destination="rPL-ub-tEu" id="WwQ-jc-tAG"/>
+                <outlet property="headingString" destination="fM0-hr-Sj5" id="b4N-Au-YO8"/>
+                <outlet property="leftTagString" destination="NlU-L8-3mM" id="o3Z-p9-iI4"/>
+                <outlet property="readTimeString" destination="3Z7-8P-WHL" id="j3k-id-v1p"/>
+                <outlet property="widthConstraint" destination="l0m-aY-6EO" id="SSa-Rc-pXW"/>
+            </connections>
             <point key="canvasLocation" x="-70" y="129"/>
         </collectionViewCell>
     </objects>
