@@ -90,6 +90,14 @@
                 <constraint firstItem="bV1-ST-nqB" firstAttribute="top" secondItem="AGm-cg-JWV" secondAttribute="top" id="tcp-Jn-szf"/>
                 <constraint firstItem="bV1-ST-nqB" firstAttribute="leading" secondItem="AGm-cg-JWV" secondAttribute="leading" id="tso-Mu-ZDT"/>
             </constraints>
+            <connections>
+                <outlet property="cardView" destination="bV1-ST-nqB" id="cW4-Za-NJT"/>
+                <outlet property="headingString" destination="Hm7-A7-9sI" id="hQh-qt-0dq"/>
+                <outlet property="healthNewsPic" destination="4fE-0F-hCc" id="iLK-1h-IlY"/>
+                <outlet property="leftTagString" destination="t11-KX-aTK" id="g4N-Dg-KfA"/>
+                <outlet property="readTimeString" destination="tNS-9j-DOk" id="B2v-hc-Fhc"/>
+                <outlet property="widthConstraint" destination="vaR-LZ-Lqn" id="Vpc-ss-0aO"/>
+            </connections>
             <point key="canvasLocation" x="-71.014492753623188" y="128.57142857142856"/>
         </collectionViewCell>
     </objects>
