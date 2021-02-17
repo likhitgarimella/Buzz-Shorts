@@ -90,6 +90,14 @@
                 <constraint firstItem="Ema-ez-7Pv" firstAttribute="leading" secondItem="ATa-wf-s6c" secondAttribute="leading" id="VFv-iV-MYH"/>
                 <constraint firstItem="Ema-ez-7Pv" firstAttribute="top" secondItem="ATa-wf-s6c" secondAttribute="top" id="tbE-mr-8JY"/>
             </constraints>
+            <connections>
+                <outlet property="cardView" destination="Ema-ez-7Pv" id="e42-ol-e1m"/>
+                <outlet property="headingString" destination="joj-T4-cxF" id="N0f-Gr-1Jt"/>
+                <outlet property="jobsNewsPic" destination="oQJ-RV-Y5q" id="epU-hn-gHN"/>
+                <outlet property="leftTagString" destination="aZa-mu-3cv" id="e9R-4e-FOG"/>
+                <outlet property="readTimeString" destination="gmn-Or-LIg" id="Luz-eU-5DM"/>
+                <outlet property="widthConstraint" destination="aJ4-9m-HAr" id="G6Z-ln-yIX"/>
+            </connections>
             <point key="canvasLocation" x="-70" y="129"/>
         </collectionViewCell>
     </objects>
