@@ -17,6 +17,7 @@ class HomeModel {
     var leftTag: String?
     var heading: String?
     var readTime: String?
+    var description: String?
     
 }
 
@@ -32,8 +33,9 @@ extension HomeModel {
         post.leftTag = dict["2) Left Tag"] as? String
         post.heading = dict["3) Heading"] as? String
         post.readTime = dict["4) Read Time"] as? String
+        post.description = dict["5) Description"] as? String
         return post
         
     }
     
-}   // #40
+}   // #42

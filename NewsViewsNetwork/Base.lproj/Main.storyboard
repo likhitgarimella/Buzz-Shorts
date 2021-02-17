@@ -191,7 +191,7 @@
                         <outlet property="image" destination="KBt-Xc-VL3" id="6oC-IU-N7f"/>
                         <outlet property="nameLbl1" destination="wvR-nC-CyF" id="jD1-wV-5BU"/>
                         <outlet property="nameLbl2" destination="Peh-al-Tey" id="3NO-Ea-Rfq"/>
-                        <outlet property="time" destination="zJR-Bs-wOx" id="haM-kb-XYK"/>
+                        <outlet property="readTime" destination="zJR-Bs-wOx" id="kZ1-yl-YLv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mUl-SP-eyu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

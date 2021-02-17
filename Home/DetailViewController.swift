@@ -11,16 +11,17 @@ class DetailViewController: UIViewController {
     
     // Outlets
     @IBOutlet weak var nameLbl1: UILabel!
+    @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var nameLbl2: UILabel!
-    @IBOutlet weak var time: UILabel!
+    @IBOutlet weak var readTime: UILabel!
     @IBOutlet weak var heading: UILabel!
     @IBOutlet weak var body: UILabel!
-    @IBOutlet weak var image: UIImageView!
     
-    var name = ""
-    var read = ""
-    var head = ""
     var url = ""
+    var name = ""
+    var time = ""
+    var head = ""
+    var desc = ""
     
     func Properties() {
         
@@ -37,8 +38,9 @@ class DetailViewController: UIViewController {
         
         nameLbl1.text = name.capitalized
         nameLbl2.text = name
-        time.text = read
+        readTime.text = time
         heading.text = head
+        body.text = desc
         
         let photoUrl = URL(string: url)
         image.sd_setImage(with: photoUrl)
@@ -56,4 +58,4 @@ class DetailViewController: UIViewController {
         
     }
     
-}   // #60
+}   // #62

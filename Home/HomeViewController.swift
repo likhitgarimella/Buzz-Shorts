@@ -133,11 +133,13 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         let arr2 = post.readTime
         let arr3 = post.heading
         let arr4 = post.photoUrl
+        let arr5 = post.description
         /// embedding those array strings in global variables
         vc?.name = arr1!
-        vc?.read = arr2!
+        vc?.time = arr2!
         vc?.head = arr3!
         vc?.url = arr4!
+        vc?.desc = arr5!
         self.navigationController?.pushViewController(vc!, animated: true)
     }
     
@@ -1048,4 +1050,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
-}   // #1052
+}   // #1054
