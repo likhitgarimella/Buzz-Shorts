@@ -90,6 +90,14 @@
                 <constraint firstAttribute="bottom" secondItem="iYN-ha-VnY" secondAttribute="bottom" id="We8-Xg-Xc7"/>
                 <constraint firstItem="iYN-ha-VnY" firstAttribute="leading" secondItem="8eF-Mp-Zlv" secondAttribute="leading" id="mPc-zC-ne5"/>
             </constraints>
+            <connections>
+                <outlet property="astroNewsPic" destination="DP8-eu-WMB" id="aIF-kY-ZqE"/>
+                <outlet property="cardView" destination="iYN-ha-VnY" id="DPd-wV-h4n"/>
+                <outlet property="headingString" destination="zoL-jC-SmJ" id="ZZL-Xt-tZh"/>
+                <outlet property="leftTagString" destination="IRy-N0-AQE" id="17E-fK-9ae"/>
+                <outlet property="readTimeString" destination="QTj-aY-qQP" id="AgB-70-lvw"/>
+                <outlet property="widthConstraint" destination="2fy-vP-uRm" id="O82-dW-vaZ"/>
+            </connections>
             <point key="canvasLocation" x="-70" y="129"/>
         </collectionViewCell>
     </objects>
