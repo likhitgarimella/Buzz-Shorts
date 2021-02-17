@@ -90,6 +90,14 @@
                 <constraint firstAttribute="trailing" secondItem="3bB-8k-ciS" secondAttribute="trailing" id="Q1D-nL-yZC"/>
                 <constraint firstAttribute="bottom" secondItem="3bB-8k-ciS" secondAttribute="bottom" id="Ugm-x6-fS9"/>
             </constraints>
+            <connections>
+                <outlet property="cardView" destination="3bB-8k-ciS" id="3mQ-fx-i1i"/>
+                <outlet property="headingString" destination="LPe-31-UQc" id="dny-A5-F5w"/>
+                <outlet property="leftTagString" destination="NOa-wA-Lvr" id="422-gM-hEf"/>
+                <outlet property="readTimeString" destination="8OY-1W-ltG" id="Jq5-rS-y6J"/>
+                <outlet property="sportsNewsPic" destination="cfa-if-1dA" id="BTl-oA-n5E"/>
+                <outlet property="widthConstraint" destination="M0d-zA-dAa" id="m21-kZ-8Z9"/>
+            </connections>
             <point key="canvasLocation" x="-70" y="129"/>
         </collectionViewCell>
     </objects>
