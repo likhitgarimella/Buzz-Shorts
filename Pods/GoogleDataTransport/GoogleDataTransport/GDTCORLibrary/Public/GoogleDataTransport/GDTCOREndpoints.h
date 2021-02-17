@@ -1,5 +1,5 @@
 /*
- * Copyright 2017 Google
+ * Copyright 2018 Google LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,13 +15,22 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "GDTCORTargets.h"
 
-@interface FNextPushId : NSObject
+NS_ASSUME_NONNULL_BEGIN
 
-+ (NSString *)get:(NSTimeInterval)now;
+/* Class that manages the endpoints used by Google data transport library. */
+@interface GDTCOREndpoints : NSObject
 
-+ (NSString *)successor:(NSString *)key;
+- (instancetype)init NS_UNAVAILABLE;
 
-+ (NSString *)predecessor:(NSString *)key;
+/** Returns the upload URL for a target specified. If the target is not available, returns nil.
+ *
+ *  @param target GoogleDataTransport target for which the upload URL is being looked up for.
+ *  @return URL that will be used for uploading the events for the provided target.
+ */
++ (nullable NSURL *)uploadURLForTarget:(GDTCORTarget)target;
 
 @end
+
+NS_ASSUME_NONNULL_END
