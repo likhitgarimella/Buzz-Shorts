@@ -90,6 +90,14 @@
                 <constraint firstItem="tcc-eI-Bs2" firstAttribute="leading" secondItem="A2A-Km-DwQ" secondAttribute="leading" id="KPm-g7-Khl"/>
                 <constraint firstAttribute="trailing" secondItem="tcc-eI-Bs2" secondAttribute="trailing" id="Zda-yF-D7w"/>
             </constraints>
+            <connections>
+                <outlet property="cardView" destination="tcc-eI-Bs2" id="YQC-gO-iFX"/>
+                <outlet property="educationNewsPic" destination="Cjj-Rj-7xD" id="WBV-4k-XSR"/>
+                <outlet property="headingString" destination="Kml-bt-Mlf" id="uRn-Tv-kfa"/>
+                <outlet property="leftTagString" destination="csw-dm-aqc" id="SBN-nP-K8C"/>
+                <outlet property="readTimeString" destination="eMi-wX-hEx" id="yQI-bX-wMQ"/>
+                <outlet property="widthConstraint" destination="mje-Ib-rXh" id="foh-GE-GKT"/>
+            </connections>
             <point key="canvasLocation" x="-70" y="129"/>
         </collectionViewCell>
     </objects>
