@@ -90,6 +90,14 @@
                 <constraint firstItem="iNk-Ko-452" firstAttribute="top" secondItem="IFN-GO-lJY" secondAttribute="top" id="PTh-dt-PNX"/>
                 <constraint firstAttribute="bottom" secondItem="iNk-Ko-452" secondAttribute="bottom" id="maB-Tw-UDw"/>
             </constraints>
+            <connections>
+                <outlet property="cardView" destination="iNk-Ko-452" id="cTg-6n-QEy"/>
+                <outlet property="headingString" destination="gDB-fI-nlC" id="Bb2-Ym-XeB"/>
+                <outlet property="hotovenNewsPic" destination="hyK-d2-nHs" id="I6g-UJ-Ox4"/>
+                <outlet property="leftTagString" destination="jm8-yD-70h" id="ptt-Zk-Sb4"/>
+                <outlet property="readTimeString" destination="gVO-5M-gEP" id="yqR-XO-f9R"/>
+                <outlet property="widthConstraint" destination="oEZ-PH-M6P" id="arC-bq-fxu"/>
+            </connections>
             <point key="canvasLocation" x="-71.014492753623188" y="128.57142857142856"/>
         </collectionViewCell>
     </objects>
