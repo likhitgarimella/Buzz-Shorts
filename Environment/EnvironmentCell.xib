@@ -19,7 +19,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCell" id="HlT-6I-06Z" customClass="HomeCell" customModule="NewsViewsNetwork" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="EnvironmentCell" id="HlT-6I-06Z" customClass="EnvironmentCell" customModule="NewsViewsNetwork" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="414" height="398"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -91,12 +91,12 @@
                 <constraint firstAttribute="trailing" secondItem="7xB-pX-tUN" secondAttribute="trailing" id="XNK-cn-6fJ"/>
             </constraints>
             <connections>
-                <outlet property="cardView" destination="7xB-pX-tUN" id="WLj-pc-6N5"/>
-                <outlet property="headingString" destination="Xmg-HD-nPj" id="1XE-wt-XZP"/>
-                <outlet property="homeNewsPic" destination="bhA-lM-jJr" id="atZ-aC-kuZ"/>
-                <outlet property="leftTagString" destination="OdM-oy-QH1" id="zpD-Dy-igf"/>
-                <outlet property="readTimeString" destination="ATg-l5-ATJ" id="6R8-hP-gkn"/>
-                <outlet property="widthConstraint" destination="AB6-H8-fhg" id="neB-tr-X81"/>
+                <outlet property="cardView" destination="7xB-pX-tUN" id="m5Z-ss-nsb"/>
+                <outlet property="environmentNewsPic" destination="bhA-lM-jJr" id="Goq-jr-ou4"/>
+                <outlet property="headingString" destination="Xmg-HD-nPj" id="DGP-3Z-wnd"/>
+                <outlet property="leftTagString" destination="OdM-oy-QH1" id="wNa-8J-H6q"/>
+                <outlet property="readTimeString" destination="ATg-l5-ATJ" id="AnT-Ge-ZkR"/>
+                <outlet property="widthConstraint" destination="AB6-H8-fhg" id="g8l-I2-Bx9"/>
             </connections>
             <point key="canvasLocation" x="-70" y="129"/>
         </collectionViewCell>
