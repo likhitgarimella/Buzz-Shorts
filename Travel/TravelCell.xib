@@ -90,6 +90,14 @@
                 <constraint firstAttribute="trailing" secondItem="lDB-Og-Pku" secondAttribute="trailing" id="VSx-Om-S8L"/>
                 <constraint firstItem="lDB-Og-Pku" firstAttribute="leading" secondItem="Dqp-FU-heb" secondAttribute="leading" id="bVF-Ge-xey"/>
             </constraints>
+            <connections>
+                <outlet property="cardView" destination="lDB-Og-Pku" id="If6-ZE-4Ri"/>
+                <outlet property="headingString" destination="Pmp-yk-XGu" id="8Oz-0I-prV"/>
+                <outlet property="leftTagString" destination="gaj-2V-1EO" id="9iK-Xw-Odb"/>
+                <outlet property="readTimeString" destination="BzO-ry-51N" id="hwu-la-Q1o"/>
+                <outlet property="travelNewsPic" destination="Rct-CA-w0s" id="6Ya-QT-W4h"/>
+                <outlet property="widthConstraint" destination="2eh-O8-tUq" id="uEK-jb-0av"/>
+            </connections>
             <point key="canvasLocation" x="-70" y="129"/>
         </collectionViewCell>
     </objects>
