@@ -126,6 +126,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
     // didSelectItemAt
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
+        // let vc = DetailViewController()
         /// ref for home model 'post'
         let post = homePosts[indexPath.row]
         /// storing home model's strings in an arrays
@@ -140,7 +141,8 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         vc?.head = arr3!
         vc?.photourl = arr4!
         vc?.desc = arr5!
-        self.navigationController?.pushViewController(vc!, animated: true)
+        self.present(vc!, animated: true, completion: nil)
+        // self.navigationController?.pushViewController(vc!, animated: true)
     }
     
     // MARK: -
@@ -1050,4 +1052,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
-}   // #1054
+}   // #1056
