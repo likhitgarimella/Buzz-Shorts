@@ -11,7 +11,7 @@ class DetailViewController: UIViewController {
     
     // Outlets
     @IBOutlet weak var nameLbl1: UILabel!
-    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var newsImage: UIImageView!
     @IBOutlet weak var nameLbl2: UILabel!
     @IBOutlet weak var readTime: UILabel!
     @IBOutlet weak var heading: UILabel!
@@ -43,7 +43,7 @@ class DetailViewController: UIViewController {
         body.text = desc
         
         let photoUrl = URL(string: url)
-        image.sd_setImage(with: photoUrl)
+        newsImage.sd_setImage(with: photoUrl)
         
     }
     
@@ -58,4 +58,16 @@ class DetailViewController: UIViewController {
         
     }
     
-}   // #62
+    @IBAction func sharePressed(_ sender: UIButton) {
+        
+        let taptic = UIImpactFeedbackGenerator(style: .medium)
+        taptic.prepare()
+        taptic.impactOccurred()
+        
+        let activityVC = UIActivityViewController(activityItems: [newsImage.image!, nameLbl1.text!, heading.text!], applicationActivities: nil)
+        activityVC.popoverPresentationController?.sourceView = self.view
+        self.present(activityVC, animated: true, completion: nil)
+        
+    }
+    
+}   // #74

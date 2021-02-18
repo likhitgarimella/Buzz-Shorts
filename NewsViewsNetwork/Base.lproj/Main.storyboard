@@ -127,6 +127,9 @@
                                                     <constraint firstAttribute="height" constant="32" id="KIM-QG-UG6"/>
                                                 </constraints>
                                                 <state key="normal" image="share"/>
+                                                <connections>
+                                                    <action selector="sharePressed:" destination="QKg-JQ-NBU" eventType="touchUpInside" id="gFb-3D-u9U"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pia-6o-n46">
                                                 <rect key="frame" x="10" y="393.33333333333331" width="394" height="64.666666666666686"/>
@@ -197,9 +200,9 @@
                     <connections>
                         <outlet property="body" destination="LbM-J6-TUT" id="ENP-Hd-oBu"/>
                         <outlet property="heading" destination="pia-6o-n46" id="32U-31-22e"/>
-                        <outlet property="image" destination="KBt-Xc-VL3" id="6oC-IU-N7f"/>
                         <outlet property="nameLbl1" destination="wvR-nC-CyF" id="jD1-wV-5BU"/>
                         <outlet property="nameLbl2" destination="Peh-al-Tey" id="3NO-Ea-Rfq"/>
+                        <outlet property="newsImage" destination="KBt-Xc-VL3" id="6dx-2l-PDP"/>
                         <outlet property="readTime" destination="zJR-Bs-wOx" id="kZ1-yl-YLv"/>
                     </connections>
                 </viewController>
