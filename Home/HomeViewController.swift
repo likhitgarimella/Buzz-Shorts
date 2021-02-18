@@ -138,7 +138,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         vc?.name = arr1!
         vc?.time = arr2!
         vc?.head = arr3!
-        vc?.url = arr4!
+        vc?.photourl = arr4!
         vc?.desc = arr5!
         self.navigationController?.pushViewController(vc!, animated: true)
     }
