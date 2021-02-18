@@ -96,22 +96,22 @@ class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollect
     
     // didSelectItemAt
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
-        /// ref for home model 'post'
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        /// ref for model 'post'
         let post = indiaPosts[indexPath.row]
-        /// storing home model's strings in an arrays
+        /// storing model's strings in an arrays
         let arr1 = post.leftTag
         let arr2 = post.readTime
         let arr3 = post.heading
         let arr4 = post.photoUrl
         let arr5 = post.description
         /// embedding those array strings in global variables
-        vc?.name = arr1!
-        vc?.time = arr2!
-        vc?.head = arr3!
-        vc?.photourl = arr4!
-        vc?.desc = arr5!
-        self.navigationController?.pushViewController(vc!, animated: true)
+        vc.name = arr1!
+        vc.time = arr2!
+        vc.head = arr3!
+        vc.photourl = arr4!
+        vc.desc = arr5!
+        self.present(vc, animated: true, completion: nil)
     }
     
 }   // #118
