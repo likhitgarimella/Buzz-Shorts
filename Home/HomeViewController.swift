@@ -90,6 +90,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
         view.backgroundColor = .white
         
+        activityIndicatorView.style = .large
         activityIndicatorView.center = self.view.center
         
         homeCollectionView.delegate = self
@@ -104,7 +105,6 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         loadPosts()
         
         SideMenuProp()
-        
         AddChildControllers()
         
     }

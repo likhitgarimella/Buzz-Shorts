@@ -13,7 +13,7 @@ class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollect
     // Outlets
     var indiaCollectionView: UICollectionView!
     
-    var activityIndicatorView2 = UIActivityIndicatorView(style: .gray)
+    var activityIndicatorView2 = UIActivityIndicatorView(style: .large)
     
     // reference to store model class info
     var indiaPosts = [IndiaModel]()
