@@ -57,7 +57,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
-    // reference to store HomeModel class info
+    // reference to store model class info
     var homePosts = [HomeModel]()
     
     // copy of reference

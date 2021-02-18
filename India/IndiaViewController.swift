@@ -10,10 +10,12 @@ import UIKit
 
 class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UISearchBarDelegate {
     
+    // Outlets
     var indiaCollectionView: UICollectionView!
+    
     var activityIndicatorView2 = UIActivityIndicatorView(style: .gray)
     
-    // reference to store IndiaModel class info
+    // reference to store model class info
     var indiaPosts = [IndiaModel]()
     
     // copy of reference
@@ -92,4 +94,4 @@ class IndiaViewController: UIViewController, UICollectionViewDelegate, UICollect
         return indiaCell
     }
     
-}   // #96
+}   // #98

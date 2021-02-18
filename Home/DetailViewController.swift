@@ -66,7 +66,7 @@ class DetailViewController: UIViewController {
         taptic.prepare()
         taptic.impactOccurred()
         
-        let activityVC = UIActivityViewController(activityItems: [newsImage.image!, nameLbl1.text!, heading.text!, shareURLString], applicationActivities: nil)
+        let activityVC = UIActivityViewController(activityItems: [newsImage.image!, nameLbl1.text!, heading.text!, body.text!, shareURLString], applicationActivities: nil)
         activityVC.popoverPresentationController?.sourceView = self.view
         self.present(activityVC, animated: true, completion: nil)
         
