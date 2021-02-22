@@ -13,7 +13,7 @@ class LifestyleViewController: UIViewController, UICollectionViewDelegate, UICol
     // Outlets
     var lifestyleCollectionView: UICollectionView!
     
-    var activityIndicatorView2 = UIActivityIndicatorView(style: .large)
+    var activityIndicatorView10 = UIActivityIndicatorView(style: .large)
     
     // reference to store model class info
     var lifestylePosts = [LifestyleModel]()
@@ -49,14 +49,14 @@ class LifestyleViewController: UIViewController, UICollectionViewDelegate, UICol
     func loadPosts() {
         
         /// start when loadPosts func starts
-        activityIndicatorView2.startAnimating()
+        activityIndicatorView10.startAnimating()
         
         Api.LifestylePost.observePosts { (post) in
             self.lifestylePosts.append(post)
             print(self.lifestylePosts)
             /// stop before view reloads data
-            self.activityIndicatorView2.stopAnimating()
-            self.activityIndicatorView2.hidesWhenStopped = true
+            self.activityIndicatorView10.stopAnimating()
+            self.activityIndicatorView10.hidesWhenStopped = true
             self.realLifestylePosts = self.lifestylePosts
             self.lifestyleCollectionView.reloadData()
         }
@@ -70,8 +70,8 @@ class LifestyleViewController: UIViewController, UICollectionViewDelegate, UICol
         
         view.backgroundColor = .white
         
-        self.view.addSubview(activityIndicatorView2)
-        activityIndicatorView2.center = self.view.center
+        self.view.addSubview(activityIndicatorView10)
+        activityIndicatorView10.center = self.view.center
         
         CollectionView()
         

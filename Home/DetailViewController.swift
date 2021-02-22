@@ -23,7 +23,7 @@ class DetailViewController: UIViewController {
     var head = ""
     var desc = ""
     
-    private let shareURLString = "https://www.newsviewsnetwork.com"
+    private let shareURLString = "https://ayecracy.com"
     
     func Properties() {
         
