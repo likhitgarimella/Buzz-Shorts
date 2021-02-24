@@ -23,7 +23,7 @@ class HotOvenCell: UICollectionViewCell {
     @IBOutlet weak var readTimeString: UILabel!
     
     // linking feed VC & feed cell
-    var hotovenVC: HomeViewController?
+    var hotovenFeedVC: HomeViewController?
     
     var hotovenPost: HomeModel? {
         didSet {
