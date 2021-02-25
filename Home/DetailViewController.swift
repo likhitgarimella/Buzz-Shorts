@@ -16,14 +16,17 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var readTime: UILabel!
     @IBOutlet weak var heading: UILabel!
     @IBOutlet weak var body: UILabel!
+    @IBOutlet weak var urlLabel: UILabel!
     
     var photourl = ""
+    
     var name = ""
     var time = ""
     var head = ""
     var desc = ""
+    var url = ""
     
-    private let shareURLString = "https://ayecracy.com"
+    // private let shareURLString = "https://ayecracy.com"
     
     func Properties() {
         
@@ -43,6 +46,8 @@ class DetailViewController: UIViewController {
         readTime.text = time
         heading.text = head
         body.text = desc
+        urlLabel.text = url
+        print(urlLabel.text)
         
         let photoUrl = URL(string: photourl)
         newsImage.sd_setImage(with: photoUrl)
@@ -66,10 +71,10 @@ class DetailViewController: UIViewController {
         taptic.prepare()
         taptic.impactOccurred()
         
-        let activityVC = UIActivityViewController(activityItems: [newsImage.image!, nameLbl1.text!, heading.text!, body.text!, shareURLString], applicationActivities: nil)
+        let activityVC = UIActivityViewController(activityItems: [nameLbl1.text!, heading.text!, urlLabel.text!], applicationActivities: nil)
         activityVC.popoverPresentationController?.sourceView = self.view
         self.present(activityVC, animated: true, completion: nil)
         
     }
     
-}   // #76
+}   // #80

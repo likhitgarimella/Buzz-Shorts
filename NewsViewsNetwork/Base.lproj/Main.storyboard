@@ -146,6 +146,12 @@
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="URL" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1x-DW-oZh">
+                                                <rect key="frame" x="65.666666666666671" y="376" width="11" height="7.3333333333333144"/>
+                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="6"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -153,6 +159,7 @@
                                             <constraint firstItem="Qud-EF-yoM" firstAttribute="leading" secondItem="wvR-nC-CyF" secondAttribute="trailing" constant="6" id="1gD-Pq-JxN"/>
                                             <constraint firstAttribute="trailing" secondItem="LbM-J6-TUT" secondAttribute="trailing" constant="10" id="3QO-6x-Req"/>
                                             <constraint firstItem="LbM-J6-TUT" firstAttribute="centerX" secondItem="pia-6o-n46" secondAttribute="centerX" id="4BX-dC-635"/>
+                                            <constraint firstItem="Jth-qG-H4B" firstAttribute="centerY" secondItem="k1x-DW-oZh" secondAttribute="centerY" id="4wt-Df-cW8"/>
                                             <constraint firstAttribute="bottom" secondItem="LbM-J6-TUT" secondAttribute="bottom" constant="16" id="6yj-2T-TZ1"/>
                                             <constraint firstItem="LbM-J6-TUT" firstAttribute="top" secondItem="pia-6o-n46" secondAttribute="bottom" constant="12" id="BQl-tc-t4F"/>
                                             <constraint firstItem="zJR-Bs-wOx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Qud-EF-yoM" secondAttribute="trailing" constant="8" symbolic="YES" id="Ch3-Su-Kbr"/>
@@ -161,11 +168,13 @@
                                             <constraint firstItem="pia-6o-n46" firstAttribute="leading" secondItem="jEN-XQ-5V7" secondAttribute="leading" constant="10" id="N39-fs-nfh"/>
                                             <constraint firstItem="Peh-al-Tey" firstAttribute="leading" secondItem="jEN-XQ-5V7" secondAttribute="leading" constant="20" id="USY-Gy-iGP"/>
                                             <constraint firstAttribute="trailing" secondItem="zJR-Bs-wOx" secondAttribute="trailing" constant="20" id="Xse-Db-8MD"/>
+                                            <constraint firstItem="Jth-qG-H4B" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="k1x-DW-oZh" secondAttribute="trailing" constant="8" symbolic="YES" id="YXk-tW-d02"/>
+                                            <constraint firstItem="k1x-DW-oZh" firstAttribute="leading" secondItem="Peh-al-Tey" secondAttribute="trailing" id="ZqE-TM-5mt"/>
                                             <constraint firstItem="LbM-J6-TUT" firstAttribute="leading" secondItem="jEN-XQ-5V7" secondAttribute="leading" constant="10" id="atr-ed-J0M"/>
                                             <constraint firstItem="wvR-nC-CyF" firstAttribute="leading" secondItem="jEN-XQ-5V7" secondAttribute="leading" constant="20" id="dpm-1e-cJZ"/>
                                             <constraint firstItem="KBt-Xc-VL3" firstAttribute="top" secondItem="wvR-nC-CyF" secondAttribute="bottom" constant="10" id="eGJ-hB-lEl"/>
-                                            <constraint firstItem="Jth-qG-H4B" firstAttribute="centerY" secondItem="Peh-al-Tey" secondAttribute="centerY" id="im9-Ih-5JB"/>
                                             <constraint firstItem="wvR-nC-CyF" firstAttribute="top" secondItem="jEN-XQ-5V7" secondAttribute="top" constant="20" id="laz-eM-Ghd"/>
+                                            <constraint firstItem="k1x-DW-oZh" firstAttribute="centerY" secondItem="Peh-al-Tey" secondAttribute="centerY" id="nvQ-yG-e4u"/>
                                             <constraint firstItem="KBt-Xc-VL3" firstAttribute="leading" secondItem="jEN-XQ-5V7" secondAttribute="leading" id="onQ-Cy-fbH"/>
                                             <constraint firstAttribute="trailing" secondItem="Jth-qG-H4B" secondAttribute="trailing" constant="20" id="oxv-H7-GyE"/>
                                             <constraint firstItem="zJR-Bs-wOx" firstAttribute="centerY" secondItem="Qud-EF-yoM" secondAttribute="centerY" id="tRc-ga-cba"/>
@@ -203,6 +212,7 @@
                         <outlet property="nameLbl2" destination="Peh-al-Tey" id="3NO-Ea-Rfq"/>
                         <outlet property="newsImage" destination="KBt-Xc-VL3" id="6dx-2l-PDP"/>
                         <outlet property="readTime" destination="zJR-Bs-wOx" id="kZ1-yl-YLv"/>
+                        <outlet property="urlLabel" destination="k1x-DW-oZh" id="ewS-80-L0v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mUl-SP-eyu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
