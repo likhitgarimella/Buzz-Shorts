@@ -47,7 +47,6 @@ class DetailViewController: UIViewController {
         heading.text = head
         body.text = desc
         urlLabel.text = url
-        print(urlLabel.text)
         
         let photoUrl = URL(string: photourl)
         newsImage.sd_setImage(with: photoUrl)
