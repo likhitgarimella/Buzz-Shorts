@@ -105,13 +105,15 @@ class TravelViewController: UIViewController, UICollectionViewDelegate, UICollec
         let arr3 = post.heading
         let arr4 = post.photoUrl
         let arr5 = post.description
+        let arr6 = post.urlString
         /// embedding those array strings in global variables
         vc.name = arr1!
         vc.time = arr2!
         vc.head = arr3!
         vc.photourl = arr4!
         vc.desc = arr5!
+        vc.url = arr6!
         self.present(vc, animated: true, completion: nil)
     }
     
-}   // #118
+}   // #120
