@@ -23,9 +23,9 @@ class MiscellanyCell: UICollectionViewCell {
     @IBOutlet weak var readTimeString: UILabel!
     
     // linking feed VC & feed cell
-    var miscFeedVC: MiscellanyViewController?
+    var miscellanyFeedVC: MiscellanyViewController?
     
-    var miscPost: MiscellanyModel? {
+    var miscellanyPost: MiscellanyModel? {
         didSet {
             updateView()
         }
@@ -33,14 +33,14 @@ class MiscellanyCell: UICollectionViewCell {
     
     func updateView() {
         
-        if let photoUrlString = miscPost?.photoUrl {
+        if let photoUrlString = miscellanyPost?.photoUrl {
             let photoUrl = URL(string: photoUrlString)
             miscNewsPic.sd_setImage(with: photoUrl)
         }
         
-        leftTagString.text = miscPost?.leftTag
-        headingString.text = miscPost?.heading
-        readTimeString.text = miscPost?.readTime
+        leftTagString.text = miscellanyPost?.leftTag
+        headingString.text = miscellanyPost?.heading
+        readTimeString.text = miscellanyPost?.readTime
         
     }
     
