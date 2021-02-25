@@ -49,7 +49,7 @@ class GamingViewController: UIViewController, UICollectionViewDelegate, UICollec
     func loadPosts() {
         
         /// start when loadPosts func starts
-        activityIndicatorView2.startAnimating()
+        activityIndicatorView23.startAnimating()
         
         Api.GamingPost.observePosts { (post) in
             self.gamingPosts.append(post)
