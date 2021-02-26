@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class TopTenPostApi {
     
-    var REF_POSTS = Database.database().reference().child("TopTen-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("2-9-TopTen-Posts").child("Details")
     
     func observePosts(completion: @escaping (TopTenModel) -> Void) {
         

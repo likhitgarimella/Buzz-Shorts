@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class HealthPostApi {
     
-    var REF_POSTS = Database.database().reference().child("Health-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("1-9-Health-Posts").child("Details")
     
     func observePosts(completion: @escaping (HealthModel) -> Void) {
         

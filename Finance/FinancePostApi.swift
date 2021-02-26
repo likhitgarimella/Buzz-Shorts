@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class FinancePostApi {
     
-    var REF_POSTS = Database.database().reference().child("Finance-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("1-4-Finance-Posts").child("Details")
     
     func observePosts(completion: @escaping (FinanceModel) -> Void) {
         

@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class TravelPostApi {
     
-    var REF_POSTS = Database.database().reference().child("Travel-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("2-2-Travel-Posts").child("Details")
     
     func observePosts(completion: @escaping (TravelModel) -> Void) {
         

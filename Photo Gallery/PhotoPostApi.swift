@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class PhotoPostApi {
     
-    var REF_POSTS = Database.database().reference().child("Photo-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("3-7-Photo-Posts").child("Details")
     
     func observePosts(completion: @escaping (PhotoModel) -> Void) {
         

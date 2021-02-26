@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class TechPostApi {
     
-    var REF_POSTS = Database.database().reference().child("Tech-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("1-5-Tech-Posts").child("Details")
     
     func observePosts(completion: @escaping (TechModel) -> Void) {
         

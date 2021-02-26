@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class MiscellanyPostApi {
     
-    var REF_POSTS = Database.database().reference().child("Miscellany-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("3-8-Miscellany-Posts").child("Details")
     
     func observePosts(completion: @escaping (MiscellanyModel) -> Void) {
         

@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class JobsPostApi {
     
-    var REF_POSTS = Database.database().reference().child("Jobs-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("3-6-Jobs-Posts").child("Details")
     
     func observePosts(completion: @escaping (JobsModel) -> Void) {
         

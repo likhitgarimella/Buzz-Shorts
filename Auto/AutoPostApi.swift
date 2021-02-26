@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class AutoPostApi {
     
-    var REF_POSTS = Database.database().reference().child("Auto-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("1-6-Auto-Posts").child("Details")
     
     func observePosts(completion: @escaping (AutoModel) -> Void) {
         

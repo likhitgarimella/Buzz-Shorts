@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class MoodfreshPostApi {
     
-    var REF_POSTS = Database.database().reference().child("Moodfresh-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("3-3-Moodfresh-Posts").child("Details")
     
     func observePosts(completion: @escaping (MoodfreshModel) -> Void) {
         

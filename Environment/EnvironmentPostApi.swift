@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class EnvironmentPostApi {
     
-    var REF_POSTS = Database.database().reference().child("Environment-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("2-7-Environment-Posts").child("Details")
     
     func observePosts(completion: @escaping (EnvironmentModel) -> Void) {
         

@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class WorldPostApi {
     
-    var REF_POSTS = Database.database().reference().child("World-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("1-3-World-Posts").child("Details")
     
     func observePosts(completion: @escaping (WorldModel) -> Void) {
         

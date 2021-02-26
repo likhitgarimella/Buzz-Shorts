@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class OffbeatPostApi {
     
-    var REF_POSTS = Database.database().reference().child("Offbeat-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("2-8-Offbeat-Posts").child("Details")
     
     func observePosts(completion: @escaping (OffbeatModel) -> Void) {
         

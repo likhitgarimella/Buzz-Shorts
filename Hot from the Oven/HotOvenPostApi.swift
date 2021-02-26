@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class HotOvenPostApi {
     
-    var REF_POSTS = Database.database().reference().child("HotOven-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("3-4-HotOven-Posts").child("Details")
     
     func observePosts(completion: @escaping (HotOvenModel) -> Void) {
         

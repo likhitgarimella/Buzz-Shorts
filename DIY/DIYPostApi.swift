@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class DIYPostApi {
     
-    var REF_POSTS = Database.database().reference().child("DIY-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("3-2-DIY-Posts").child("Details")
     
     func observePosts(completion: @escaping (DIYModel) -> Void) {
         

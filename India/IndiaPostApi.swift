@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class IndiaPostApi {
     
-    var REF_POSTS = Database.database().reference().child("India-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("1-2-India-Posts").child("Details")
     
     func observePosts(completion: @escaping (IndiaModel) -> Void) {
         

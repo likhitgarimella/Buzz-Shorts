@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class AstroPostApi {
     
-    var REF_POSTS = Database.database().reference().child("Astro-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("2-3-Astro-Posts").child("Details")
     
     func observePosts(completion: @escaping (AstroModel) -> Void) {
         

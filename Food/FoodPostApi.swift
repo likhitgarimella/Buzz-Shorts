@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 class FoodPostApi {
     
-    var REF_POSTS = Database.database().reference().child("Food-Posts").child("Details")
+    var REF_POSTS = Database.database().reference().child("2-6-Food-Posts").child("Details")
     
     func observePosts(completion: @escaping (FoodModel) -> Void) {
         
