@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>97307687744-7aold5qv743ce4d9ug0f36l2t5rdktcn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.97307687744-7aold5qv743ce4d9ug0f36l2t5rdktcn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDVsRI5_xdNNwwa3dB9Qwr67ejCrslNo3s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>97307687744</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.likhitgarimella.BuzzShorts</string>
+	<key>PROJECT_ID</key>
+	<string>buzzshorts-likhit-2304</string>
+	<key>STORAGE_BUCKET</key>
+	<string>buzzshorts-likhit-2304.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:97307687744:ios:6d93a38d330a92714618a5</string>
+</dict>
+</plist>
