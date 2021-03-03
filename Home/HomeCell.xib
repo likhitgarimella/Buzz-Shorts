@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Bold.otf">
+            <string>SFProDisplay-Bold</string>
+        </array>
+        <array key="SF-Pro-Display-Regular.otf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCell" id="gTV-IL-0wX" customClass="HomeCell" customModule="NewsViewsNetwork" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="398"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="398"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F6g-ND-AHd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="398"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOME" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKc-0x-Ldj">
+                                <rect key="frame" x="8" y="12" width="45.5" height="27.5"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="16"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 min read" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZM-VA-1Ay">
+                                <rect key="frame" x="344" y="17.5" width="62" height="17"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wax-D7-pKg">
+                                <rect key="frame" x="8" y="51.5" width="398" height="64.5"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="18"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" image="Bitmap" translatesAutoresizingMaskIntoConstraints="NO" id="ZLk-uJ-eKg">
+                                <rect key="frame" x="8" y="128" width="398" height="255"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="255" id="uFx-by-1VG"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ld-ct-n9h">
+                                <rect key="frame" x="0.0" y="395" width="414" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="fNv-Rz-WWD"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="414" id="6iH-hQ-8J2"/>
+                            <constraint firstItem="iKc-0x-Ldj" firstAttribute="leading" secondItem="F6g-ND-AHd" secondAttribute="leading" constant="8" id="7aH-TK-RFy"/>
+                            <constraint firstAttribute="bottom" secondItem="3ld-ct-n9h" secondAttribute="bottom" constant="2" id="GC4-Xh-HYX"/>
+                            <constraint firstAttribute="trailing" secondItem="ZLk-uJ-eKg" secondAttribute="trailing" constant="8" id="HOd-0e-t8H"/>
+                            <constraint firstItem="ZLk-uJ-eKg" firstAttribute="leading" secondItem="F6g-ND-AHd" secondAttribute="leading" constant="8" id="LmZ-JJ-jV9"/>
+                            <constraint firstItem="3ld-ct-n9h" firstAttribute="top" secondItem="ZLk-uJ-eKg" secondAttribute="bottom" constant="12" id="Nla-uk-5Db"/>
+                            <constraint firstItem="0ZM-VA-1Ay" firstAttribute="centerY" secondItem="iKc-0x-Ldj" secondAttribute="centerY" id="a1D-Xu-vqo"/>
+                            <constraint firstItem="Wax-D7-pKg" firstAttribute="top" secondItem="iKc-0x-Ldj" secondAttribute="bottom" constant="12" id="dA5-P2-4qa"/>
+                            <constraint firstAttribute="trailing" secondItem="3ld-ct-n9h" secondAttribute="trailing" id="hyE-3D-TuX"/>
+                            <constraint firstItem="3ld-ct-n9h" firstAttribute="leading" secondItem="F6g-ND-AHd" secondAttribute="leading" id="lY6-Ft-N8n"/>
+                            <constraint firstAttribute="trailing" secondItem="Wax-D7-pKg" secondAttribute="trailing" constant="8" id="qyT-i2-Q5a"/>
+                            <constraint firstAttribute="trailing" secondItem="0ZM-VA-1Ay" secondAttribute="trailing" constant="8" id="rJj-qY-OYZ"/>
+                            <constraint firstItem="iKc-0x-Ldj" firstAttribute="top" secondItem="F6g-ND-AHd" secondAttribute="top" constant="12" id="xDs-P0-9Vs"/>
+                            <constraint firstItem="ZLk-uJ-eKg" firstAttribute="top" secondItem="Wax-D7-pKg" secondAttribute="bottom" constant="12" id="xec-sE-Hfg"/>
+                            <constraint firstItem="Wax-D7-pKg" firstAttribute="leading" secondItem="F6g-ND-AHd" secondAttribute="leading" constant="8" id="z9h-pu-BVi"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="F6g-ND-AHd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0sx-Qc-E8M"/>
+                <constraint firstAttribute="trailing" secondItem="F6g-ND-AHd" secondAttribute="trailing" id="eoX-7n-Bjs"/>
+                <constraint firstAttribute="bottom" secondItem="F6g-ND-AHd" secondAttribute="bottom" id="ffz-z0-DZH"/>
+                <constraint firstItem="F6g-ND-AHd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zkl-Yr-Thi"/>
+            </constraints>
+            <connections>
+                <outlet property="cardView" destination="F6g-ND-AHd" id="Stt-Xj-DlI"/>
+                <outlet property="headingString" destination="Wax-D7-pKg" id="CAp-IV-LWI"/>
+                <outlet property="homeNewsPic" destination="ZLk-uJ-eKg" id="VK6-cg-gch"/>
+                <outlet property="leftTagString" destination="iKc-0x-Ldj" id="KLc-mV-iTt"/>
+                <outlet property="readTimeString" destination="0ZM-VA-1Ay" id="Lcx-0B-CHI"/>
+                <outlet property="widthConstraint" destination="6iH-hQ-8J2" id="Odb-Uj-6OG"/>
+            </connections>
+            <point key="canvasLocation" x="-70" y="129"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Bitmap" width="353" height="197"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
