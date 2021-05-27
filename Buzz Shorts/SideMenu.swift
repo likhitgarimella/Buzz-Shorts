@@ -34,9 +34,11 @@ enum SideMenuItem: String, CaseIterable {
     // case topten = "Top Ten"
     // case stories = "Stories"
     // case diy = "DIY"
+    
     case moodfresh = "Moodfresh"
     // case hot = "Hot from the Oven"
     case gaming = "Gaming"
+    
     // case jobs = "Jobs & Job Alerts"
     // case photo = "Photo Gallery"
     // case videos = "Videos"
@@ -87,4 +89,4 @@ class MenuController: UITableViewController {
         delegate?.didSelectMenuItem(named: selectedItem)
     }
     
-}   // #91
+}   // #93

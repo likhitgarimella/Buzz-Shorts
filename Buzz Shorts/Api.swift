@@ -31,11 +31,13 @@ struct Api {
     // static var ToptenPost = TopTenPostApi()
     // static var StoriesPost = StoriesPostApi()
     // static var DIYPost = DIYPostApi()
+    
     static var MoodfreshPost = MoodfreshPostApi()
     // static var HotovenPost = HotOvenPostApi()
     static var GamingPost = GamingPostApi()
+    
     // static var JobsPost = JobsPostApi()
     // static var PhotoPost = PhotoPostApi()
     static var MiscellanyPost = MiscellanyPostApi()
     
-}   // #42
+}   // #44

@@ -39,9 +39,11 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
     // private let toptenController = TopTenViewController()
     // private let storiesController = StoriesViewController()
     // private let diyController = DIYViewController()
+    
     private let moodfreshController = MoodfreshViewController()
     // private let hotController = HotOvenViewController()
     private let gamingController = GamingViewController()
+    
     // private let jobsController = JobsViewController()
     // private let photoController = PhotoGalleryViewController()
     // private let videosController = VideosViewController()
@@ -1064,4 +1066,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
-}   // #1068
+}   // #1070
