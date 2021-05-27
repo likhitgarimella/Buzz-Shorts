@@ -35,6 +35,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
     private let foodController = FoodViewController()
     private let environmentController = EnvironmentViewController()
     private let offbeatController = OffbeatNewsViewController()
+    
     // private let toptenController = TopTenViewController()
     // private let storiesController = StoriesViewController()
     // private let diyController = DIYViewController()
@@ -1063,4 +1064,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
-}   // #1067
+}   // #1068

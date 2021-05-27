@@ -27,6 +27,7 @@ struct Api {
     static var FoodPost = FoodPostApi()
     static var EnvironmentPost = EnvironmentPostApi()
     static var OffbeatPost = OffbeatPostApi()
+    
     // static var ToptenPost = TopTenPostApi()
     // static var StoriesPost = StoriesPostApi()
     // static var DIYPost = DIYPostApi()
@@ -37,4 +38,4 @@ struct Api {
     // static var PhotoPost = PhotoPostApi()
     static var MiscellanyPost = MiscellanyPostApi()
     
-}   // #41
+}   // #42
