@@ -11,7 +11,9 @@
 #endif
 
 #import "GULAppEnvironmentUtil.h"
+#import "GULHeartbeatDateStorable.h"
 #import "GULHeartbeatDateStorage.h"
+#import "GULHeartbeatDateStorageUserDefaults.h"
 #import "GULKeychainStorage.h"
 #import "GULKeychainUtils.h"
 #import "GULSecureCoding.h"

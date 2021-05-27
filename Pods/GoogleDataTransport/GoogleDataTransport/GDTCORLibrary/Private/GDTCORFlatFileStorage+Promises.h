@@ -1,5 +1,5 @@
 /*
- * Copyright 2017 Google
+ * Copyright 2020 Google LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,9 +14,15 @@
  * limitations under the License.
  */
 
-#import "FirebaseDatabase/Sources/Login/FAuthTokenProvider.h"
-#import <Foundation/Foundation.h>
+#import "GoogleDataTransport/GDTCORLibrary/Private/GDTCORFlatFileStorage.h"
 
-@interface FIRNoopAuthTokenProvider : NSObject <FAuthTokenProvider>
+@class FBLPromise<ValueType>;
+
+NS_ASSUME_NONNULL_BEGIN
+
+/// The category extends `GDTCORFlatFileStorage` API with `GDTCORStoragePromiseProtocol` methods.
+@interface GDTCORFlatFileStorage (Promises) <GDTCORStoragePromiseProtocol>
 
 @end
+
+NS_ASSUME_NONNULL_END
