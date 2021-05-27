@@ -120,47 +120,16 @@
 		02094D7B25EFC1BB00990F2D /* OffbeatNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02094D7625EFC1BB00990F2D /* OffbeatNewsCell.xib */; };
 		02094D7C25EFC1BB00990F2D /* OffbeatNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D7725EFC1BB00990F2D /* OffbeatNewsCell.swift */; };
 		02094D7D25EFC1BB00990F2D /* OffbeatNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D7825EFC1BB00990F2D /* OffbeatNewsViewController.swift */; };
-		02094D8325EFC1CF00990F2D /* TopTenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02094D7E25EFC1CF00990F2D /* TopTenCell.xib */; };
-		02094D8425EFC1CF00990F2D /* TopTenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D7F25EFC1CF00990F2D /* TopTenCell.swift */; };
-		02094D8525EFC1CF00990F2D /* TopTenPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D8025EFC1CF00990F2D /* TopTenPostApi.swift */; };
-		02094D8625EFC1CF00990F2D /* TopTenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D8125EFC1CF00990F2D /* TopTenModel.swift */; };
-		02094D8725EFC1CF00990F2D /* TopTenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D8225EFC1CF00990F2D /* TopTenViewController.swift */; };
-		02094D8D25EFC1E600990F2D /* StoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02094D8825EFC1E600990F2D /* StoriesCell.xib */; };
-		02094D8E25EFC1E600990F2D /* StoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D8925EFC1E600990F2D /* StoriesModel.swift */; };
-		02094D8F25EFC1E600990F2D /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D8A25EFC1E600990F2D /* StoriesViewController.swift */; };
-		02094D9025EFC1E600990F2D /* StoriesPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D8B25EFC1E600990F2D /* StoriesPostApi.swift */; };
-		02094D9125EFC1E600990F2D /* StoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D8C25EFC1E600990F2D /* StoriesCell.swift */; };
-		02094D9725EFC20500990F2D /* DIYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D9225EFC20500990F2D /* DIYViewController.swift */; };
-		02094D9825EFC20500990F2D /* DIYCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D9325EFC20500990F2D /* DIYCell.swift */; };
-		02094D9925EFC20500990F2D /* DIYPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D9425EFC20500990F2D /* DIYPostApi.swift */; };
-		02094D9A25EFC20500990F2D /* DIYCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02094D9525EFC20500990F2D /* DIYCell.xib */; };
-		02094D9B25EFC20500990F2D /* DIYModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D9625EFC20500990F2D /* DIYModel.swift */; };
 		02094DA125EFC21900990F2D /* MoodfreshCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D9C25EFC21900990F2D /* MoodfreshCell.swift */; };
 		02094DA225EFC21900990F2D /* MoodfreshCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02094D9D25EFC21900990F2D /* MoodfreshCell.xib */; };
 		02094DA325EFC21900990F2D /* MoodfreshModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D9E25EFC21900990F2D /* MoodfreshModel.swift */; };
 		02094DA425EFC21900990F2D /* MoodfreshPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094D9F25EFC21900990F2D /* MoodfreshPostApi.swift */; };
 		02094DA525EFC21900990F2D /* MoodfreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DA025EFC21900990F2D /* MoodfreshViewController.swift */; };
-		02094DAB25EFC23500990F2D /* HotOvenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02094DA625EFC23400990F2D /* HotOvenCell.xib */; };
-		02094DAC25EFC23500990F2D /* HotOvenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DA725EFC23400990F2D /* HotOvenModel.swift */; };
-		02094DAD25EFC23500990F2D /* HotOvenPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DA825EFC23400990F2D /* HotOvenPostApi.swift */; };
-		02094DAE25EFC23500990F2D /* HotOvenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DA925EFC23400990F2D /* HotOvenViewController.swift */; };
-		02094DAF25EFC23500990F2D /* HotOvenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DAA25EFC23400990F2D /* HotOvenCell.swift */; };
 		02094DB525EFE60400990F2D /* GamingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02094DB025EFE60400990F2D /* GamingCell.xib */; };
 		02094DB625EFE60400990F2D /* GamingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DB125EFE60400990F2D /* GamingCell.swift */; };
 		02094DB725EFE60400990F2D /* GamingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DB225EFE60400990F2D /* GamingModel.swift */; };
 		02094DB825EFE60400990F2D /* GamingPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DB325EFE60400990F2D /* GamingPostApi.swift */; };
 		02094DB925EFE60400990F2D /* GamingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DB425EFE60400990F2D /* GamingViewController.swift */; };
-		02094DBF25EFE61900990F2D /* JobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DBA25EFE61800990F2D /* JobsViewController.swift */; };
-		02094DC025EFE61900990F2D /* JobsPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DBB25EFE61800990F2D /* JobsPostApi.swift */; };
-		02094DC125EFE61900990F2D /* JobsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DBC25EFE61900990F2D /* JobsCell.swift */; };
-		02094DC225EFE61900990F2D /* JobsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02094DBD25EFE61900990F2D /* JobsCell.xib */; };
-		02094DC325EFE61900990F2D /* JobsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DBE25EFE61900990F2D /* JobsModel.swift */; };
-		02094DC925EFE64400990F2D /* PhotoGalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DC425EFE64400990F2D /* PhotoGalleryCell.swift */; };
-		02094DCA25EFE64400990F2D /* PhotoGalleryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02094DC525EFE64400990F2D /* PhotoGalleryCell.xib */; };
-		02094DCB25EFE64400990F2D /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DC625EFE64400990F2D /* PhotoModel.swift */; };
-		02094DCC25EFE64400990F2D /* PhotoGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DC725EFE64400990F2D /* PhotoGalleryViewController.swift */; };
-		02094DCD25EFE64400990F2D /* PhotoPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DC825EFE64400990F2D /* PhotoPostApi.swift */; };
-		02094DCF25EFE65500990F2D /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DCE25EFE65500990F2D /* VideosViewController.swift */; };
 		02094DD525EFE65E00990F2D /* MiscellanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DD025EFE65E00990F2D /* MiscellanyModel.swift */; };
 		02094DD625EFE65E00990F2D /* MiscellanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DD125EFE65E00990F2D /* MiscellanyCell.swift */; };
 		02094DD725EFE65E00990F2D /* MiscellanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DD225EFE65E00990F2D /* MiscellanyViewController.swift */; };
@@ -285,47 +254,16 @@
 		02094D7625EFC1BB00990F2D /* OffbeatNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OffbeatNewsCell.xib; sourceTree = "<group>"; };
 		02094D7725EFC1BB00990F2D /* OffbeatNewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffbeatNewsCell.swift; sourceTree = "<group>"; };
 		02094D7825EFC1BB00990F2D /* OffbeatNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffbeatNewsViewController.swift; sourceTree = "<group>"; };
-		02094D7E25EFC1CF00990F2D /* TopTenCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopTenCell.xib; sourceTree = "<group>"; };
-		02094D7F25EFC1CF00990F2D /* TopTenCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTenCell.swift; sourceTree = "<group>"; };
-		02094D8025EFC1CF00990F2D /* TopTenPostApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTenPostApi.swift; sourceTree = "<group>"; };
-		02094D8125EFC1CF00990F2D /* TopTenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTenModel.swift; sourceTree = "<group>"; };
-		02094D8225EFC1CF00990F2D /* TopTenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTenViewController.swift; sourceTree = "<group>"; };
-		02094D8825EFC1E600990F2D /* StoriesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoriesCell.xib; sourceTree = "<group>"; };
-		02094D8925EFC1E600990F2D /* StoriesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesModel.swift; sourceTree = "<group>"; };
-		02094D8A25EFC1E600990F2D /* StoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
-		02094D8B25EFC1E600990F2D /* StoriesPostApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesPostApi.swift; sourceTree = "<group>"; };
-		02094D8C25EFC1E600990F2D /* StoriesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesCell.swift; sourceTree = "<group>"; };
-		02094D9225EFC20500990F2D /* DIYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIYViewController.swift; sourceTree = "<group>"; };
-		02094D9325EFC20500990F2D /* DIYCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIYCell.swift; sourceTree = "<group>"; };
-		02094D9425EFC20500990F2D /* DIYPostApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIYPostApi.swift; sourceTree = "<group>"; };
-		02094D9525EFC20500990F2D /* DIYCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DIYCell.xib; sourceTree = "<group>"; };
-		02094D9625EFC20500990F2D /* DIYModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIYModel.swift; sourceTree = "<group>"; };
 		02094D9C25EFC21900990F2D /* MoodfreshCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodfreshCell.swift; sourceTree = "<group>"; };
 		02094D9D25EFC21900990F2D /* MoodfreshCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoodfreshCell.xib; sourceTree = "<group>"; };
 		02094D9E25EFC21900990F2D /* MoodfreshModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodfreshModel.swift; sourceTree = "<group>"; };
 		02094D9F25EFC21900990F2D /* MoodfreshPostApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodfreshPostApi.swift; sourceTree = "<group>"; };
 		02094DA025EFC21900990F2D /* MoodfreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodfreshViewController.swift; sourceTree = "<group>"; };
-		02094DA625EFC23400990F2D /* HotOvenCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotOvenCell.xib; sourceTree = "<group>"; };
-		02094DA725EFC23400990F2D /* HotOvenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotOvenModel.swift; sourceTree = "<group>"; };
-		02094DA825EFC23400990F2D /* HotOvenPostApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotOvenPostApi.swift; sourceTree = "<group>"; };
-		02094DA925EFC23400990F2D /* HotOvenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotOvenViewController.swift; sourceTree = "<group>"; };
-		02094DAA25EFC23400990F2D /* HotOvenCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotOvenCell.swift; sourceTree = "<group>"; };
 		02094DB025EFE60400990F2D /* GamingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GamingCell.xib; sourceTree = "<group>"; };
 		02094DB125EFE60400990F2D /* GamingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamingCell.swift; sourceTree = "<group>"; };
 		02094DB225EFE60400990F2D /* GamingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamingModel.swift; sourceTree = "<group>"; };
 		02094DB325EFE60400990F2D /* GamingPostApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamingPostApi.swift; sourceTree = "<group>"; };
 		02094DB425EFE60400990F2D /* GamingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamingViewController.swift; sourceTree = "<group>"; };
-		02094DBA25EFE61800990F2D /* JobsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsViewController.swift; sourceTree = "<group>"; };
-		02094DBB25EFE61800990F2D /* JobsPostApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsPostApi.swift; sourceTree = "<group>"; };
-		02094DBC25EFE61900990F2D /* JobsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsCell.swift; sourceTree = "<group>"; };
-		02094DBD25EFE61900990F2D /* JobsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobsCell.xib; sourceTree = "<group>"; };
-		02094DBE25EFE61900990F2D /* JobsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsModel.swift; sourceTree = "<group>"; };
-		02094DC425EFE64400990F2D /* PhotoGalleryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoGalleryCell.swift; sourceTree = "<group>"; };
-		02094DC525EFE64400990F2D /* PhotoGalleryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoGalleryCell.xib; sourceTree = "<group>"; };
-		02094DC625EFE64400990F2D /* PhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
-		02094DC725EFE64400990F2D /* PhotoGalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoGalleryViewController.swift; sourceTree = "<group>"; };
-		02094DC825EFE64400990F2D /* PhotoPostApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPostApi.swift; sourceTree = "<group>"; };
-		02094DCE25EFE65500990F2D /* VideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
 		02094DD025EFE65E00990F2D /* MiscellanyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiscellanyModel.swift; sourceTree = "<group>"; };
 		02094DD125EFE65E00990F2D /* MiscellanyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiscellanyCell.swift; sourceTree = "<group>"; };
 		02094DD225EFE65E00990F2D /* MiscellanyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiscellanyViewController.swift; sourceTree = "<group>"; };
@@ -370,15 +308,8 @@
 				02094CC325EFB09400990F2D /* Food */,
 				02094CC225EFB08B00990F2D /* Environment */,
 				02094CC125EFB08000990F2D /* Offbeat News */,
-				02094CC025EFB07800990F2D /* Top Ten */,
-				02094CBF25EFB06F00990F2D /* Stories */,
-				02094CBE25EFB06700990F2D /* DIY */,
 				02094CBD25EFB05F00990F2D /* Moodfresh */,
-				02094CBC25EFB05700990F2D /* Hot from the Oven */,
 				02094CBB25EFAFD200990F2D /* Gaming */,
-				02094CBA25EFAFBB00990F2D /* Jobs & Job Alerts */,
-				02094CB925EFAFAF00990F2D /* Photo Gallery */,
-				02094CB825EFAFA900990F2D /* Videos */,
 				02094CB725EFAFA100990F2D /* Miscellany */,
 				02094C3225EF769600990F2D /* Products */,
 				1F505C16054EA34D21F436FD /* Pods */,
@@ -448,38 +379,6 @@
 			path = Miscellany;
 			sourceTree = "<group>";
 		};
-		02094CB825EFAFA900990F2D /* Videos */ = {
-			isa = PBXGroup;
-			children = (
-				02094DCE25EFE65500990F2D /* VideosViewController.swift */,
-			);
-			path = Videos;
-			sourceTree = "<group>";
-		};
-		02094CB925EFAFAF00990F2D /* Photo Gallery */ = {
-			isa = PBXGroup;
-			children = (
-				02094DC725EFE64400990F2D /* PhotoGalleryViewController.swift */,
-				02094DC625EFE64400990F2D /* PhotoModel.swift */,
-				02094DC825EFE64400990F2D /* PhotoPostApi.swift */,
-				02094DC525EFE64400990F2D /* PhotoGalleryCell.xib */,
-				02094DC425EFE64400990F2D /* PhotoGalleryCell.swift */,
-			);
-			path = "Photo Gallery";
-			sourceTree = "<group>";
-		};
-		02094CBA25EFAFBB00990F2D /* Jobs & Job Alerts */ = {
-			isa = PBXGroup;
-			children = (
-				02094DBA25EFE61800990F2D /* JobsViewController.swift */,
-				02094DBE25EFE61900990F2D /* JobsModel.swift */,
-				02094DBB25EFE61800990F2D /* JobsPostApi.swift */,
-				02094DBD25EFE61900990F2D /* JobsCell.xib */,
-				02094DBC25EFE61900990F2D /* JobsCell.swift */,
-			);
-			path = "Jobs & Job Alerts";
-			sourceTree = "<group>";
-		};
 		02094CBB25EFAFD200990F2D /* Gaming */ = {
 			isa = PBXGroup;
 			children = (
@@ -492,18 +391,6 @@
 			path = Gaming;
 			sourceTree = "<group>";
 		};
-		02094CBC25EFB05700990F2D /* Hot from the Oven */ = {
-			isa = PBXGroup;
-			children = (
-				02094DA925EFC23400990F2D /* HotOvenViewController.swift */,
-				02094DA725EFC23400990F2D /* HotOvenModel.swift */,
-				02094DA825EFC23400990F2D /* HotOvenPostApi.swift */,
-				02094DA625EFC23400990F2D /* HotOvenCell.xib */,
-				02094DAA25EFC23400990F2D /* HotOvenCell.swift */,
-			);
-			path = "Hot from the Oven";
-			sourceTree = "<group>";
-		};
 		02094CBD25EFB05F00990F2D /* Moodfresh */ = {
 			isa = PBXGroup;
 			children = (
@@ -514,42 +401,6 @@
 				02094D9C25EFC21900990F2D /* MoodfreshCell.swift */,
 			);
 			path = Moodfresh;
-			sourceTree = "<group>";
-		};
-		02094CBE25EFB06700990F2D /* DIY */ = {
-			isa = PBXGroup;
-			children = (
-				02094D9225EFC20500990F2D /* DIYViewController.swift */,
-				02094D9625EFC20500990F2D /* DIYModel.swift */,
-				02094D9425EFC20500990F2D /* DIYPostApi.swift */,
-				02094D9525EFC20500990F2D /* DIYCell.xib */,
-				02094D9325EFC20500990F2D /* DIYCell.swift */,
-			);
-			path = DIY;
-			sourceTree = "<group>";
-		};
-		02094CBF25EFB06F00990F2D /* Stories */ = {
-			isa = PBXGroup;
-			children = (
-				02094D8A25EFC1E600990F2D /* StoriesViewController.swift */,
-				02094D8925EFC1E600990F2D /* StoriesModel.swift */,
-				02094D8B25EFC1E600990F2D /* StoriesPostApi.swift */,
-				02094D8825EFC1E600990F2D /* StoriesCell.xib */,
-				02094D8C25EFC1E600990F2D /* StoriesCell.swift */,
-			);
-			path = Stories;
-			sourceTree = "<group>";
-		};
-		02094CC025EFB07800990F2D /* Top Ten */ = {
-			isa = PBXGroup;
-			children = (
-				02094D8225EFC1CF00990F2D /* TopTenViewController.swift */,
-				02094D8125EFC1CF00990F2D /* TopTenModel.swift */,
-				02094D8025EFC1CF00990F2D /* TopTenPostApi.swift */,
-				02094D7E25EFC1CF00990F2D /* TopTenCell.xib */,
-				02094D7F25EFC1CF00990F2D /* TopTenCell.swift */,
-			);
-			path = "Top Ten";
 			sourceTree = "<group>";
 		};
 		02094CC125EFB08000990F2D /* Offbeat News */ = {
@@ -834,7 +685,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02094D8D25EFC1E600990F2D /* StoriesCell.xib in Resources */,
 				02094CB425EF822900990F2D /* SF-Pro-Display-Thin.otf in Resources */,
 				02094D6725EFC19100990F2D /* FoodCell.xib in Resources */,
 				02094CA725EF822900990F2D /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
@@ -843,7 +693,6 @@
 				02094C5625EF774100990F2D /* Assets.xcassets in Resources */,
 				02094CA825EF822900990F2D /* SF-Pro-Display-Black.otf in Resources */,
 				02094D5225EFC16600990F2D /* PropertyCell.xib in Resources */,
-				02094DCA25EFE64400990F2D /* PhotoGalleryCell.xib in Resources */,
 				02094DB525EFE60400990F2D /* GamingCell.xib in Resources */,
 				02094CB225EF822900990F2D /* SF-Pro-Display-ThinItalic.otf in Resources */,
 				02094CB525EF822900990F2D /* SF-Pro-Display-Medium.otf in Resources */,
@@ -864,8 +713,6 @@
 				02094CAA25EF822900990F2D /* SF-Pro-Display-Light.otf in Resources */,
 				02094C5725EF774100990F2D /* Main.storyboard in Resources */,
 				02094D3D25EFBC1B00990F2D /* TravelCell.xib in Resources */,
-				02094D9A25EFC20500990F2D /* DIYCell.xib in Resources */,
-				02094D8325EFC1CF00990F2D /* TopTenCell.xib in Resources */,
 				02094D3425EFBC0600990F2D /* LifestyleCell.xib in Resources */,
 				02094CF825EFB27800990F2D /* FinanceCell.xib in Resources */,
 				02094CAF25EF822900990F2D /* SF-Pro-Display-BlackItalic.otf in Resources */,
@@ -879,9 +726,7 @@
 				02094CB125EF822900990F2D /* SF-Pro-Display-Regular.otf in Resources */,
 				02094D7125EFC1A700990F2D /* EnvironmentCell.xib in Resources */,
 				02094CB025EF822900990F2D /* SF-Pro-Display-HeavyItalic.otf in Resources */,
-				02094DC225EFE61900990F2D /* JobsCell.xib in Resources */,
 				02094CD825EFB1DA00990F2D /* HomeCell.xib in Resources */,
-				02094DAB25EFC23500990F2D /* HotOvenCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -935,7 +780,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				02094DA525EFC21900990F2D /* MoodfreshViewController.swift in Sources */,
-				02094DCF25EFE65500990F2D /* VideosViewController.swift in Sources */,
 				02094CFB25EFB27800990F2D /* FinanceModel.swift in Sources */,
 				02094C5925EF774100990F2D /* SceneDelegate.swift in Sources */,
 				02094D4025EFBC1B00990F2D /* TravelCell.swift in Sources */,
@@ -946,20 +790,14 @@
 				02094DB825EFE60400990F2D /* GamingPostApi.swift in Sources */,
 				02094DD525EFE65E00990F2D /* MiscellanyModel.swift in Sources */,
 				02094DA325EFC21900990F2D /* MoodfreshModel.swift in Sources */,
-				02094DAE25EFC23500990F2D /* HotOvenViewController.swift in Sources */,
-				02094DC325EFE61900990F2D /* JobsModel.swift in Sources */,
-				02094DAC25EFC23500990F2D /* HotOvenModel.swift in Sources */,
 				02094D1525EFBB9000990F2D /* SportsCell.swift in Sources */,
 				02094D5F25EFC17B00990F2D /* EducationModel.swift in Sources */,
-				02094D9125EFC1E600990F2D /* StoriesCell.swift in Sources */,
 				02094D0C25EFBB7700990F2D /* AutoModel.swift in Sources */,
 				02094D1825EFBB9000990F2D /* SportsViewController.swift in Sources */,
 				02094D4A25EFC13F00990F2D /* AstroPostApi.swift in Sources */,
-				02094DCC25EFE64400990F2D /* PhotoGalleryViewController.swift in Sources */,
 				02094CE325EFB1F500990F2D /* IndiaModel.swift in Sources */,
 				02094D3E25EFBC1B00990F2D /* TravelViewController.swift in Sources */,
 				02094D7225EFC1A700990F2D /* EnvironmentPostApi.swift in Sources */,
-				02094DC125EFE61900990F2D /* JobsCell.swift in Sources */,
 				02094CF925EFB27800990F2D /* FinanceCell.swift in Sources */,
 				02094D0225EFBB5C00990F2D /* TechViewController.swift in Sources */,
 				02094D6525EFC19100990F2D /* FoodCell.swift in Sources */,
@@ -974,29 +812,20 @@
 				02094CDC25EFB1DA00990F2D /* HomePostApi.swift in Sources */,
 				02094CD925EFB1DA00990F2D /* HomeModel.swift in Sources */,
 				02094D0E25EFBB7700990F2D /* AutoPostApi.swift in Sources */,
-				02094DC925EFE64400990F2D /* PhotoGalleryCell.swift in Sources */,
 				02094CDD25EFB1DA00990F2D /* HomeViewController.swift in Sources */,
 				02094D2125EFBBAA00990F2D /* EntertainmentCell.swift in Sources */,
-				02094DAD25EFC23500990F2D /* HotOvenPostApi.swift in Sources */,
-				02094D8F25EFC1E600990F2D /* StoriesViewController.swift in Sources */,
 				02094D7A25EFC1BB00990F2D /* OffbeatPostApi.swift in Sources */,
 				02094CE425EFB1F500990F2D /* IndiaCell.swift in Sources */,
 				02094D7C25EFC1BB00990F2D /* OffbeatNewsCell.swift in Sources */,
 				02094D2A25EFBBE600990F2D /* HealthPostApi.swift in Sources */,
 				02094DA425EFC21900990F2D /* MoodfreshPostApi.swift in Sources */,
 				02094D2025EFBBAA00990F2D /* EntertainmentModel.swift in Sources */,
-				02094D9725EFC20500990F2D /* DIYViewController.swift in Sources */,
 				02094DD625EFE65E00990F2D /* MiscellanyCell.swift in Sources */,
-				02094D8425EFC1CF00990F2D /* TopTenCell.swift in Sources */,
-				02094D9925EFC20500990F2D /* DIYPostApi.swift in Sources */,
 				02094D5325EFC16600990F2D /* PropertyModel.swift in Sources */,
 				02094D3625EFBC0600990F2D /* LifestyleCell.swift in Sources */,
 				02094D5E25EFC17B00990F2D /* EducationPostApi.swift in Sources */,
-				02094D8625EFC1CF00990F2D /* TopTenModel.swift in Sources */,
 				02094D0325EFBB5C00990F2D /* TechPostApi.swift in Sources */,
-				02094DCD25EFE64400990F2D /* PhotoPostApi.swift in Sources */,
 				02094DD925EFE65E00990F2D /* MiscellanyPostApi.swift in Sources */,
-				02094D9025EFC1E600990F2D /* StoriesPostApi.swift in Sources */,
 				02094D6625EFC19100990F2D /* FoodModel.swift in Sources */,
 				02094D3325EFBC0600990F2D /* LifestyleViewController.swift in Sources */,
 				02094D5425EFC16600990F2D /* PropertyPostApi.swift in Sources */,
@@ -1009,41 +838,32 @@
 				02094D4725EFC13F00990F2D /* AstroViewController.swift in Sources */,
 				02094D0425EFBB5C00990F2D /* TechCell.swift in Sources */,
 				02094CF725EFB27800990F2D /* FinancePostApi.swift in Sources */,
-				02094D8525EFC1CF00990F2D /* TopTenPostApi.swift in Sources */,
 				02094DB925EFE60400990F2D /* GamingViewController.swift in Sources */,
 				02094D6F25EFC1A700990F2D /* EnvironmentViewController.swift in Sources */,
 				02094D3725EFBC0600990F2D /* LifestylePostApi.swift in Sources */,
 				02094D4125EFBC1B00990F2D /* TravelPostApi.swift in Sources */,
 				02094CEF25EFB24C00990F2D /* WorldViewController.swift in Sources */,
-				02094D9825EFC20500990F2D /* DIYCell.swift in Sources */,
 				02094D5C25EFC17B00990F2D /* EducationViewController.swift in Sources */,
 				02094C5225EF774100990F2D /* SideMenu.swift in Sources */,
 				02094D2925EFBBE600990F2D /* HealthCell.swift in Sources */,
-				02094DAF25EFC23500990F2D /* HotOvenCell.swift in Sources */,
 				02094D4B25EFC13F00990F2D /* AstroModel.swift in Sources */,
 				02094C5825EF774100990F2D /* Extensions.swift in Sources */,
 				02094D1725EFBB9000990F2D /* SportsPostApi.swift in Sources */,
 				02094D0B25EFBB7700990F2D /* AutoCell.swift in Sources */,
 				02094D0F25EFBB7700990F2D /* AutoViewController.swift in Sources */,
-				02094DC025EFE61900990F2D /* JobsPostApi.swift in Sources */,
 				02094DB725EFE60400990F2D /* GamingModel.swift in Sources */,
 				02094DA125EFC21900990F2D /* MoodfreshCell.swift in Sources */,
 				02094D5525EFC16600990F2D /* PropertyViewController.swift in Sources */,
 				02094D6925EFC19100990F2D /* FoodViewController.swift in Sources */,
 				02094DD725EFE65E00990F2D /* MiscellanyViewController.swift in Sources */,
-				02094DBF25EFE61900990F2D /* JobsViewController.swift in Sources */,
 				02094CE725EFB1F500990F2D /* IndiaPostApi.swift in Sources */,
 				02094D2D25EFBBE600990F2D /* HealthModel.swift in Sources */,
-				02094D8725EFC1CF00990F2D /* TopTenViewController.swift in Sources */,
 				02094D7D25EFC1BB00990F2D /* OffbeatNewsViewController.swift in Sources */,
 				02094CFA25EFB27800990F2D /* FinanceViewController.swift in Sources */,
 				02094D7025EFC1A700990F2D /* EnvironmentModel.swift in Sources */,
 				02094D6825EFC19100990F2D /* FoodPostApi.swift in Sources */,
 				02094D2C25EFBBE600990F2D /* HealthViewController.swift in Sources */,
-				02094D9B25EFC20500990F2D /* DIYModel.swift in Sources */,
 				02094CDA25EFB1DA00990F2D /* DetailViewController.swift in Sources */,
-				02094D8E25EFC1E600990F2D /* StoriesModel.swift in Sources */,
-				02094DCB25EFE64400990F2D /* PhotoModel.swift in Sources */,
 				02094D0125EFBB5C00990F2D /* TechModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
