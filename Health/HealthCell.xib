@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18121" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18092"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -47,10 +47,17 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="Bitmap" translatesAutoresizingMaskIntoConstraints="NO" id="4fE-0F-hCc">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" image="Bitmap" translatesAutoresizingMaskIntoConstraints="NO" id="4fE-0F-hCc">
                                 <rect key="frame" x="8" y="128" width="398" height="255"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="255" id="jnP-LR-BzQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Top" translatesAutoresizingMaskIntoConstraints="NO" id="FtC-b7-nd9">
+                                <rect key="frame" x="346" y="128" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Pje-JX-i7H"/>
+                                    <constraint firstAttribute="width" constant="60" id="u6u-Tj-Xdf"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D1B-SM-Xq1">
@@ -63,6 +70,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="FtC-b7-nd9" firstAttribute="top" secondItem="Hm7-A7-9sI" secondAttribute="bottom" constant="12" id="2Tq-aG-ZDX"/>
                             <constraint firstAttribute="trailing" secondItem="D1B-SM-Xq1" secondAttribute="trailing" id="3PP-Or-gBe"/>
                             <constraint firstItem="D1B-SM-Xq1" firstAttribute="top" secondItem="4fE-0F-hCc" secondAttribute="bottom" constant="12" id="4gD-Cl-T5l"/>
                             <constraint firstAttribute="trailing" secondItem="tNS-9j-DOk" secondAttribute="trailing" constant="8" id="CjF-zr-LbQ"/>
@@ -78,6 +86,7 @@
                             <constraint firstAttribute="trailing" secondItem="Hm7-A7-9sI" secondAttribute="trailing" constant="8" id="pXS-Gk-kGA"/>
                             <constraint firstAttribute="width" constant="414" id="vaR-LZ-Lqn"/>
                             <constraint firstAttribute="bottom" secondItem="D1B-SM-Xq1" secondAttribute="bottom" constant="2" id="yld-ft-OlP"/>
+                            <constraint firstAttribute="trailing" secondItem="FtC-b7-nd9" secondAttribute="trailing" constant="8" id="yuF-LP-b7I"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -103,6 +112,7 @@
     </objects>
     <resources>
         <image name="Bitmap" width="353" height="197"/>
+        <image name="Top" width="60" height="60"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
