@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18121" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18092"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -47,10 +47,17 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="Bitmap" translatesAutoresizingMaskIntoConstraints="NO" id="DP8-eu-WMB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" image="Bitmap" translatesAutoresizingMaskIntoConstraints="NO" id="DP8-eu-WMB">
                                 <rect key="frame" x="8" y="128" width="398" height="255"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="255" id="jzh-OY-Qz7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Top" translatesAutoresizingMaskIntoConstraints="NO" id="822-rZ-hod">
+                                <rect key="frame" x="346" y="128" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="2nG-Eg-dAS"/>
+                                    <constraint firstAttribute="width" constant="60" id="oNZ-bP-Kmi"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KZw-kD-hP1">
@@ -65,6 +72,7 @@
                         <constraints>
                             <constraint firstItem="IRy-N0-AQE" firstAttribute="leading" secondItem="iYN-ha-VnY" secondAttribute="leading" constant="8" id="29M-oM-YSX"/>
                             <constraint firstAttribute="width" constant="414" id="2fy-vP-uRm"/>
+                            <constraint firstItem="822-rZ-hod" firstAttribute="top" secondItem="zoL-jC-SmJ" secondAttribute="bottom" constant="12" id="3wV-7n-qVy"/>
                             <constraint firstItem="zoL-jC-SmJ" firstAttribute="top" secondItem="IRy-N0-AQE" secondAttribute="bottom" constant="12" id="7M8-af-gOM"/>
                             <constraint firstAttribute="bottom" secondItem="KZw-kD-hP1" secondAttribute="bottom" constant="2" id="7UP-aR-Ity"/>
                             <constraint firstItem="IRy-N0-AQE" firstAttribute="top" secondItem="iYN-ha-VnY" secondAttribute="top" constant="12" id="89T-21-AOr"/>
@@ -78,6 +86,7 @@
                             <constraint firstAttribute="trailing" secondItem="DP8-eu-WMB" secondAttribute="trailing" constant="8" id="kwY-K8-t0x"/>
                             <constraint firstItem="DP8-eu-WMB" firstAttribute="leading" secondItem="iYN-ha-VnY" secondAttribute="leading" constant="8" id="w25-0w-iFF"/>
                             <constraint firstAttribute="trailing" secondItem="zoL-jC-SmJ" secondAttribute="trailing" constant="8" id="ySr-ua-eeO"/>
+                            <constraint firstAttribute="trailing" secondItem="822-rZ-hod" secondAttribute="trailing" constant="8" id="zaA-fD-xFu"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -103,6 +112,7 @@
     </objects>
     <resources>
         <image name="Bitmap" width="353" height="197"/>
+        <image name="Top" width="60" height="60"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
