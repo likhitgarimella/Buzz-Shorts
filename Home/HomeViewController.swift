@@ -781,7 +781,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 // photoController.view.isHidden = true
                 // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
-            case .topten:
+        /** case .topten:
                 indiaController.view.isHidden = true
                 worldController.view.isHidden = true
                 financeController.view.isHidden = true
@@ -808,7 +808,8 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 // photoController.view.isHidden = true
                 // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
-            case .stories:
+            */
+        /** case .stories:
                 indiaController.view.isHidden = true
                 worldController.view.isHidden = true
                 financeController.view.isHidden = true
@@ -835,7 +836,8 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 // photoController.view.isHidden = true
                 // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
-            case .diy:
+            */
+        /** case .diy:
                 indiaController.view.isHidden = true
                 worldController.view.isHidden = true
                 financeController.view.isHidden = true
@@ -862,6 +864,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 // photoController.view.isHidden = true
                 // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
+            */
             case .moodfresh:
                 indiaController.view.isHidden = true
                 worldController.view.isHidden = true
@@ -889,7 +892,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 // photoController.view.isHidden = true
                 // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
-            case .hot:
+        /** case .hot:
                 indiaController.view.isHidden = true
                 worldController.view.isHidden = true
                 financeController.view.isHidden = true
@@ -916,6 +919,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 // photoController.view.isHidden = true
                 // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
+            */
             case .gaming:
                 indiaController.view.isHidden = true
                 worldController.view.isHidden = true
@@ -943,7 +947,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 // photoController.view.isHidden = true
                 // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
-            case .jobs:
+        /** case .jobs:
                 indiaController.view.isHidden = true
                 worldController.view.isHidden = true
                 financeController.view.isHidden = true
@@ -970,7 +974,8 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 // photoController.view.isHidden = true
                 // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
-            case .photo:
+            */
+        /** case .photo:
                 indiaController.view.isHidden = true
                 worldController.view.isHidden = true
                 financeController.view.isHidden = true
@@ -997,7 +1002,8 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 // photoController.view.isHidden = false
                 // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
-            case .videos:
+            */
+        /** case .videos:
                 indiaController.view.isHidden = true
                 worldController.view.isHidden = true
                 financeController.view.isHidden = true
@@ -1024,6 +1030,7 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 // photoController.view.isHidden = true
                 // videosController.view.isHidden = false
                 miscellanyController.view.isHidden = true
+            */
             case .miscellany:
                 indiaController.view.isHidden = true
                 worldController.view.isHidden = true
@@ -1056,4 +1063,4 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         
     }
     
-}   // #1060
+}   // #1067
