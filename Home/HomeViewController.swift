@@ -35,15 +35,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
     private let foodController = FoodViewController()
     private let environmentController = EnvironmentViewController()
     private let offbeatController = OffbeatNewsViewController()
-    private let toptenController = TopTenViewController()
-    private let storiesController = StoriesViewController()
-    private let diyController = DIYViewController()
+    // private let toptenController = TopTenViewController()
+    // private let storiesController = StoriesViewController()
+    // private let diyController = DIYViewController()
     private let moodfreshController = MoodfreshViewController()
-    private let hotController = HotOvenViewController()
+    // private let hotController = HotOvenViewController()
     private let gamingController = GamingViewController()
-    private let jobsController = JobsViewController()
-    private let photoController = PhotoGalleryViewController()
-    private let videosController = VideosViewController()
+    // private let jobsController = JobsViewController()
+    // private let photoController = PhotoGalleryViewController()
+    // private let videosController = VideosViewController()
     private let miscellanyController = MiscellanyViewController()
     
     func SideMenuProp() {
@@ -171,15 +171,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         addChild(foodController)
         addChild(environmentController)
         addChild(offbeatController)
-        addChild(toptenController)
-        addChild(storiesController)
-        addChild(diyController)
+        // addChild(toptenController)
+        // addChild(storiesController)
+        // addChild(diyController)
         addChild(moodfreshController)
-        addChild(hotController)
+        // addChild(hotController)
         addChild(gamingController)
-        addChild(jobsController)
-        addChild(photoController)
-        addChild(videosController)
+        // addChild(jobsController)
+        // addChild(photoController)
+        // addChild(videosController)
         addChild(miscellanyController)
         
         ///
@@ -202,15 +202,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         view.addSubview(foodController.view)
         view.addSubview(environmentController.view)
         view.addSubview(offbeatController.view)
-        view.addSubview(toptenController.view)
-        view.addSubview(storiesController.view)
-        view.addSubview(diyController.view)
+        // view.addSubview(toptenController.view)
+        // view.addSubview(storiesController.view)
+        // view.addSubview(diyController.view)
         view.addSubview(moodfreshController.view)
-        view.addSubview(hotController.view)
+        // view.addSubview(hotController.view)
         view.addSubview(gamingController.view)
-        view.addSubview(jobsController.view)
-        view.addSubview(photoController.view)
-        view.addSubview(videosController.view)
+        // view.addSubview(jobsController.view)
+        // view.addSubview(photoController.view)
+        // view.addSubview(videosController.view)
         view.addSubview(miscellanyController.view)
         
         ///
@@ -233,15 +233,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         foodController.view.frame = view.bounds
         environmentController.view.frame = view.bounds
         offbeatController.view.frame = view.bounds
-        toptenController.view.frame = view.bounds
-        storiesController.view.frame = view.bounds
-        diyController.view.frame = view.bounds
+        // toptenController.view.frame = view.bounds
+        // storiesController.view.frame = view.bounds
+        // diyController.view.frame = view.bounds
         moodfreshController.view.frame = view.bounds
-        hotController.view.frame = view.bounds
+        // hotController.view.frame = view.bounds
         gamingController.view.frame = view.bounds
-        jobsController.view.frame = view.bounds
-        photoController.view.frame = view.bounds
-        videosController.view.frame = view.bounds
+        // jobsController.view.frame = view.bounds
+        // photoController.view.frame = view.bounds
+        // videosController.view.frame = view.bounds
         miscellanyController.view.frame = view.bounds
         
         ///
@@ -264,15 +264,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         foodController.didMove(toParent: self)
         environmentController.didMove(toParent: self)
         offbeatController.didMove(toParent: self)
-        toptenController.didMove(toParent: self)
-        storiesController.didMove(toParent: self)
-        diyController.didMove(toParent: self)
+        // toptenController.didMove(toParent: self)
+        // storiesController.didMove(toParent: self)
+        // diyController.didMove(toParent: self)
         moodfreshController.didMove(toParent: self)
-        hotController.didMove(toParent: self)
+        // hotController.didMove(toParent: self)
         gamingController.didMove(toParent: self)
-        jobsController.didMove(toParent: self)
-        photoController.didMove(toParent: self)
-        videosController.didMove(toParent: self)
+        // jobsController.didMove(toParent: self)
+        // photoController.didMove(toParent: self)
+        // videosController.didMove(toParent: self)
         miscellanyController.didMove(toParent: self)
         
         ///
@@ -295,15 +295,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
         foodController.view.isHidden = true
         environmentController.view.isHidden = true
         offbeatController.view.isHidden = true
-        toptenController.view.isHidden = true
-        storiesController.view.isHidden = true
-        diyController.view.isHidden = true
+        // toptenController.view.isHidden = true
+        // storiesController.view.isHidden = true
+        // diyController.view.isHidden = true
         moodfreshController.view.isHidden = true
-        hotController.view.isHidden = true
+        // hotController.view.isHidden = true
         gamingController.view.isHidden = true
-        jobsController.view.isHidden = true
-        photoController.view.isHidden = true
-        videosController.view.isHidden = true
+        // jobsController.view.isHidden = true
+        // photoController.view.isHidden = true
+        // videosController.view.isHidden = true
         miscellanyController.view.isHidden = true
         
     }
@@ -339,15 +339,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .india:
                 indiaController.view.isHidden = false
@@ -366,15 +366,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .world:
                 indiaController.view.isHidden = true
@@ -393,15 +393,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .finance:
                 indiaController.view.isHidden = true
@@ -420,15 +420,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .tech:
                 indiaController.view.isHidden = true
@@ -447,15 +447,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .auto:
                 indiaController.view.isHidden = true
@@ -474,15 +474,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .sports:
                 indiaController.view.isHidden = true
@@ -501,15 +501,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .entertainment:
                 indiaController.view.isHidden = true
@@ -528,15 +528,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .health:
                 indiaController.view.isHidden = true
@@ -555,15 +555,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .lifestyle:
                 indiaController.view.isHidden = true
@@ -582,15 +582,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .travel:
                 indiaController.view.isHidden = true
@@ -609,15 +609,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .astro:
                 indiaController.view.isHidden = true
@@ -636,15 +636,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .property:
                 indiaController.view.isHidden = true
@@ -663,15 +663,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .education:
                 indiaController.view.isHidden = true
@@ -690,15 +690,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .food:
                 indiaController.view.isHidden = true
@@ -717,15 +717,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = false
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .environment:
                 indiaController.view.isHidden = true
@@ -744,15 +744,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = false
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .offbeat:
                 indiaController.view.isHidden = true
@@ -771,15 +771,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = false
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .topten:
                 indiaController.view.isHidden = true
@@ -798,15 +798,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = false
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = false
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .stories:
                 indiaController.view.isHidden = true
@@ -825,15 +825,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = false
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = false
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .diy:
                 indiaController.view.isHidden = true
@@ -852,15 +852,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = false
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = false
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .moodfresh:
                 indiaController.view.isHidden = true
@@ -879,15 +879,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = false
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .hot:
                 indiaController.view.isHidden = true
@@ -906,15 +906,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = false
+                // hotController.view.isHidden = false
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .gaming:
                 indiaController.view.isHidden = true
@@ -933,15 +933,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = false
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .jobs:
                 indiaController.view.isHidden = true
@@ -960,15 +960,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = false
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = false
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .photo:
                 indiaController.view.isHidden = true
@@ -987,15 +987,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = false
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = false
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = true
             case .videos:
                 indiaController.view.isHidden = true
@@ -1014,15 +1014,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = false
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = false
                 miscellanyController.view.isHidden = true
             case .miscellany:
                 indiaController.view.isHidden = true
@@ -1041,15 +1041,15 @@ class HomeViewController: UIViewController, MenuControllerDelegate, UICollection
                 foodController.view.isHidden = true
                 environmentController.view.isHidden = true
                 offbeatController.view.isHidden = true
-                toptenController.view.isHidden = true
-                storiesController.view.isHidden = true
-                diyController.view.isHidden = true
+                // toptenController.view.isHidden = true
+                // storiesController.view.isHidden = true
+                // diyController.view.isHidden = true
                 moodfreshController.view.isHidden = true
-                hotController.view.isHidden = true
+                // hotController.view.isHidden = true
                 gamingController.view.isHidden = true
-                jobsController.view.isHidden = true
-                photoController.view.isHidden = true
-                videosController.view.isHidden = true
+                // jobsController.view.isHidden = true
+                // photoController.view.isHidden = true
+                // videosController.view.isHidden = true
                 miscellanyController.view.isHidden = false
                 
         }
