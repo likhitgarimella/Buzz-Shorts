@@ -295,20 +295,20 @@
 				02094CD025EFB1A300990F2D /* India */,
 				02094CCF25EFB19D00990F2D /* World */,
 				02094CCE25EFB19400990F2D /* Finance */,
-				02094CCD25EFB18D00990F2D /* Tech */,
-				02094CCC25EFB18500990F2D /* Auto */,
+				02094CCD25EFB18D00990F2D /* Technology */,
+				02094CCC25EFB18500990F2D /* Automobiles */,
 				02094CCB25EFB17D00990F2D /* Sports */,
 				02094CCA25EFB17500990F2D /* Entertainment */,
 				02094CC925EFB16D00990F2D /* Health */,
 				02094CC825EFB16400990F2D /* Lifestyle */,
 				02094CC725EFB15C00990F2D /* Travel */,
-				02094CC625EFB15500990F2D /* Astro */,
+				02094CC625EFB15500990F2D /* Astrology */,
 				02094CC525EFB14B00990F2D /* Property */,
 				02094CC425EFB14300990F2D /* Education */,
 				02094CC325EFB09400990F2D /* Food */,
 				02094CC225EFB08B00990F2D /* Environment */,
 				02094CC125EFB08000990F2D /* Offbeat News */,
-				02094CBD25EFB05F00990F2D /* Moodfresh */,
+				02094CBD25EFB05F00990F2D /* MoodFresh */,
 				02094CBB25EFAFD200990F2D /* Gaming */,
 				02094CB725EFAFA100990F2D /* Miscellany */,
 				02094C3225EF769600990F2D /* Products */,
@@ -391,7 +391,7 @@
 			path = Gaming;
 			sourceTree = "<group>";
 		};
-		02094CBD25EFB05F00990F2D /* Moodfresh */ = {
+		02094CBD25EFB05F00990F2D /* MoodFresh */ = {
 			isa = PBXGroup;
 			children = (
 				02094DA025EFC21900990F2D /* MoodfreshViewController.swift */,
@@ -400,7 +400,7 @@
 				02094D9D25EFC21900990F2D /* MoodfreshCell.xib */,
 				02094D9C25EFC21900990F2D /* MoodfreshCell.swift */,
 			);
-			path = Moodfresh;
+			path = MoodFresh;
 			sourceTree = "<group>";
 		};
 		02094CC125EFB08000990F2D /* Offbeat News */ = {
@@ -463,7 +463,7 @@
 			path = Property;
 			sourceTree = "<group>";
 		};
-		02094CC625EFB15500990F2D /* Astro */ = {
+		02094CC625EFB15500990F2D /* Astrology */ = {
 			isa = PBXGroup;
 			children = (
 				02094D4225EFC13F00990F2D /* AstroViewController.swift */,
@@ -472,7 +472,7 @@
 				02094D4425EFC13F00990F2D /* AstroCell.xib */,
 				02094D4325EFC13F00990F2D /* AstroCell.swift */,
 			);
-			path = Astro;
+			path = Astrology;
 			sourceTree = "<group>";
 		};
 		02094CC725EFB15C00990F2D /* Travel */ = {
@@ -535,7 +535,7 @@
 			path = Sports;
 			sourceTree = "<group>";
 		};
-		02094CCC25EFB18500990F2D /* Auto */ = {
+		02094CCC25EFB18500990F2D /* Automobiles */ = {
 			isa = PBXGroup;
 			children = (
 				02094D0A25EFBB7700990F2D /* AutoViewController.swift */,
@@ -544,10 +544,10 @@
 				02094D0825EFBB7700990F2D /* AutoCell.xib */,
 				02094D0625EFBB7700990F2D /* AutoCell.swift */,
 			);
-			path = Auto;
+			path = Automobiles;
 			sourceTree = "<group>";
 		};
-		02094CCD25EFB18D00990F2D /* Tech */ = {
+		02094CCD25EFB18D00990F2D /* Technology */ = {
 			isa = PBXGroup;
 			children = (
 				02094CFD25EFBB5C00990F2D /* TechViewController.swift */,
@@ -556,7 +556,7 @@
 				02094D0025EFBB5C00990F2D /* TechCell.xib */,
 				02094CFF25EFBB5C00990F2D /* TechCell.swift */,
 			);
-			path = Tech;
+			path = Technology;
 			sourceTree = "<group>";
 		};
 		02094CCE25EFB19400990F2D /* Finance */ = {

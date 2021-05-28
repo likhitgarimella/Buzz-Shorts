@@ -25,9 +25,8 @@ class DetailViewController: UIViewController {
     var time = ""
     var head = ""
     var desc = ""
-    var url = ""
     
-    // private let shareURLString = "https://ayecracy.com"
+    var url = ""
     
     func Properties() {
         
@@ -77,4 +76,4 @@ class DetailViewController: UIViewController {
         
     }
     
-}   // #81
+}   // #80
