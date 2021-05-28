@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02094C4925EF771F00990F2D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02094C4825EF771F00990F2D /* GoogleService-Info.plist */; };
 		02094C5225EF774100990F2D /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094C4A25EF773E00990F2D /* SideMenu.swift */; };
 		02094C5325EF774100990F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02094C4B25EF773F00990F2D /* LaunchScreen.storyboard */; };
 		02094C5425EF774100990F2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094C4C25EF773F00990F2D /* AppDelegate.swift */; };
@@ -135,13 +134,13 @@
 		02094DD725EFE65E00990F2D /* MiscellanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DD225EFE65E00990F2D /* MiscellanyViewController.swift */; };
 		02094DD825EFE65E00990F2D /* MiscellanyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02094DD325EFE65E00990F2D /* MiscellanyCell.xib */; };
 		02094DD925EFE65E00990F2D /* MiscellanyPostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02094DD425EFE65E00990F2D /* MiscellanyPostApi.swift */; };
+		021394BB2661B9F500471258 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 021394BA2661B9F500471258 /* GoogleService-Info.plist */; };
 		FC312D2BB23BF5D91D17F45E /* Pods_Buzz_Shorts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5287CB08D782B2C2F203F2C /* Pods_Buzz_Shorts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02094C3125EF769600990F2D /* Buzz Shorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buzz Shorts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02094C4225EF769700990F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02094C4825EF771F00990F2D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		02094C4A25EF773E00990F2D /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		02094C4B25EF773F00990F2D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02094C4C25EF773F00990F2D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -269,6 +268,7 @@
 		02094DD225EFE65E00990F2D /* MiscellanyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiscellanyViewController.swift; sourceTree = "<group>"; };
 		02094DD325EFE65E00990F2D /* MiscellanyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MiscellanyCell.xib; sourceTree = "<group>"; };
 		02094DD425EFE65E00990F2D /* MiscellanyPostApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiscellanyPostApi.swift; sourceTree = "<group>"; };
+		021394BA2661B9F500471258 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7874663FAD273602C1FA5719 /* Pods-Buzz Shorts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buzz Shorts.debug.xcconfig"; path = "Target Support Files/Pods-Buzz Shorts/Pods-Buzz Shorts.debug.xcconfig"; sourceTree = "<group>"; };
 		9113DE3689A31F1B769D166E /* Pods-Buzz Shorts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buzz Shorts.release.xcconfig"; path = "Target Support Files/Pods-Buzz Shorts/Pods-Buzz Shorts.release.xcconfig"; sourceTree = "<group>"; };
 		C5287CB08D782B2C2F203F2C /* Pods_Buzz_Shorts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buzz_Shorts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -337,7 +337,7 @@
 				02094C4D25EF773F00990F2D /* Api.swift */,
 				02094C5025EF774100990F2D /* Extensions.swift */,
 				02094C4225EF769700990F2D /* Info.plist */,
-				02094C4825EF771F00990F2D /* GoogleService-Info.plist */,
+				021394BA2661B9F500471258 /* GoogleService-Info.plist */,
 			);
 			path = "Buzz Shorts";
 			sourceTree = "<group>";
@@ -688,7 +688,6 @@
 				02094CB425EF822900990F2D /* SF-Pro-Display-Thin.otf in Resources */,
 				02094D6725EFC19100990F2D /* FoodCell.xib in Resources */,
 				02094CA725EF822900990F2D /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
-				02094C4925EF771F00990F2D /* GoogleService-Info.plist in Resources */,
 				02094CED25EFB24C00990F2D /* WorldCell.xib in Resources */,
 				02094C5625EF774100990F2D /* Assets.xcassets in Resources */,
 				02094CA825EF822900990F2D /* SF-Pro-Display-Black.otf in Resources */,
@@ -720,6 +719,7 @@
 				02094CAB25EF822900990F2D /* SF-Pro-Display-RegularItalic.otf in Resources */,
 				02094CA525EF822900990F2D /* SF-Pro-Display-UltralightItalic.otf in Resources */,
 				02094D1625EFBB9000990F2D /* SportsCell.xib in Resources */,
+				021394BB2661B9F500471258 /* GoogleService-Info.plist in Resources */,
 				02094CE625EFB1F500990F2D /* IndiaCell.xib in Resources */,
 				02094CA625EF822900990F2D /* SF-Pro-Display-Heavy.otf in Resources */,
 				02094D1F25EFBBAA00990F2D /* EntertainmentCell.xib in Resources */,
@@ -995,7 +995,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 23B9F9FCMC;
 				INFOPLIST_FILE = "Buzz Shorts/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -1003,7 +1003,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bridgingpointsmedia.Buzz-Shorts-BPM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1020,7 +1020,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 23B9F9FCMC;
 				INFOPLIST_FILE = "Buzz Shorts/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -1028,7 +1028,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bridgingpointsmedia.Buzz-Shorts-BPM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

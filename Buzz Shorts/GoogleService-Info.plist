@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>97307687744-7aold5qv743ce4d9ug0f36l2t5rdktcn.apps.googleusercontent.com</string>
+	<string>746184528806-fd947j1lkqurqf3d33fnnpm981728ut4.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.97307687744-7aold5qv743ce4d9ug0f36l2t5rdktcn</string>
+	<string>com.googleusercontent.apps.746184528806-fd947j1lkqurqf3d33fnnpm981728ut4</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDVsRI5_xdNNwwa3dB9Qwr67ejCrslNo3s</string>
+	<string>AIzaSyDKTudigDD1rX2UYxvayXUoM-faWGr8FBQ</string>
 	<key>GCM_SENDER_ID</key>
-	<string>97307687744</string>
+	<string>746184528806</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.likhitgarimella.BuzzShorts</string>
+	<string>com.likhitgarimella.NewsViewsNetwork</string>
 	<key>PROJECT_ID</key>
-	<string>buzzshorts-likhit-2304</string>
+	<string>newsviewsnetwork-likhit-2304</string>
 	<key>STORAGE_BUCKET</key>
-	<string>buzzshorts-likhit-2304.appspot.com</string>
+	<string>newsviewsnetwork-likhit-2304.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:97307687744:ios:6d93a38d330a92714618a5</string>
+	<string>1:746184528806:ios:5c60a2075da64f64957567</string>
+	<key>DATABASE_URL</key>
+	<string>https://newsviewsnetwork-likhit-2304-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>
