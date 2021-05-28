@@ -18,7 +18,7 @@ enum SideMenuItem: String, CaseIterable {
     case world = "World"
     case finance = "Finance"
     case tech = "Technology"
-    case auto = "Automobiles"
+    case auto = "Automobile"
     case sports = "Sports"
     case entertainment = "Entertainment"
     case health = "Health"

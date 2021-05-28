@@ -296,7 +296,7 @@
 				02094CCF25EFB19D00990F2D /* World */,
 				02094CCE25EFB19400990F2D /* Finance */,
 				02094CCD25EFB18D00990F2D /* Technology */,
-				02094CCC25EFB18500990F2D /* Automobiles */,
+				02094CCC25EFB18500990F2D /* Automobile */,
 				02094CCB25EFB17D00990F2D /* Sports */,
 				02094CCA25EFB17500990F2D /* Entertainment */,
 				02094CC925EFB16D00990F2D /* Health */,
@@ -535,7 +535,7 @@
 			path = Sports;
 			sourceTree = "<group>";
 		};
-		02094CCC25EFB18500990F2D /* Automobiles */ = {
+		02094CCC25EFB18500990F2D /* Automobile */ = {
 			isa = PBXGroup;
 			children = (
 				02094D0A25EFBB7700990F2D /* AutoViewController.swift */,
@@ -544,7 +544,7 @@
 				02094D0825EFBB7700990F2D /* AutoCell.xib */,
 				02094D0625EFBB7700990F2D /* AutoCell.swift */,
 			);
-			path = Automobiles;
+			path = Automobile;
 			sourceTree = "<group>";
 		};
 		02094CCD25EFB18D00990F2D /* Technology */ = {
@@ -995,6 +995,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 23B9F9FCMC;
 				INFOPLIST_FILE = "Buzz Shorts/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -1002,7 +1003,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bridgingpointsmedia.Buzz-Shorts-BPM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1019,6 +1020,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 23B9F9FCMC;
 				INFOPLIST_FILE = "Buzz Shorts/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -1026,7 +1028,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bridgingpointsmedia.Buzz-Shorts-BPM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
