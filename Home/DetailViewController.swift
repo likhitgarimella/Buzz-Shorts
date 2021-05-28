@@ -6,6 +6,7 @@
 //
 
 import UIKit
+// import Firebase
 
 class DetailViewController: UIViewController {
     
@@ -76,4 +77,4 @@ class DetailViewController: UIViewController {
         
     }
     
-}   // #80
+}   // #81
